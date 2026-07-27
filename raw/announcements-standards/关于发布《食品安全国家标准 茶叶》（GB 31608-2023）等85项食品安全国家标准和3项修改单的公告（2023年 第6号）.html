@@ -1,0 +1,2028 @@
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="/website/js/vue.js"></script>
+	<script src="/website/nidexNewStyle/js/element.js"></script>
+	<script type="text/javascript" src="/website/js/cont.js"></script>
+	<script type="text/javascript" src="/website/js/public.js"></script>
+	<link rel="stylesheet" href="/website/nidexNewStyle/css/element.css">
+	<style>
+		* {
+			margin: 0;
+			left: 0;
+		}
+
+		.pages {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.header {
+			width: 100%;
+			height: 120px;
+			/* background: #E8EFFF; */
+
+			background: rgb(202, 228, 244);
+			padding: 2.5vw;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+		}
+
+		.header img {
+			width: 5vw;
+			height: 3.5vw;
+			margin-right: 20px;
+		}
+
+		.header span {
+			font-family: Source Han Sans;
+			font-size: 2vw;
+			font-weight: bold;
+			letter-spacing: 0em;
+
+			font-feature-settings: "kern" on;
+			color: #4870C8;
+		}
+
+		.container {
+			flex: 1;
+			display: flex;
+			min-height: calc(100vh - 220px);
+			background: rgb(246, 245, 244);
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container .navigation {
+			width: 1200px;
+			margin: 0 auto;
+			padding: 13px 20px;
+			background: rgb(25, 102, 167);
+			color: #fff;
+			box-sizing: border-box;
+			/* padding: 0 20px; */
+		}
+
+		.content {
+			width: 1200px;
+			background: #fff;
+			flex: 1;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			padding: 10px 20px;
+			box-sizing: border-box;
+			display: flex;
+		}
+
+		.detail {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			width: 1160px;
+			overflow: auto;
+			/* height: 100%; */
+			border: 1px solid rgb(225, 225, 225);
+			padding: 20px 10px;
+			box-sizing: border-box;
+		}
+
+		.code {
+			font-family: Microsoft YaHei;
+			font-size: 24px;
+			font-weight: bold;
+			line-height: normal;
+			letter-spacing: 0em;
+			color: #D10000;
+		}
+
+		.code .type {
+			width: 65px;
+			height: 30px;
+			border-radius: 5px;
+			opacity: 1;
+			background: #009944;
+			font-family: Microsoft YaHei;
+			font-size: 18px;
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: 0em;
+			color: #FFFFFF;
+			padding: 3px 10px;
+		}
+
+		.my-label {
+			text-align: center !important;
+		}
+
+		.detailHeader {
+			width: 100%;
+		}
+
+		.detailHeaderTitle {
+			/* font-family: Source Han Sans;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: normal;
+            text-align: left;
+            letter-spacing: 0em;
+            font-feature-settings: "kern" on;
+            color: #4870C8;
+            margin-top: 20px; */
+			text-align: center;
+			font-size: 24px;
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			font-weight: 700;
+		}
+
+		.divider {
+			color: #4870C8;
+		}
+
+		.fjFileItem {
+			display: flex;
+			align-items: center;
+			margin-top: 10px;
+		}
+
+		.fjFileItemLeft {
+			width: 700px;
+			color: #3d3d3d;
+			display: flex;
+			align-items: center;
+		}
+
+		.fjFileItemLeft img {
+			margin-right: 10px;
+		}
+
+		.fjFileItemRight {
+			flex: 1;
+			text-align: right;
+		}
+		.fjFileItemRight .el-tag{
+			width: 50px;
+			text-align: center;
+			padding: 0;
+		}
+		.xgggItem {
+			display: flex;
+			align-items: center;
+			border-bottom: solid 1px #D8D8D8;
+			padding: 20px 0;
+		}
+
+		.xgggItemLeft {
+			width: 80px;
+		}
+
+		.xgggItemRight {
+			flex: 1;
+		}
+
+		.xgggItemRightLabel {
+			font-family: Microsoft YaHei;
+			font-size: 14px;
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: 0em;
+			color: #4870C8;
+		}
+		.xgggItemRightLabel a{
+			color: #4870C8;
+		}
+		.xgggItemRightInfo {
+			color: #999999;
+
+			font-family: Microsoft YaHei;
+			font-size: 14px;
+			font-weight: normal;
+			line-height: normal;
+			letter-spacing: 0em;
+
+			/* 发布日期: */
+			color: #999999
+		}
+
+		.xgggItemRightInfo span {
+			color: #3D3D3D;
+			margin-right: 40px;
+		}
+		.fjFileItemRight a{
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+		.footer {
+			/* 矩形 14 */
+
+			/* position: fixed; */
+			left: 0px;
+			bottom: 0px;
+			width: 100%;
+			height: 100px;
+			opacity: 1;
+			background: #096799;
+			z-index: 999;
+		}
+
+		.footercontainer {
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #FFFFFF;
+			line-height: 26px;
+			position: relative;
+		}
+
+		.footerInfo {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+
+		.footerFwl {
+			position: absolute;
+			left: 0;
+			font-size: 24px;
+		}
+
+		.detailHeaderInfo {
+			color: rgb(169, 169, 169);
+			display: flex;
+			justify-content: space-between;
+			margin: 50px 0;
+			border-bottom: solid 1px rgb(223, 223, 223);
+			padding-bottom: 13px;
+			box-sizing: border-box;
+		}
+		a{
+			text-decoration:none;
+			cursor: pointer;
+		}
+		.ellipsis {
+			white-space: nowrap; /* 防止换行 */
+			overflow: hidden; /* 隐藏超出部分 */
+			text-overflow: ellipsis; /* 显示省略号 */
+			width: 100%; /* 定义一个宽度 */
+		}
+	</style>
+</head>
+<body>
+<div class="pages" id="app">
+	<div class="header">
+		<img class="headerBackImg" src="/website/nidexNewStyle/images/index_icon_03.png" alt="" srcset="">
+		<span>食品安全国家标准数据检索平台</span>
+	</div>
+	<div class="container">
+		<div class="navigation">
+			<span>您的位置：</span>
+			<a href="javascript:void(0);" onclick="index();"><span style="color: #FFFFFF">首页></span></a>
+			<span>关于发布《食品安全国家标准 茶叶》（GB 31608-2023）等85项食品安全国家标准和3项修改单的公告（2023年 第6号）</span>
+			<form name="form1" id="form1" method="post" action="">
+				<input type="hidden" name="task"  value="">
+				<input type="hidden" name="guid"  value="">
+				<input type="hidden" name="file_guid"  value="">
+				<input type="hidden" name="num_tn"  value="">
+				<input type="hidden" name="type"  value="">
+				<input type="hidden" name="filePath" id="filePath" value="/opt/tomcat/Res_upload/swfupload/"/>
+				
+				<input type="hidden" name="fact_name"  value="">
+			</form>
+		</div>
+		<div class="content">
+			<div class="detail">
+				<div class="detailHeader">
+					<div class="detailHeaderTitle">关于发布《食品安全国家标准 茶叶》（GB 31608-2023）等85项食品安全国家标准和3项修改单的公告（2023年 第6号）</div>
+					<div class="detailHeaderInfo">
+						<div class="detailHeaderInfoLeft">
+							
+							<span>发布日期: 2023-09-06</span>
+							<span style="margin-left: 30px;">发布单位: 国家卫生健康委员会&ensp;国家市场监管总局</span>
+						</div>
+						<div class="detailHeaderInfoRight">
+							<span>浏览次数: 31438次</span>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="bz_det_tit">
+						
+					</div>
+					<p>
+						<p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">根据《中华人民共和国食品安全法》规定，经食品安全国家标准审评委员会审查通过，现发布《食品安全国家标准</span> <span style="font-family:仿宋_GB2312">茶叶》（</span>GB 31608-2023<span style="font-family:仿宋_GB2312">）等</span><span style="font-family:Times New Roman">85</span><span style="font-family:仿宋_GB2312">项食品安全国家标准和</span><span style="font-family:Times New Roman">3</span><span style="font-family:仿宋_GB2312">项修改单。其编号和名称如下：</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB </span></span><span style=";font-family:'Times New Roman';font-size:21px">31608</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023 </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">茶叶</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB </span></span><span style=";font-family:'Times New Roman';font-size:21px">31639</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品加工用菌种制剂</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB </span></span><span style=";font-family:'Times New Roman';font-size:21px">31611</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023 </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品加工用植物蛋白肽</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB</span></span><span style=";font-family:'Times New Roman';font-size:21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">1886.231-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023 </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂 乳酸链球菌素</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB</span></span><span style=";font-family:'Times New Roman';font-size:21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">1886.</span></span><span style=";font-family:'Times New Roman';font-size:21px">373</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品添加剂</span> <span style="font-family:仿宋_GB2312">甲醇钠</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB</span></span><span style=";font-family:'Times New Roman';font-size:21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">1886.</span></span><span style=";font-family:'Times New Roman';font-size:21px">372</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023 </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品添加剂</span> <span style="font-family:仿宋_GB2312">L-蛋氨酰基甘氨酸盐酸盐</span></span></p><p style="text-indent:43px;line-height:37px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">GB</span></span><span style=";font-family:'Times New Roman';font-size:21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">1886.</span></span><span style=";font-family:'Times New Roman';font-size:21px">371</span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023 </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品添加剂</span> <span style="font-family:仿宋_GB2312">ε-聚赖氨酸盐酸盐</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB</span></span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">1886.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">370</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂 辛烯基琥珀酸淀粉钠</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB</span></span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">1886.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">369</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂 蓝锭果红</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB</span></span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">1886.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">368</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂  (2S,5R)-N-[4-(2-氨基-2-氧代乙基)苯基]-5-甲基-2-(丙基-2-)环己烷甲酰胺</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB</span></span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">1886.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">367</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂 6-甲基辛醛</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB</span></span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">1886.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">366</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂 β-胡萝卜素</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB</span></span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">1886.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">365</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品添加剂 5-甲基-2-呋喃甲硫醇</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">61</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">碳酸铜</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">64</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">氯化锰</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">63</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">甘油磷酸钙</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">62</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">还原铁</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">59</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">氯化铬</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">60</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">L-肉碱酒石酸盐</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4789.26-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品微生物学检验</span> <span style="font-family:仿宋_GB2312">商业无菌检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4789.35-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品微生物学检验</span> <span style="font-family:仿宋_GB2312">乳酸菌检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4789.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">45</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">微生物检验方法验证通则</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4806.7-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触用塑料材料及制品</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4806.9-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触用金属材料及制品</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4806.11-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触用橡胶材料及制品</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4806.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">14</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品用油墨</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 4806.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">13</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触用复合材料及制品</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.8-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中果糖、葡萄糖、蔗糖、麦芽糖、乳糖的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.9-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中淀粉的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.12-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中铅的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.15-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中镉的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.16-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中锡的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.26-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中</span></span><em><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:仿宋_GB2312">N-</span></span></em><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">亚硝胺类化合物的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.35-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中合成着色剂的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.36-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中氰化物的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.43-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">味精中谷氨酸钠的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.88-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中膳食纤维的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.89-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中烟酸和烟酰胺的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.97-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中环己基氨基磺酸盐的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.123-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中铬的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.129-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中乙氧基喹的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.140-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中乙酰磺胺酸钾的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.154-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中维生素</span><span style="font-family:仿宋_GB2312">B</span></span><sub><span style=";font-family:仿宋_GB2312;font-size:21px;vertical-align:sub"><span style="font-family:仿宋_GB2312">6</span></span></sub><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.189-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中米酵菌酸的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.210-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中泛酸的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.225-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">酒和食用酒精中乙醇浓度的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.227-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中过氧化值的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.240-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中伏马菌素的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.259-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中生物素的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.270-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中肌醇的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">295</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">化学分析方法验证通则</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">294</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中色氨酸的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">293</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中单辛酸甘油酯的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">292</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中</span><span style="font-family:仿宋_GB2312">β-阿朴-8’-胡萝卜素醛的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">289</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中低聚半乳糖的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">291</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中氯酸盐和高氯酸盐的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">290</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中维生素</span><span style="font-family:仿宋_GB2312">K</span></span><sub><span style=";font-family:仿宋_GB2312;font-size:21px;vertical-align:sub"><span style="font-family:仿宋_GB2312">2</span></span></sub><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">297</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中钼的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">288</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中胭脂虫红的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">296</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品中维生素</span><span style="font-family:仿宋_GB2312">D的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">298</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中三氯蔗糖(蔗糖素)的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31614</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.1-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品中唾液酸的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 12693-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">乳制品良好生产规范</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 19303-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">熟肉制品生产卫生规范</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 29923-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">特殊医学用途配方食品良好生产规范</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 23790-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">婴幼儿配方食品良好生产规范</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31612</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品加工用菌种制剂生产卫生规范</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.1-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品迁移试验通则</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.7-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span> <span style="font-family:仿宋_GB2312">脱色试验</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> </span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.46-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品接触材料及制品 游离酚的测定和迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.47-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品接触材料及制品 纸、纸板及纸制品中荧光性物质的测定</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> </span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">59</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">化学分析方法验证通则</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">58</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style="font-family: 'Times New Roman';font-size: 21px">2023 </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span></span><span style="font-family: 仿宋_GB2312;font-size: 21px"> <span style="font-family:Times New Roman">9</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">种抗氧化剂迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">29</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品接触材料及制品 丙烯酸和甲基丙烯酸及其酯类迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">49</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 食品接触材料及制品 多元素的测定和多元素迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">57</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span> <span style="font-family:仿宋_GB2312">二苯甲酮类物质迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">56</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span> <span style="font-family:仿宋_GB2312">月桂内酰胺迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">54</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span> <span style="font-family:仿宋_GB2312">双酚</span><span style="font-family:仿宋_GB2312">F和双酚S迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 31604.</span></span><span style="font-family: 'Times New Roman';font-size: 21px">55</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"> <span style="font-family:仿宋_GB2312">食品接触材料及制品</span><span style="font-family:仿宋_GB2312"> 异噻唑啉酮类化合物迁移量的测定</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31610</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.1-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 动物性水产品及其制品中颚口线虫的检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31610</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.2-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 动物性水产品及其制品中异尖线虫的检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31610</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.3-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 动物性水产品及其制品中</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">广州</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">管圆线虫的检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31610</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.4-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 动物性水产品及其制品中华支睾吸虫的检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31610</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.5-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 动物性水产品及其制品中并殖吸虫的检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB </span></span><span style="font-family: 'Times New Roman';font-size: 21px">31610</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">.6-</span></span><span style=";font-family:'Times New Roman';font-size:21px">2023</span><span style="font-family: 'Times New Roman';font-size: 21px"> </span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">食品安全国家标准</span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312"> 动物性水产品及其制品中曼氏迭宫绦虫裂头蚴的检验</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px">GB 1886.91-2016 <span style="font-family:仿宋_GB2312">《食品安全国家标准 食品添加剂 </span></span><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">硬脂酸镁</span></span><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">》第</span>1<span style="font-family:仿宋_GB2312">号修改单</span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 1903.24-2016</span></span><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">《食品安全国家标准</span></span><span style="font-family: 仿宋_GB2312;font-size: 21px"> <span style="font-family:仿宋_GB2312">食品营养强化剂</span> <span style="font-family:仿宋_GB2312">维生素</span><span style="font-family:Times New Roman">C</span><span style="font-family:仿宋_GB2312">磷酸酯镁</span></span><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">》</span></span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:仿宋_GB2312">第</span><span style="font-family:Times New Roman">1</span><span style="font-family:仿宋_GB2312">号修改单 </span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">GB 5009.84-2016</span></span><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">《食品安全国家标准</span></span><span style="font-family: 仿宋_GB2312;font-size: 21px"> <span style="font-family:仿宋_GB2312">食品中维生素</span><span style="font-family:Times New Roman">B</span></span><sub><span style="font-family: 仿宋_GB2312;font-size: 21px;vertical-align: sub"><span style="font-family:Times New Roman">1</span></span></sub><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:仿宋_GB2312">的测定</span></span><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">》</span></span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:仿宋_GB2312">第</span><span style="font-family:Times New Roman">1</span><span style="font-family:仿宋_GB2312">号修改单 </span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">以上标准文本可在食品安全国家标准数据检索平台（</span>http</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">s</span></span><span style="font-family: 'Times New Roman';font-size: 21px">://</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">sppt</span></span><span style="font-family: 'Times New Roman';font-size: 21px">.cfsa.net.cn</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">:8086</span></span><span style="font-family: 'Times New Roman';font-size: 21px">/db<span style="font-family:仿宋_GB2312">）查阅下载。 </span></span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"> </span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"> </span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"> </span></p><p style="text-indent:43px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"> </span></p><p style="text-indent:64px;line-height:37px"><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">                                                             国家卫生健康委</span>   </span><span style="font-family: 仿宋_GB2312;font-size: 21px">    </span><span style="font-family: 'Times New Roman';font-size: 21px">  </span><span style="font-family: 仿宋_GB2312;font-size: 21px"> </span><span style="font-family: 'Times New Roman';font-size: 21px"><span style="font-family:仿宋_GB2312">市场监管总局</span></span></p><p style="line-height:37px"><span style="font-family: 仿宋_GB2312;font-size: 21px">                                                                              </span><span style="font-family: 'Times New Roman';font-size: 21px"> 20</span><span style="font-family: 仿宋_GB2312;font-size: 21px"><span style="font-family:Times New Roman">2</span></span><span style="font-family: 'Times New Roman';font-size: 21px">3<span style="font-family:仿宋_GB2312">年</span><span style="font-family:Times New Roman">9</span><span style="font-family:仿宋_GB2312">月</span><span style="font-family:Times New Roman">6</span><span style="font-family:仿宋_GB2312">日</span></span></p><p><br/></p>
+					</p>
+				</div>
+				<div style="border-top: solid 1px rgb(229,229,229);margin-top: 20px;">
+					<div class="title" style="margin-top: 20px;">附件下载</div>
+					
+				</div>
+				<div style="border-top: solid 1px rgb(229,229,229);margin-top: 20px;">
+					<div class="title" style="margin-top: 20px;">相关文本</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('E3A2303A-BAF8-4C89-A09A-F273E11639F7','2')">食品安全国家标准 食品添加剂 &beta;-胡萝卜素</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3453次</span>
+									起草单位:<span> 中国食品添加剂和配料协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('E14B31BF-189C-492A-BBBB-DDA058B048A6','2')">食品安全国家标准 食品添加剂 5-甲基-2-呋喃甲硫醇</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2151次</span>
+									起草单位:<span> 上海香料研究所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('A5CC1FCE-FAD0-4001-B3E9-336F142B8CCB','2')">食品安全国家标准 食品添加剂 6-甲基辛醛</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2494次</span>
+									起草单位:<span> 辽宁省卫生健康服务中心,大连工业大学,锦州医科大学,辽宁省食品检验检测院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('6495B211-FA45-4FDA-AC4A-7024F3B94387','2')">食品安全国家标准 食品添加剂 (2S,5R)-N-[4-(2-氨基-2-氧代乙基)苯基]-5-甲基-2-(丙基-2-)环己烷甲酰胺</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2428次</span>
+									起草单位:<span> 中国香料香精化妆品工业协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('87B0A6D2-5417-41E7-A4BC-0545294C865D','2')">食品安全国家标准 食品添加剂 L-蛋氨酰基甘氨酸盐酸盐</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2401次</span>
+									起草单位:<span> 辽宁省卫生健康服务中心,大连工业大学</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('8CBCF3E0-698F-46C5-AA5B-1C8E63EF73E6','2')">食品安全国家标准 食品添加剂 甲醇钠</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2407次</span>
+									起草单位:<span> 上海市食品添加剂和配料行业协会,华东理工大学</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('F1B15813-7C82-41CB-9FB5-6EDCEFA63BDE','2')">食品安全国家标准 食品添加剂 乳酸链球菌素</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1607次</span>
+									起草单位:<span> 华东理工大学</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('185C154C-08F0-4578-9F0F-8359F175BB1B','2')">食品安全国家标准 食品添加剂 蓝锭果红</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2340次</span>
+									起草单位:<span> 湖南省产商品质量检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('B69EDF67-EE85-4D81-85C1-465ED775DFDA','2')">食品安全国家标准 食品添加剂 辛烯基琥珀酸淀粉钠</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2468次</span>
+									起草单位:<span> 中国食品添加剂和配料协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('0DCA6EF1-A40F-4300-A00A-CA3B4DE4B210','2')">食品安全国家标准 食品添加剂 &epsilon;-聚赖氨酸盐酸盐</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2472次</span>
+									起草单位:<span> 上海市质量监督检验技术研究院,江西省检验检测认证总院食品检验检测研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('36A3AA70-2C89-4E2D-9729-5B71CF5B5E04','2')">食品安全国家标准 食品加工用菌种制剂</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3076次</span>
+									起草单位:<span> 国家食品安全风险评估中心,中国食品发酵工业研究院有限公司,中国食品科学技术学会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('07113100-06C5-4E2D-B6D5-D38206E78A91','2')">食品安全国家标准 茶叶</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 10072次</span>
+									起草单位:<span> 国家食品安全风险评估中心,深圳市标准技术研究院,中国农业科学院茶叶研究所,国家茶叶质量监督检验中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('D4C1D868-754C-40B7-BBA3-D313ABAEBD1F','2')">食品安全国家标准 食品加工用植物蛋白肽</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2453次</span>
+									起草单位:<span> 中国食品发酵工业研究院有限公司,中国营养保健食品协会,中国生物发酵产业协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('DD45E098-19D2-4183-81FD-C012AD47B799','2')">食品安全国家标准 食品加工用菌种制剂生产卫生规范</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2305次</span>
+									起草单位:<span> 国家食品安全风险评估中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('3754572D-CA4F-45DF-901C-7F7173C337CB','2')">食品安全国家标准 婴幼儿配方食品良好生产规范</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3257次</span>
+									起草单位:<span> 中国食品发酵工业研究院有限公司,中国食品科学技术学会,国家食品安全风险评估中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('6DEAE316-E680-482A-8D8A-6D32CBB84915','2')">食品安全国家标准 特殊医学用途配方食品良好生产规范</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3214次</span>
+									起草单位:<span> 中国乳制品工业协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('B14C67B1-4AC1-4B53-84DB-B07C97F6A8AD','2')">食品安全国家标准 熟肉制品生产卫生规范</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3983次</span>
+									起草单位:<span> 中国肉类食品综合研究中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('9D2B521E-3CD8-4BB3-B119-559C796F4B7F','2')">食品安全国家标准 乳制品良好生产规范</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3494次</span>
+									起草单位:<span> 中国食品发酵工业研究院有限公司,中国食品科学技术学会,中国乳制品工业协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('8A1CEA79-FD69-4A04-A502-0C77ABA2C596','2')">食品安全国家标准 食品接触用复合材料及制品</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 4889次</span>
+									起草单位:<span> 广东出入境检验检疫局检验检疫技术中心,上海市食品药品包装材料测试所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('98F54847-C7F1-457D-8B98-CFD66CD976EC','2')">食品安全国家标准 食品接触材料及制品迁移试验通则</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3199次</span>
+									起草单位:<span> 国家食品安全风险评估中心,上海市食品药品监督管理局执法总队,广东出入境检验检疫局检验检疫技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('80810610-69C4-4A3E-9250-E2CFFC76F72E','2')">食品安全国家标准 食品接触材料及制品用油墨</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3644次</span>
+									起草单位:<span> 国家食品安全风险评估中心,广东出入境检验检疫局检验检疫技术中心,上海市食品药品包装材料测试所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('E66539B3-A4D1-4224-9E56-6B31141B6A4C','2')">食品安全国家标准 食品接触用橡胶材料及制品</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 6249次</span>
+									起草单位:<span> 南京海关危险货物与包装检测中心,国家食品安全风险评估中心,暨南大学</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('0AA5AA19-933F-4475-A70B-CB1B95D25ADD','2')">食品安全国家标准 食品接触用金属材料及制品</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 10467次</span>
+									起草单位:<span> 宁波检验检疫科学技术研究院,国家食品安全风险评估中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('965C48D4-D5B6-4D1C-89DA-3B5DE3070D90','2')">食品安全国家标准 食品接触用塑料材料及制品</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 13693次</span>
+									起草单位:<span> 上海市食品药品监督管理局执法总队,北京市产品质量监督检验研究院,上海市疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('F4F50F49-8687-4B24-AE68-4A159B42D7A0','2')">食品安全国家标准 食品中泛酸的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1578次</span>
+									起草单位:<span> 上海市质量监督检验技术研究院,中国疾病预防控制中心营养与健康所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('559A636B-79D4-40BE-B3D2-D3487EAFD477','2')">食品安全国家标准 食品中维生素B6的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1646次</span>
+									起草单位:<span> 浙江清华长三角研究院,河北省食品检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('8570C87C-A2E8-4146-B8E4-4C48EC76E2FE','2')">食品安全国家标准 酒和食用酒精中乙醇浓度的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2101次</span>
+									起草单位:<span> 深圳市计量质量检测研究院,福建省产品质量检验研究院,湖北省疾病预防控制中心,山东省食品药品检验研究院,中国酒业协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('A624EDDC-ED17-4E78-B523-973F1C35A8B9','2')">食品安全国家标准 食品中伏马毒素的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 753次</span>
+									起草单位:<span> 浙江清华长三角研究院,国家食品安全风险评估中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('14699DF3-FE52-4B74-9D11-BAFD9851C95A','2')">食品安全国家标准 食品中乙氧基喹的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2717次</span>
+									起草单位:<span> 四川省食品检验研究院,江西省检验检测认证总院食品检验检测研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('55C0A490-3020-4678-8E28-BBC023E1BB21','2')">食品安全国家标准 食品中铬的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3731次</span>
+									起草单位:<span> 广东省疾病预防控制中心,广东省食品检验所（广东省酒类检测中心）,湖南省产商品质量检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('9EC560B0-7B46-414F-8BBB-70E7DA0321D5','2')">食品安全国家标准 食品中环己基氨基磺酸钠的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 897次</span>
+									起草单位:<span> 成都市食品药品检验研究院,湖南省产商品质量检验研究院,宁波市食品检验检测研究院,济南市疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('1358DAC8-520A-4270-A6DF-B2E3AD3D2FE1','2')">食品安全国家标准 食品中钼的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2770次</span>
+									起草单位:<span> 上海市质量监督检验技术研究院,天津海关动植物与食品检测中心,安徽医科大学</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('A835A26E-52B3-4E9B-B440-9B5E1AF60C8A','2')">食品安全国家标准 食品中烟酸和烟酰胺的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3092次</span>
+									起草单位:<span> 国家乳制品质量监督检验中心,上海市质量监督检验技术研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('A12DD16D-95FF-4023-B981-43AC6162A15F','2')">食品安全国家标准 食品中膳食纤维的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3502次</span>
+									起草单位:<span> 中国疾病预防控制中心营养与健康所,北京市营养源研究所有限公司</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('EF660EAD-9D8D-4EA2-BD10-ED2EDBE2F8C2','2')">食品安全国家标准 味精中谷氨酸钠的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2674次</span>
+									起草单位:<span> 中国食品发酵工业研究院有限公司,北京市疾病预防控制中心,广东省食品工业研究所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('3E5014B5-5154-418F-89BD-F8CEF418B1C8','2')">食品安全国家标准 食品中氰化物的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2866次</span>
+									起草单位:<span> 广东省食品检验所（广东省酒类检测中心）,中国食品发酵工业研究院有限公司,山西省食品质量安全监督检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('3C4D44B3-1CBB-4B73-821A-840B3B0B3438','2')">食品安全国家标准 食品中合成着色剂的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3540次</span>
+									起草单位:<span> 中国食品药品检定研究院,四川省食品检验研究院,浙江省食品药品检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('35437D6E-3D4C-42DC-B8E6-498B0F156C7A','2')">食品安全国家标准 食品中乙酰磺胺酸钾的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3148次</span>
+									起草单位:<span> 中国食品药品检定研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('2B95C076-76FE-43C1-86B7-B17A45DD0D76','2')">食品安全国家标准 食品中&beta; -阿朴-8&rsquo;-胡萝卜素醛的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2618次</span>
+									起草单位:<span> 中国海关科学技术研究中心,厦门海关技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('E24CE182-5D97-49B5-87AE-DF6D2EE73392','2')">食品安全国家标准 食品中米酵菌酸的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3059次</span>
+									起草单位:<span> 广东省食品检验所,浙江省疾病预防控制中心,广州质量监督检测研究院,吉林出入境检验检疫局检验检疫技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('4EE21682-8922-477D-9DDF-60EF2AC3EA1F','2')">食品安全国家标准 食品中过氧化值的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 5080次</span>
+									起草单位:<span> 山东省食品药品检验研究院,上海市质量监督检验技术研究院,浙江省检验检疫科学技术研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('3107FC62-2AA7-48F2-B319-B0484BB1BBFB','2')">食品安全国家标准 食品中维生素K2的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2737次</span>
+									起草单位:<span> 青岛海关技术中心（原山东出入境检验检疫局检验检疫技术中心）,中国疾病预防控制中心营养与健康所,北京市营养源研究所有限公司,中国保健协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('6D75F0D9-B714-4197-877D-7144CF487609','2')">食品安全国家标准 食品中单辛酸甘油酯的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2858次</span>
+									起草单位:<span> 上海海关动植物与食品检验检疫技术中心,上海市质量监督检验技术研究院,山西省食品质量安全监督检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('284907CA-7E31-4221-A5DF-B708546A0C02','2')">食品安全国家标准 食品中铅的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 5931次</span>
+									起草单位:<span> 天津海关动植物与食品检测中心,深圳市疾病预防控制中心,广东省疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('F6AA7325-0E0C-48C6-A631-7B3B6C3B7052','2')">食品安全国家标准 食品中色氨酸的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2305次</span>
+									起草单位:<span> 山东省食品药品检验研究院,河北省食品检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('0E641BE0-B689-44B6-9637-37A0F7787B3D','2')">食品安全国家标准 化学分析方法验证通则</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3275次</span>
+									起草单位:<span> 国家食品安全风险评估中心,深圳海关食品检验检疫技术中心,厦门海关技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('8F832934-5474-467C-9DBC-A540C15F21C7','2')">食品安全国家标准 食品中淀粉的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3233次</span>
+									起草单位:<span> 北京市疾病预防控制中心,上海市质量监督检验技术研究院,湖北省疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('A0A06732-E682-46CC-806D-B0E37F64F497','2')">食品安全国家标准 食品中肌醇的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2794次</span>
+									起草单位:<span> 河北省食品检验研究院,上海市食品药品检验所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('EC7DB425-8DDD-44EA-9D6D-3957DF834B7E','2')">食品安全国家标准 食品中生物素的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1531次</span>
+									起草单位:<span> 国家乳制品质量监督检验中心,浙江清华长三角研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('BAFA6180-AC96-40C3-8041-BEE53DB97D68','2')">食品安全国家标准 食品中果糖、葡萄糖、蔗糖、麦芽糖、乳糖的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 4754次</span>
+									起草单位:<span> 北京市食品检验研究院（北京市食品安全监控和风险评估中心）,上海市质量监督检验技术研究院,北京市营养源研究所有限公司</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('8DAA07C8-4EC0-46DB-A8D2-AD9101C15CA0','2')">食品安全国家标准 食品接触材料及制品游离酚的测定和迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2703次</span>
+									起草单位:<span> 南京海关危险货物与包装检测中心,上海海关工业品与原材料检测技术中心,江南大学 ,广州质量监督检测研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('2EA316FE-6E59-46E6-8FE1-03D6A5D6D6AF','2')">食品安全国家标准 食品接触材料及制品 纸、纸板及纸制品中荧光增白剂的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 872次</span>
+									起草单位:<span> 广州海关技术中心,广州质量监督检测研究院,湖北省食品质量安全监督检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('12197C1E-32D2-47EC-BB8D-21DC7D3BC726','2')">食品安全国家标准 食品接触材料及制品 化学分析方法验证通则</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2907次</span>
+									起草单位:<span> 国家食品安全风险评估中心,中国塑料加工工业协会,广州海关技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('AE6A4DC6-32EB-460A-BA24-19560D255F95','2')">食品安全国家标准 食品中唾液酸的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2210次</span>
+									起草单位:<span> 厦门海关技术中心,上海海关动植物与食品检验检疫技术中心,吉林省食品检验所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('1C7225BC-7617-4651-8568-27E9D63A0A25','2')">食品安全国家标准 食品中三氯蔗糖(蔗糖素)的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3200次</span>
+									起草单位:<span> 广东省食品检验所,湖南省产商品质量检验研究院,青岛海关技术中心（原山东出入境检验检疫局检验检疫技术中心）</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('8D2EA5AD-ECD9-46DB-9899-CDE2E7D15E28','2')">食品安全国家标准 食品中维生素D的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1697次</span>
+									起草单位:<span> 浙江省疾病预防控制中心,河北省食品检验研究院,湖南省产商品质量检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('74E978D1-1509-465D-A90D-1604E511C3AC','2')">食品安全国家标准 食品中胭脂虫红的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1381次</span>
+									起草单位:<span> 宁波检验检疫科学技术研究院,四川省食品药品检验检测院,天津海关动植物与食品检测中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('E70D3641-BE39-4266-9D0C-2CF456BB5A83','2')">食品安全国家标准 食品接触材料及制品 脱色试验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3186次</span>
+									起草单位:<span> 南京海关危险货物与包装检测中心,上海市疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('B49C3C6C-7BBC-4B59-A632-009C5CB8DEDE','2')">食品安全国家标准 食品接触材料及制品 9种抗氧化剂迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2702次</span>
+									起草单位:<span> 广东出入境检验检疫局检验检疫技术中心,南京海关危险货物与包装检测中心,江西省检验检测认证总院食品检验检测研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('70C56BA1-667C-4843-95D4-8E3790064C28','2')">食品安全国家标准 食品接触材料及制品 月桂内酰胺迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2589次</span>
+									起草单位:<span> 宁波检验检疫科学技术研究院,广东出入境检验检疫局检验检疫技术中心,宁波市疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('DEE683BF-82EE-4C70-94C1-89F5409FE4C7','2')">食品安全国家标准 食品中氯酸盐和高氯酸盐的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2692次</span>
+									起草单位:<span> 北京市疾病预防控制中心,北京市食品检验研究院（北京市食品安全监控和风险评估中心）,江西省检验检测认证总院食品检验检测研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('712E5C5F-0697-45CD-8AB1-5F687A61BFEB','2')">食品安全国家标准 食品中N-亚硝胺类化合物的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2772次</span>
+									起草单位:<span> 厦门海关技术中心,天津海关动植物与食品检测中心,福建省疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('76C82FBE-4EB8-4690-ABC3-72A57492EA3D','2')">食品安全国家标准 食品中锡的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2815次</span>
+									起草单位:<span> 广东省食品检验所（广东省酒类检测中心）,天津海关动植物与食品检测中心,宁波检验检疫科学技术研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('F60046AF-E297-49FF-A4D1-5DEAAE680D41','2')">食品安全国家标准 食品接触材料及制品 丙烯酸和甲基丙烯酸及其酯类迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2791次</span>
+									起草单位:<span> 南京海关动植物与食品检测中心,广州海关技术中心,南京海关危险货物与包装检测中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('59AA2EB3-60D9-4095-924C-CA6790CBF87A','2')">食品安全国家标准 食品中低聚半乳糖的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2928次</span>
+									起草单位:<span> 江苏省产品质量监督检验研究院,北京市营养源研究所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('512A7AF8-C15B-4903-B7D8-05850354C443','2')">食品安全国家标准 食品中镉的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 4046次</span>
+									起草单位:<span> 广东省疾病预防控制中心,天津师范大学,国家粮食和物资储备局科学研究院   ,济南市疾病预防控制中心,湖南省产商品质量检验研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('214DF4B0-8986-46B2-82B0-DFCB78F1A9F7','2')">食品安全国家标准 食品接触材料及制品 多元素的测定和多元素迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3600次</span>
+									起草单位:<span> 江西省检验检测认证总院食品检验检测研究院,广州质量监督检测研究院,宁波检验检疫科学技术研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('1F123CDF-6075-403C-8AE0-1F0EF9DBFDC5','2')">食品安全国家标准 食品接触材料及制品 二苯甲酮类物质迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2630次</span>
+									起草单位:<span> 上海海关工业品与原材料检测技术中心,南京海关危险货物与包装检测中心,南京市产品质量监督检验院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('D1ECEBC2-E8BE-467C-A7DC-BB346788DA47','2')">食品安全国家标准 食品接触材料及制品 双酚F和双酚S迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2920次</span>
+									起草单位:<span> 深圳市计量质量检测研究院,南京市产品质量监督检验院,广州质量监督检测研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('CA6AEAD0-117F-4AD8-A05C-2DFB804C0094','2')">食品安全国家标准 食品接触材料及制品 异噻唑啉酮类化合物迁移量的测定</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2508次</span>
+									起草单位:<span> 广州海关技术中心,南京海关危险货物与包装检测中心,大连海关技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('EA3355CE-313F-472F-BF29-944EC1000251','2')">食品安全国家标准 微生物检验方法验证通则</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3795次</span>
+									起草单位:<span> 国家食品安全风险评估中心,青岛海关技术中心（原山东出入境检验检疫局检验检疫技术中心）,中国检验检测学会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('0AB500FE-BDA7-4468-B4E7-2FC85D6A092E','2')">食品安全国家标准 食品微生物学检验 乳酸菌检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 4170次</span>
+									起草单位:<span> 国家食品安全风险评估中心,北京市食品检验研究院（北京市食品安全监控和风险评估中心）</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('EB9AB457-8D60-4DB6-9F99-B6D7DFBFF867','2')">食品安全国家标准 食品微生物学检验 商业无菌检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2037次</span>
+									起草单位:<span> 中国食品发酵工业研究院有限公司,中华人民共和国龙岩出入境检验检疫局</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('9D7D5D63-1FEE-4F13-99D1-B0F8C8D48967','2')">食品安全国家标准 动物性水产品及其制品中异尖线虫的检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2138次</span>
+									起草单位:<span> 南京海关动植物与食品检测中心,中国检验检测学会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('5A9BE09E-6EC9-42E6-9C03-F21BB184B2BE','2')">食品安全国家标准 动物性水产品及其制品中广州管圆线虫的检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2115次</span>
+									起草单位:<span> 广州白云机场海关综合技术服务中心,中国检验检测学会,北京市食品安全监控和风险评估中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('96BB64B1-A439-4FAD-801D-64356424EE22','2')">食品安全国家标准 动物性水产品及其制品中华支睾吸虫的检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2111次</span>
+									起草单位:<span> 厦门海关技术中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('3EA58CB4-1CAD-495C-9187-D25A47F34116','2')">食品安全国家标准 动物性水产品及其制品中并殖吸虫的检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2151次</span>
+									起草单位:<span> 中国疾病预防控制中心寄生虫病预防控制所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('B59915C5-C440-4D01-A662-42BF67887200','2')">食品安全国家标准 动物性水产品及其制品中曼氏迭宫绦虫裂头蚴的检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2119次</span>
+									起草单位:<span> 广州白云机场海关综合技术服务中心,北京市食品安全监控和风险评估中心</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('F8400D44-3761-4CEC-83EA-A15D05DAF14C','2')">食品安全国家标准 动物性水产品及其制品中颚口线虫的检验</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2114次</span>
+									起草单位:<span> 李树清,中国检验检测学会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('565CFADF-FFB7-4A0E-9FF4-10C1FB16226C','2')">食品安全国家标准 食品营养强化剂 L-肉碱酒石酸盐</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 1107次</span>
+									起草单位:<span> 上海海关动植物与食品检验检疫技术中心,中海油天津化工研究设计院有限公司</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('DE8B56C5-E20B-447B-9F6A-999C97E98615','2')">食品安全国家标准 食品营养强化剂 碳酸铜</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2205次</span>
+									起草单位:<span> 上海市质量监督检验技术研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('6A0E4BF9-1676-4888-A124-4F3C0410FDD9','2')">食品安全国家标准 食品营养强化剂 氯化铬</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2203次</span>
+									起草单位:<span> 上海市质量监督检验技术研究院</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('98541AC8-1518-4588-AE20-8D56FB8146A4','2')">食品安全国家标准 食品营养强化剂 还原铁</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2150次</span>
+									起草单位:<span> 江西省检验检测认证总院食品检验检测研究院,江西省疾病预防控制中心,江苏省卫生监督所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('2E9E3B71-DF35-468F-9686-CE9337CEE8DF','2')">食品安全国家标准 食品营养强化剂 甘油磷酸钙</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2149次</span>
+									起草单位:<span> 上海市食品化妆品质量安全管理协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('FB183C2A-2444-4BDE-BCBC-7CD9FA52F124','2')">食品安全国家标准 食品营养强化剂 氯化锰</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2166次</span>
+									起草单位:<span> 上海市食品添加剂和配料行业协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('EDEF4966-BF8C-4D3B-A418-7640AD1E7CB6','2')">《食品安全国家标准 食品添加剂 硬脂酸镁》（GB 1886.91-2016）第1号修改单</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2773次</span>
+									起草单位:<span> 江苏省卫生监督所</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('59DD3236-29C8-4390-AA36-5A5D1DD600AF','2')">《食品安全国家标准 食品营养强化剂 维生素C磷酸酯镁》（GB 1903.24-2016）第1号修改单</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 2385次</span>
+									起草单位:<span> 中国食品添加剂和配料协会</span>
+								</div>
+							</div>
+						</div>
+					
+						<div class="xgggItem">
+							<div class="xgggItemLeft">
+								<el-tag effect="dark">
+									标准文本
+								</el-tag>
+							</div>
+							<div class="xgggItemRight">
+								<div class="xgggItemRightLabel">
+									<a href="javascript:void(0);" onclick="goto('D1ECD1E7-3F70-4D2F-AD3F-720A0F3EAA11','2')">《食品安全国家标准 食品中维生素B1的测定》（GB 5009.84-2016）第1号修改单</a>
+								</div>
+								
+								<div class="xgggItemRightInfo">
+									发布日期:<span>2023-09-06</span>
+									浏览次数:<span> 3741次</span>
+									起草单位:<span> 福建省疾病预防控制中心</span>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footercontainer layout">
+			<div class="footerInfo">
+				<span>Copyright© 国家食品安全风险评估中心版权所有京ICP备20024162号</span>
+				<span>联系地址:北京市朝阳区广渠路37号院2号楼电话:52165518传真:52165519</span>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+
+	var app = new Vue({
+		el: '#app',
+		data() {
+			return {}
+		}
+	})
+</script>
+</body>
+</html>
