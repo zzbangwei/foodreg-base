@@ -1,11 +1,36 @@
 # FoodReg Base 操作日志
 
+## 2026-07-27 — raw/ 目录重组 + 仓库开源
+
+### 执行
+
+**raw/ 目录重组**
+- 8 个旧子目录重组为 6 个，按内容类型对齐 wiki/ 分类命名
+- `articles/` → `new-food-ingredients/`（50 份）
+- `articles-common-food/` → `common-food-ingredients/`（11 份）
+- `articles-medfood/` → `medicine-food-homology/`（8 份）
+- `interpretations/` + `pdfs/` → `standard-interpretations/`（43 份）
+- `regulations/` → `regulatory-documents/`（36 份，扁平化子目录）
+- `strains/` → `edible-strains/`（3 份）
+- 删除空目录 `docs/` `announcements-standards/` `interpretations-standards/` `standards-pdf/`
+- 所有文件名规范化：全英文小写 + 连字符
+
+**文档同步**
+- README.md、index.md、SCHEMA.md 目录树和数字全部同步更新
+- 实体页合计 1,476 → 1,488，raw/ 由 444 份重算为 151 份（纯 md）
+
+**开源**
+- 仓库公开至 GitHub: [github.com/zzbangwei/foodreg-base](https://github.com/zzbangwei/foodreg-base)
+- 协议: CC BY-SA 4.0
+
+---
+
 ## 2026-07-04 — 营养成分数据全库归拢
 
 ### 执行
 
 **新食品原料质量规格（12→68）**
-- 扫描 wiki/entities/new-food-ingredients/ 172页 + raw/articles/ 50份公告
+- 扫描 wiki/entities/new-food-ingredients/ 172页 + raw/new-food-ingredients/ 50份公告
 - 提取蛋白质/脂肪/膳食纤维/多糖/EPA/DHA/水分/灰分质量规格（≥/≤ 限量）
 - 从 12 种扩展到 68 种，覆盖 40% 新食品原料
 

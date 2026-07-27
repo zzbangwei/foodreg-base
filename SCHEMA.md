@@ -1,6 +1,6 @@
 # FoodReg Base — Schema 规范
 
-> **版本**: v2.1 | **最后更新**: 2026-06-29
+> **版本**: v2.2 | **最后更新**: 2026-07-27
 > **范围**: 中国食品法规标准 + 新食品原料 + 药食同源 + 地方特色
 > **原则**: 规范先行，务实演进——存量兼容，增量从严
 
@@ -9,7 +9,7 @@
 ## 一、三层架构（基石）
 
 ```
-wiki-foodreg/
+foodreg-base/
 ├── raw/     ← 原始资料，用户负责，LLM 只读
 ├── wiki/    ← 编译知识，LLM 维护，用户只读
 └── SCHEMA.md ← 本文件，规则约束
@@ -27,44 +27,38 @@ LLM 永远不改 raw/
 ### 完整目录
 
 ```
-wiki-foodreg/
+foodreg-base/
 ├── raw/
-│   ├── articles/             公告原文（50 份）
-│   ├── articles-common-food/ NHC 普通食品复函（12 份）
-│   ├── articles-medfood/     药食同源/保健食品公告（9 份）
-│   ├── interpretations/      官方解读（39 份）
-│   ├── pdfs/                 PDF 附件提取（2 份）
-│   ├── docs/                 参考文档（9 份）
-│   ├── strains/              菌种公告（3 份）
-│   ├── regulations/          监管答复/通知（8 份）
-│   │   ├── proposal-replies/ 建议/提案答复（22 份）
-│   │   └── labeling-replies/ 标签标识答复（6 份）
-│   └── screenshots/          待处理截图
+│   ├── new-food-ingredients/      新食品原料公告（50 份）
+│   ├── standard-interpretations/  标准解读与问答（43 份）
+│   ├── common-food-ingredients/   普通食品原料复函（11 份）
+│   ├── medicine-food-homology/    药食同源公告（8 份）
+│   ├── regulatory-documents/      法规原文与提案答复（36 份）
+│   └── edible-strains/            可食用菌种公告（3 份）
 │
 ├── wiki/
 │   ├── entities/
-│   │   ├── new-food-ingredients/     新食品原料（172）
+│   │   ├── new-food-ingredients/     新食品原料（173）
 │   │   ├── additives/                食品添加剂（359）
-│   │   ├── medicine-food-homology/   药食同源（106）
+│   │   ├── medicine-food-homology/   药食同源（107）
 │   │   ├── edible-strains/           可食用菌种（47）
 │   │   ├── nutrition-fortifiers/     营养强化剂（76）
 │   │   ├── local-specialty-food/     地方特色食品（189）
 │   │   ├── terminated-reviews/       终止审查（82）
-│   │   ├── food-product-standards/   食品产品标准（255）
+│   │   ├── food-product-standards/   食品产品标准（283）
 │   │   ├── contact-materials/        食品接触材料（148）
 │   │   ├── food-allergens/           食品过敏原（11）
 │   │   ├── consultation-list/        征求意见（8）
 │   │   └── acceptance-list/          申报受理（5）
-│   ├── tables/              关联表（17 张）
+│   ├── tables/              关联表（20 张）
 │   ├── concepts/            概念页
-│   ├── comparisons/         对比分析页
-│   └── _index.json          全库索引（自动生成）
+│   └── comparisons/         对比分析页
 │
 ├── SCHEMA.md
 ├── index.md
 ├── log.md
-├── data/                    结构化数据（GB9685 JSON 等）
-└── scripts/                 Python 脚本（待迁移）
+├── README.md
+└── LICENSE
 ```
 
 ---
@@ -89,7 +83,7 @@ wiki-foodreg/
 | 食品接触材料 | 中文名 | `聚乙烯.md` |
 | 概念页 | 英文+连字符 | `protein-hydrolysate-rule.md` |
 | 对比页 | `comparison-{主题}.md` | `comparison-2760-2014-vs-2024.md` |
-| raw/ 公告 | `来源-日期-描述.md` | `weish-2010-15-zhetangjuzhi-3-zhong.md` |
+| raw/ 公告 | `日期-关键词.md` | `2010-15-zhetangjuzhi.md` |
 
 ### 通用规则
 - 全小写（英文/拼音部分）
@@ -114,7 +108,7 @@ status: 普通食品                     # 必填，枚举见下文
 created: 2026-06-22
 updated: 2026-06-25
 tags: [新食品原料, 蛋白]
-sources: [raw/articles/weish-2010-15-zhetangjuzhi-3-zhong.md]
+sources: [raw/new-food-ingredients/2010-15-zhetangjuzhi.md]
 ---
 ```
 
@@ -166,7 +160,6 @@ sources: [raw/articles/weish-2010-15-zhetangjuzhi-3-zhong.md]
 
 | 层级 | 位置 | 作用 | 响应 |
 |------|------|------|------|
-| L0 | `_index.json` | 全库字段秒查 | <10ms |
 | L1 | `index.md` | 模块入口 + 统计 | 1 次 read_file |
 | L2 | 各模块 master-list.md | 模块内清单 | 1 次 read_file |
 | L3 | 实体页正文 | 详情/公告原文/批准历程 | 1-2 次 read_file |
@@ -175,9 +168,9 @@ sources: [raw/articles/weish-2010-15-zhetangjuzhi-3-zhong.md]
 
 | 问题类型 | 路径 |
 |---------|------|
-| "XX 能不能用作食品原料" | L0 → 搜 title/keywords → 读实体页 → 多源合规排查 |
-| "XX 的食用量上限" | L0 → 搜 dosage → 读实体页 |
-| "XX 标准的最新版本" | L0 → module=食品产品标准 → 读 standard_id |
+| "XX 能不能用作食品原料" | L1 index.md → 搜 title/keywords → 读实体页 → 多源合规排查 |
+| "XX 的食用量上限" | master-list → 搜 dosage → 读实体页 |
+| "XX 标准的最新版本" | master-list → module=食品产品标准 → 读 standard_id |
 | "乳制品相关所有标准" | L2 → 食品产品标准 master-list → 筛选 |
 | "XX 添加剂能用在哪类食品" | tables/additive-category-cross.md |
 | "XX 和 YY 有什么区别" | comparisons/ 目录 → 无则当场生成并归档 |
@@ -207,7 +200,7 @@ announcements: [{公告列表}]
 keywords: [{别名}]
 quality: {✅已验证|📌待验证}
 tags: [新食品原料, ...]
-sources: [raw/articles/xxx.md]
+sources: [raw/new-food-ingredients/xxx.md]
 ---
 
 # {名称}
@@ -380,20 +373,18 @@ sources: []
 6. 更新 index.md 和 log.md
 
 ### Query（查询）
-1. L0 `_index.json` 秒查（有则跳步骤 4）
-2. L1 `index.md` 定位模块
-3. L2 `master-list.md` 定位实体页
-4. L3 读实体页提取详情
-5. 综合回答
-6. 高价值问答归档 → `comparisons/` 或更新实体页
+1. L1 `index.md` 定位模块
+2. L2 `master-list.md` 定位实体页
+3. L3 读实体页提取详情
+4. 综合回答
+5. 高价值问答归档 → `comparisons/` 或更新实体页
 
 ### Periodic Ingest（全系整理）
 1. 更新 index.md 统计数据
 2. 更新 log.md 终态表
 3. 修复断裂 wikilink（三类：.md 后缀 / 尾反斜杠 / ../ 相对路径）
 4. 运行 Lint 巡检 → 修正
-5. 重建 `_index.json`
-6. 打包交付（仅用户要求时）
+5. 打包交付（仅用户要求时）
 
 ---
 
