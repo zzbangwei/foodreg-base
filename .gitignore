@@ -1,1 +1,7 @@
 *.pdf
+*.html
+*.htm
+*.txt
+*.xlsx
+*.py
+.gitkeep
