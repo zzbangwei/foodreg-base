@@ -33,16 +33,13 @@ foodreg-base/
 │       ├── consultation-list/        # 征求意见（8 页）
 │       └── acceptance-list/          # 申报受理（5 页）
 └── raw/                              # 原始公告、解读、答复原文
-    ├── announcements-standards/      # 标准发布公告
     ├── articles/                     # 法规解读文章
     ├── articles-common-food/         # 普通食品原料相关文章
     ├── articles-medfood/             # 药食同源相关文章
     ├── docs/                         # 源文档
     ├── interpretations/              # 法规解读
-    ├── interpretations-standards/    # 标准解读
     ├── pdfs/                         # PDF 参考文档
     ├── regulations/                  # 法规原文
-    ├── standards-pdf/                # 标准 PDF 原文
     └── strains/                      # 菌种相关文档
 ```
 

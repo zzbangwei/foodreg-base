@@ -77,11 +77,7 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 ## raw/ — 原始资料（只读）
 
-- raw/standards-pdf/ — 293 份 食品产品标准 PDF 原文
-- raw/interpretations-standards/ — 21 份 标准官方解读
-- raw/announcements-standards/ — 18 份 标准发布公告
 - raw/articles/ — 50 份 新食品原料公告原文
-- raw/docs/ — 2 份 中国食物成分表第6版 Excel（第一册+第二册）
 - raw/interpretations/ — 39 份 官方解读
 - raw/articles-common-food/ — 12 份 普通食品复函
 - raw/articles-medfood/ — 9 份 药食同源相关
