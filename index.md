@@ -77,10 +77,12 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 ## raw/ — 原始资料（只读）
 
-- raw/articles/ — 50 份 新食品原料公告原文
-- raw/interpretations/ — 39 份 官方解读
-- raw/articles-common-food/ — 12 份 普通食品复函
-- raw/articles-medfood/ — 9 份 药食同源相关
+- raw/new-food-ingredients/ — 50 份 新食品原料公告原文
+- raw/standard-interpretations/ — 43 份 标准解读与问答
+- raw/common-food-ingredients/ — 11 份 普通食品复函
+- raw/medicine-food-homology/ — 8 份 药食同源公告
+- raw/regulatory-documents/ — 36 份 法规原文与提案答复
+- raw/edible-strains/ — 3 份 菌种公告
 
 ## 最新更新
 
