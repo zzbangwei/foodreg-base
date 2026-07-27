@@ -18,11 +18,11 @@ foodreg-base/
 ├── wiki/
 │   ├── concepts/                     # 概念解释（3 页）
 │   ├── comparisons/                  # 对比分析（1 页）
-│   ├── tables/                       # 关联表（17 张）
+│   ├── tables/                       # 关联表（20 张）
 │   └── entities/
-│       ├── new-food-ingredients/     # 新食品原料（172 页）
+│       ├── new-food-ingredients/     # 新食品原料（173 页）
 │       ├── additives/                # 食品添加剂 GB 2760（359 页）
-│       ├── food-product-standards/   # 食品产品标准 GB/GB/T（255 页）
+│       ├── food-product-standards/   # 食品产品标准 GB/GB/T（283 页）
 │       ├── local-specialty-food/     # 地方特色食品（189 页）
 │       ├── contact-materials/        # 食品接触材料 GB 9685（148 页）
 │       ├── medicine-food-homology/   # 药食同源目录（107 页）
