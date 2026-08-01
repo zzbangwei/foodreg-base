@@ -1,0 +1,36 @@
+Reading additive list...
+Found 290 additives to process
+  [10/290] 3% | 761 cross-refs | 0.7/s | ETA 400s
+  [20/290] 7% | 1578 cross-refs | 0.7/s | ETA 394s
+  [30/290] 10% | 2764 cross-refs | 0.6/s | ETA 422s
+  [40/290] 14% | 3193 cross-refs | 0.7/s | ETA 376s
+  [50/290] 17% | 4030 cross-refs | 0.7/s | ETA 360s
+  [60/290] 21% | 5484 cross-refs | 0.6/s | ETA 370s
+  [70/290] 24% | 6252 cross-refs | 0.6/s | ETA 349s
+  [80/290] 28% | 7651 cross-refs | 0.6/s | ETA 346s
+  [90/290] 31% | 8464 cross-refs | 0.6/s | ETA 326s
+  [100/290] 34% | 9132 cross-refs | 0.6/s | ETA 306s
+  [110/290] 38% | 9569 cross-refs | 0.6/s | ETA 282s
+  [120/290] 41% | 10824 cross-refs | 0.6/s | ETA 273s
+  [130/290] 45% | 11792 cross-refs | 0.6/s | ETA 258s
+  [140/290] 48% | 12449 cross-refs | 0.6/s | ETA 239s
+  [150/290] 52% | 13264 cross-refs | 0.6/s | ETA 223s
+  [160/290] 55% | 14954 cross-refs | 0.6/s | ETA 215s
+  [170/290] 59% | 16552 cross-refs | 0.6/s | ETA 204s
+  [180/290] 62% | 17882 cross-refs | 0.6/s | ETA 189s
+  [190/290] 66% | 19174 cross-refs | 0.6/s | ETA 174s
+  [200/290] 69% | 20038 cross-refs | 0.6/s | ETA 156s
+  [210/290] 72% | 20963 cross-refs | 0.6/s | ETA 139s
+  [220/290] 76% | 22625 cross-refs | 0.6/s | ETA 123s
+  [230/290] 79% | 23534 cross-refs | 0.6/s | ETA 106s
+  [240/290] 83% | 24258 cross-refs | 0.6/s | ETA 87s
+  [250/290] 86% | 25106 cross-refs | 0.6/s | ETA 70s
+  [260/290] 90% | 25847 cross-refs | 0.6/s | ETA 52s
+  [270/290] 93% | 26595 cross-refs | 0.6/s | ETA 34s
+  [280/290] 97% | 27101 cross-refs | 0.6/s | ETA 17s
+  [290/290] 100% | 27328 cross-refs | 0.6/s | ETA 0s
+
+Saving 27328 cross-reference records...
+
+Done! 27328 records | Time: 488s
+Errors: 0
