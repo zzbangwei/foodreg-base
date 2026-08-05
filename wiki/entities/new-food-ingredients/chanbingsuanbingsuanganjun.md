@@ -45,7 +45,7 @@ summary: "产丙酸丙酸杆菌（原名），现名为产丙酸丙酸菌（*Aci
 
 ## 相关条目
 
-- [[清酒乳杆菌]]
-- [[乳酸片球菌]]
-- [[戊糖片球菌]]
+- [[qingjiuruganjun|清酒乳杆菌]]
+- [[rusuanpianqiujun|乳酸片球菌]]
+- [[wutangpianqiujun|戊糖片球菌]]
 - [[master-ingredient-list|新食品原料总清单]]

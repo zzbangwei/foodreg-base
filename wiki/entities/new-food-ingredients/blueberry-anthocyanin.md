@@ -55,5 +55,5 @@ summary: "蓝莓花色苷是以杜鹃花科越橘属蓝莓（*Vaccinium corymbos
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[马基莓花色苷]]
-- [[接骨木莓花色苷]]
+- [[maqui-anthocyanin|马基莓花色苷]]
+- [[elderberry-anthocyanin|接骨木莓花色苷]]

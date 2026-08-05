@@ -59,11 +59,11 @@ L-阿拉伯糖（L-Arabinose），2008年5月26日经卫生部公告（[[weish-2
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[低聚木糖]]
-- [[叶黄素酯]]
+- [[xylo-oligosaccharide|低聚木糖]]
+- [[lutein-esters|叶黄素酯]]
 - [[wiki/concepts/new-resource-food]]
 
 > 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/L-阿拉伯糖|L-阿拉伯糖（终止审查）]]

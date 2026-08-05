@@ -1,3 +1,9 @@
+---
+title: category list
+module: root
+status: 现行有效
+---
+
 # 食品分类表
 
 来源: https://gb2760.cfsa.net.cn/category.html

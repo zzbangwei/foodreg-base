@@ -46,7 +46,7 @@ summary: "茶藨子叶状层菌发酵菌丝体（Fermented mycelia of *Phyllopor
 
 ## 相关条目
 
-- [[广东虫草子实体]]
-- [[蛹虫草]]
+- [[guangdongchongcao|广东虫草子实体]]
+- [[cordyceps-militaris|蛹虫草]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

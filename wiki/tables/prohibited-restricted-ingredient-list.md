@@ -1,3 +1,9 @@
+---
+title: prohibited restricted ingredient list
+module: root
+status: 现行有效
+---
+
 # 食品中禁用及限用原料审查目录
 
 > **适用范围**: 普通食品（不涵盖保健食品、新食品原料、药食同源边界）

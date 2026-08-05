@@ -1,3 +1,9 @@
+---
+title: enzyme index
+module: additives
+status: 现行有效
+---
+
 # 食品添加剂新品种 — 酶制剂索引
 
 本目录收录2019-2026年间国家卫健委批准的食品工业用酶制剂新品种。

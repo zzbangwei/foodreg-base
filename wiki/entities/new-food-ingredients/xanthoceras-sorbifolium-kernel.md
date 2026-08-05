@@ -51,5 +51,5 @@ summary: "文冠果种仁是以无患子科文冠果属文冠果（*Xanthoceras 
 
 ## 相关条目
 
-- [[文冠果叶]]
+- [[xanthoceras-sorbifolium-leaf|文冠果叶]]
 - [[master-ingredient-list|新食品原料总清单]]

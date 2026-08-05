@@ -57,7 +57,7 @@ summary: "雨生红球藻（*Haematococcus pluvialis*）为绿藻门红球藻属
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[dunaliella-salina|盐藻及提取物]]

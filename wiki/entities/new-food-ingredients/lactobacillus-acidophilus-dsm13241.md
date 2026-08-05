@@ -56,13 +56,13 @@ summary: "嗜酸乳杆菌（*Lactobacillus acidophilus*），菌株号 DSM13241�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[低聚木糖]]
-- [[透明质酸钠]]
-- [[叶黄素酯]]
-- [[L-阿拉伯糖]]
-- [[短梗五加]]
-- [[库拉索芦荟凝胶]]
+- [[xylo-oligosaccharide|低聚木糖]]
+- [[sodium-hyaluronate|透明质酸钠]]
+- [[lutein-esters|叶黄素酯]]
+- [[l-arabinose|L-阿拉伯糖]]
+- [[acanthopanax-sessiliflorus|短梗五加]]
+- [[aloe-vera-gel|库拉索芦荟凝胶]]
 - [[wiki/concepts/new-resource-food]]

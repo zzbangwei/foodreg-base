@@ -78,6 +78,6 @@ summary: "蔗糖聚酯（Sucrose Ployesters），2010年10月21日经卫生部�
 
 ## 相关条目
 
-- [[磷脂酰丝氨酸]]
-- [[玉米低聚肽粉]]
+- [[phosphatidylserine|磷脂酰丝氨酸]]
+- [[corn-oligopeptides-powder|玉米低聚肽粉]]
 - [[wiki/concepts/new-resource-food]]

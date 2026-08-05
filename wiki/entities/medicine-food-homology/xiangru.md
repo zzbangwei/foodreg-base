@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 香薷
 chinese_name: 香薷
 latin_name: Mosla chinensis
 batch: 卫法监发〔2002〕51号
@@ -38,4 +40,4 @@ quality: 📌待验证
 
 ## 营养成分
 
-→ [[../tables/nutrition-data-mfh-complete|药食同源营养成分总表]]（每100g可食部）
+→ [[../../tables/nutrition-data-mfh-complete|药食同源营养成分总表]]（每100g可食部）

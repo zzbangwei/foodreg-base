@@ -1,3 +1,9 @@
+---
+title: nutrition data common food
+module: root
+status: 现行有效
+---
+
 # 普通食品原料营养成分表（每100g可食部）
 
 > 数据来源：中国食物成分表第6版（2018第一册 + 2019第二册），共1037条原始数据。

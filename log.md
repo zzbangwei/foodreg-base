@@ -222,3 +222,30 @@ Knowledge 层 6 项检查中 ③ 显式关系 和 ④ 元数据过滤 已达标�
 - 来源：117 Qwen OCR + 168 PyPDF2
 - 52个系列标准已加互链
 - 全部加 source 标签
+
+## 2026-08-05 — 仓库审计修复 P0
+
+- index.md 数据规模表全部对齐实测数字（实体页 1490、raw 161 份等）
+- SCHEMA.md 目录树数字修正，移除 pdfs/data/scripts/_index.json 等不存在目录
+- raw 描述修正：articles-medfood 9→10，interpretations 39→41，新增 regulations/strains
+- 产品标准正文覆盖率 99%→100%
+
+审计来源：Kimi 全库脚本扫描（2692 wikilink、1514 md、161 raw）
+
+## [2026-08-05] audit | 仓库全面审计
+- Kimi审计发现：三大文档数字不一致、388条问题链接(14.4%)、1336个孤立实体页(90%)、26个无frontmatter页面
+- P0数字对齐已于cf759ad提交修复
+- P2/P3：来宝正在处理 master-list wikilink、frontmatter补全、GB命名统一
+
+## [2026-08-05] fix | P2/P3 审计修复
+- **master-list wikilink**：8个模块的 master-list 表格实体名已全部改为 `[[文件名|显示名]]` wikilink，新增 738 条双向链接，打通 L2→L3 查询路径
+- **frontmatter 补全**：93个药食同源实体页补全 `title`/`type` 字段，concepts/2页、comparisons/1页、_index/2页补全 `module` 字段
+- **GB 命名统一**：119个 `GB-T_`/`GB_T_` 文件重命名为 SCHEMA 约定的 `GB_xxxx` 格式，同步更新 357 处内部引用（1个冲突文件 GB-T_25190-2010 因编号冲突保留原名）
+- **_index.json**：确认已废弃不重建，从 SCHEMA.md 查询路径和工作流中移除所有 L0 引用，统一指向 L2 master-list
+- 修复范围：仅 `wiki/` 目录，`raw/` 未修改
+
+## [2026-08-05] review-fix | 复审收尾
+- 修复：概念页11条死链→拼音stem、未收录标准引用改纯文本
+- 修正：index.md raw 161→172、食品产品标准链接指向新master-list
+- 清理：master根目录9个爬虫脚本+日志+临时json（data/保留，SCHEMA备注）
+- 复审指标：问题链接388→46(-88%)、孤立页1336→434(-68%)

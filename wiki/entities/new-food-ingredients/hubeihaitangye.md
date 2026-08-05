@@ -58,7 +58,7 @@ summary: "湖北海棠（茶海棠）叶（*Malus hupehensis* Leaf），属蔷�
 
 ## 相关条目
 
-- [[线叶金雀花]]
-- [[枇杷叶]]
-- [[柳叶蜡梅]]
+- [[xianyiejinquehua|线叶金雀花]]
+- [[pipaye|枇杷叶]]
+- [[liuyelamei|柳叶蜡梅]]
 - [[master-ingredient-list|新食品原料总清单]]

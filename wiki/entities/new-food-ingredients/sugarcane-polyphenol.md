@@ -48,5 +48,5 @@ summary: "甘蔗多酚以甘蔗为原料，经压榨、过滤、提取等工艺�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[甜叶菊多酚]]
-- [[樱花多酚]]
+- [[stevia-polyphenol|甜叶菊多酚]]
+- [[cherry-blossom-polyphenol|樱花多酚]]

@@ -54,6 +54,6 @@ summary: "褐藻寡糖是以海带、马尾藻、巨藻、泡叶藻等褐藻类�
 
 ## 相关条目
 
-- [[低聚木糖]]
-- [[阿拉伯木聚糖]]
+- [[xylo-oligosaccharide|低聚木糖]]
+- [[arabinoxylan|阿拉伯木聚糖]]
 - [[master-ingredient-list|新食品原料总清单]]

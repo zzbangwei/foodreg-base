@@ -5,7 +5,7 @@ updated: 2026-06-22
 type: concept
 tags: [新食品原料, 法规, 中国]
 sources: [raw/articles/weish-2008-12-7-new-resource-foods.md, raw/docs/new-resource-food-master-index.md]
----
+module: concepts---
 
 # 新资源食品（新食品原料）
 
@@ -39,16 +39,16 @@ sources: [raw/articles/weish-2008-12-7-new-resource-foods.md, raw/docs/new-resou
 
 [[weish-2008-12-7-new-resource-foods|卫生部2008年第12号公告]] 一次性批准了7种：
 
-1. [[嗜酸乳杆菌（DSM13241）]] — 益生菌
-2. [[低聚木糖]] — 益生元
-3. [[透明质酸钠]] — 保健食品原料
-4. [[叶黄素酯]] — 天然色素/营养强化
-5. [[L-阿拉伯糖]] — 功能性甜味剂
-6. [[短梗五加]] — 植物原料（限饮料/酒类）
-7. [[库拉索芦荟凝胶]] — 植物原料
+1. [[lactobacillus-acidophilus-dsm13241|嗜酸乳杆菌（DSM13241）]] — 益生菌
+2. [[xylo-oligosaccharide|低聚木糖]] — 益生元
+3. [[sodium-hyaluronate|透明质酸钠]] — 保健食品原料
+4. [[lutein-esters|叶黄素酯]] — 天然色素/营养强化
+5. [[l-arabinose|L-阿拉伯糖]] — 功能性甜味剂
+6. [[acanthopanax-sessiliflorus|短梗五加]] — 植物原料（限饮料/酒类）
+7. [[aloe-vera-gel|库拉索芦荟凝胶]] — 植物原料
 
 ## 相关页面
 
 - [[new-resource-food-master-index|新资源食品公告汇总表（2008-2026）]]
-- [[保健食品]]
+- 保健食品
 - [[新食品原料审批流程]] [待建]

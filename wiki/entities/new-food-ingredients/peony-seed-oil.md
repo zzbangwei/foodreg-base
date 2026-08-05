@@ -85,6 +85,6 @@ summary: "牡丹籽油（Peony Seed Oil），2011年3月22日经卫生部公告�
 
 ## 相关条目
 
-- [[元宝枫籽油]]
-- [[植物甾醇]]
+- [[acer-truncatum-seed-oil|元宝枫籽油]]
+- [[plant-sterol|植物甾醇]]
 - [[wiki/concepts/new-resource-food]]

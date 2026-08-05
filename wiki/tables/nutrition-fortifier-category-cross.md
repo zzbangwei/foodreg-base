@@ -1,3 +1,9 @@
+---
+title: nutrition fortifier category cross
+module: root
+status: 现行有效
+---
+
 # GB 14880-2012 营养强化剂×食品类别使用量关联表
 
 ## 数据来源

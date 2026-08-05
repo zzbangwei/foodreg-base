@@ -64,6 +64,6 @@ summary: "吡咯并喹啉醌二钠盐（Pyrroloquinoline quinone disodium salt�
 
 ## 相关条目
 
-- [[透明质酸钠]]
+- [[sodium-hyaluronate|透明质酸钠]]
 - [[wiki/concepts/new-resource-food]]
 - [[master-ingredient-list|新食品原料总清单]]

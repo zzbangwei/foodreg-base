@@ -46,8 +46,8 @@ summary: "杜仲雄花（Male flower of *Eucommia ulmoides*），来源于人工
 
 ## 相关条目
 
-- [[丹凤牡丹花]]
-- [[茶树花]]
-- [[柳叶蜡梅]]
-- [[蛹虫草]]（2014年同期公告修正品类）
+- [[danfengmudanhua|丹凤牡丹花]]
+- [[chashuhua|茶树花]]
+- [[liuyelamei|柳叶蜡梅]]
+- [[cordyceps-militaris|蛹虫草]]（2014年同期公告修正品类）
 - [[master-ingredient-list|新食品原料总清单]]

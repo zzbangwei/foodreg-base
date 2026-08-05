@@ -50,5 +50,5 @@ summary: "青钱柳叶多酚是以胡桃科青钱柳属植物青钱柳（*Cycloc
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[显齿蛇葡萄叶多酚]]
-- [[甜叶菊多酚]]
+- [[nekemias-grossedentata-polyphenol|显齿蛇葡萄叶多酚]]
+- [[stevia-polyphenol|甜叶菊多酚]]

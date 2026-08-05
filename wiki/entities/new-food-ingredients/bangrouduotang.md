@@ -61,7 +61,7 @@ summary: "蚌肉多糖（Hyriopsis cumingii polysaccharide），来源于三角�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]

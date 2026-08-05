@@ -51,9 +51,9 @@ summary: "蛹虫草（*Cordyceps militaris*），又名北虫草、北冬虫夏�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[杜仲雄花]]（2014年同期公告修正品类）
+- [[duzhongxionghua|杜仲雄花]]（2014年同期公告修正品类）
 - [[wiki/concepts/new-resource-food]]

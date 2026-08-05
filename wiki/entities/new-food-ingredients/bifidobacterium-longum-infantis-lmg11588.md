@@ -48,6 +48,6 @@ summary: "长双歧杆菌婴儿亚种LMG 11588（*Bifidobacterium longum* subsp.
 
 ## 相关条目
 
-- [[长双歧杆菌婴儿亚种M-63]]
-- [[长双歧杆菌婴儿亚种YLGB-1496]]
+- [[bifidobacterium-longum-infantis-m63|长双歧杆菌婴儿亚种M-63]]
+- [[bifidobacterium-longum-infantis-ylgb1496|长双歧杆菌婴儿亚种YLGB-1496]]
 - [[master-ingredient-list|新食品原料总清单]]

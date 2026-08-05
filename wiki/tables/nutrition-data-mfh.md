@@ -1,3 +1,9 @@
+---
+title: nutrition data mfh
+module: root
+status: 现行有效
+---
+
 # 药食同源营养成分表（每100g可食部）
 
 > 数据来源：中国食物成分表第6版(2018-2019) + USDA FoodData Central(SR Legacy)

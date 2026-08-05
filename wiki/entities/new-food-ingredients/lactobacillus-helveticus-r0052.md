@@ -42,5 +42,5 @@ summary: "瑞士乳杆菌R0052（*Lactobacillus helveticus* R0052）于2020年�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[婴儿双歧杆菌R0033]]
-- [[两歧双歧杆菌R0071]]
+- [[bifidobacterium-infantis-r0033|婴儿双歧杆菌R0033]]
+- [[bifidobacterium-bifidum-r0071|两歧双歧杆菌R0071]]

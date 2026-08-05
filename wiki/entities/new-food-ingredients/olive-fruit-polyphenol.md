@@ -92,9 +92,9 @@ summary: "油橄榄果多酚是以木犀科木犀榄属植物木犀榄（*Olea e
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[甜叶菊多酚]]
-- [[樱花多酚]]
+- [[stevia-polyphenol|甜叶菊多酚]]
+- [[cherry-blossom-polyphenol|樱花多酚]]
 - [[master-ingredient-list|新食品原料总清单]]

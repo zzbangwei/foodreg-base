@@ -1,3 +1,9 @@
+---
+title: natural flavor list
+module: root
+status: 现行有效
+---
+
 # 食品用天然香料表 (B.2)
 
 来源: https://gb2760.cfsa.net.cn/spices/type/b2.html

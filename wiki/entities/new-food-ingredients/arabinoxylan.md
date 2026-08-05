@@ -54,6 +54,6 @@ summary: "阿拉伯木聚糖是以甘蔗渣为原料，经清洗、压榨、氢�
 
 ## 相关条目
 
-- [[低聚木糖]]
-- [[褐藻寡糖]]
+- [[xylo-oligosaccharide|低聚木糖]]
+- [[alginate-oligosaccharide|褐藻寡糖]]
 - [[master-ingredient-list|新食品原料总清单]]

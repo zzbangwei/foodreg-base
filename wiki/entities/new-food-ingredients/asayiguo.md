@@ -48,6 +48,6 @@ summary: "阿萨伊果（Açaí），来源于棕榈科植物阿萨伊棕榈树�
 
 ## 相关条目
 
-- [[广东虫草子实体]]
+- [[guangdongchongcao|广东虫草子实体]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

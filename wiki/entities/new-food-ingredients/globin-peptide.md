@@ -60,7 +60,7 @@ summary: "珠肽粉（Globin Peptide）是以检疫合格猪的血红细胞为�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]

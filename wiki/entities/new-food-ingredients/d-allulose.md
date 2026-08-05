@@ -57,7 +57,7 @@ D-阿洛酮糖是一种六碳酮糖，少量天然存在于无花果、猕猴桃
 
 ## 相关条目
 
-- [[塔格糖]]
+- [[tagetang|塔格糖]]
 - [[master-ingredient-list|新食品原料总清单]]
 
 > 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/D-阿洛酮糖|D-阿洛酮糖（终止审查）]]

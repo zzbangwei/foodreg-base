@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 当归
 chinese_name: 当归
 latin_name: Angelica sinensis
 batch: 2019年第8号
@@ -43,4 +45,4 @@ quality: 📌待验证
 
 ## 营养成分
 
-→ [[../tables/nutrition-data-mfh-complete|药食同源营养成分总表]]（每100g可食部）
+→ [[../../tables/nutrition-data-mfh-complete|药食同源营养成分总表]]（每100g可食部）

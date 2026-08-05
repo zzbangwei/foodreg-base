@@ -50,6 +50,6 @@ summary: "枇杷叶（*Eriobotrya japonica*），属蔷薇科枇杷属，食用�
 
 ## 相关条目
 
-- [[湖北海棠叶]]
-- [[辣木叶]]
+- [[hubeihaitangye|湖北海棠叶]]
+- [[lamuye|辣木叶]]
 - [[master-ingredient-list|新食品原料总清单]]

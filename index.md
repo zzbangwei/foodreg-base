@@ -15,37 +15,38 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 | 模块 | 数量 |
 |------|------|
-| 食品添加剂 | 358 |
+| 食品添加剂 | 359 |
 | 食品产品标准（GB/GB/T） | 285 |
-| 地方特色食品 | 187 |
+| 地方特色食品 | 189 |
 | 新食品原料 | 173 |
-| 食品接触材料 | 147 |
-| 药食同源 | 106 |
-| 终止审查 | 81 |
-| 营养强化剂 | 75 |
-| 可食用菌种 | 46 |
-| 食品过敏原 | 9 |
-| 征求意见 | 7 |
-| 申报受理 | 4 |
+| 食品接触材料 | 148 |
+| 药食同源 | 107 |
+| 终止审查 | 82 |
+| 营养强化剂 | 76 |
+| 可食用菌种 | 47 |
+| 食品过敏原 | 11 |
+| 征求意见 | 8 |
+| 申报受理 | 5 |
 | 概念页 | 3 |
-| 关联表 | 22 张 |
-| raw/ 原始资料 | 444 份 |
-| **实体页合计** | **1,478** |
+| 对比页 | 1 |
+| 关联表 | 20 张 |
+| raw/ 原始资料 | 161 份 |
+| **实体页合计** | **1,490** |
 
 ## wiki/entities/ — 实体模块
 
-- [[wiki/entities/additives/master-list|食品添加剂总清单]] — 358 种
-- [[wiki/entities/food-product-standards/|食品产品标准]] — 285 页（GB 强制性 + GB/T 推荐性 + 生产经营规范，99% 有标准正文）
-- [[wiki/entities/local-specialty-food/master-list|地方特色食品]] — 187 页
+- [[wiki/entities/additives/master-list|食品添加剂总清单]] — 359 种
+- [[wiki/entities/food-product-standards/master-list|食品产品标准]] — 285 页（正文覆盖率 100%）
+- [[wiki/entities/local-specialty-food/master-list|地方特色食品]] — 189 页
 - [[wiki/entities/new-food-ingredients/master-ingredient-list|新食品原料总清单]] — 173 种
-- [[wiki/entities/contact-materials/master-list|食品接触材料]] — 147 页
-- [[wiki/entities/medicine-food-homology/master-list|药食同源]] — 106 页
-- [[wiki/entities/terminated-reviews/master-list|终止审查]] — 81 页（全部含 CFSA 审查意见原文）
-- [[wiki/entities/nutrition-fortifiers/master-list|营养强化剂]] — 75 页
-- [[wiki/entities/edible-strains/master-list|可食用菌种]] — 46 页
-- [[wiki/entities/food-allergens/master-list|食品过敏原]] — 9 页
-- [[wiki/entities/consultation-list/_index|征求意见]] — 7 页
-- [[wiki/entities/acceptance-list/_index|申报受理]] — 4 页
+- [[wiki/entities/contact-materials/master-list|食品接触材料]] — 148 页
+- [[wiki/entities/medicine-food-homology/master-list|药食同源]] — 107 页
+- [[wiki/entities/terminated-reviews/master-list|终止审查]] — 82 页
+- [[wiki/entities/nutrition-fortifiers/master-list|营养强化剂]] — 76 页
+- [[wiki/entities/edible-strains/master-list|可食用菌种]] — 47 页
+- [[wiki/entities/food-allergens/master-list|食品过敏原]] — 11 页
+- [[wiki/entities/consultation-list/_index|征求意见]] — 8 页
+- [[wiki/entities/acceptance-list/_index|申报受理]] — 5 页
 
 ## wiki/tables/ — 关联表
 
@@ -75,15 +76,16 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 - [[wiki/concepts/protein-hydrolysate-rule|蛋白质酶解产物按普通食品管理规则]]
 - [[wiki/concepts/bone-collagen-naming|骨胶原蛋白粉命名规范]] — 配料表/产品名/企标三场景分析
 
-## raw/ — 原始资料（只读）
+## raw/ — 原始资料（172 份，2026-08-05 复审修正）
 
-- raw/interpretations-standards/ — 21 份 标准官方解读
-- raw/announcements-standards/ — 18 份 标准发布公告
+- raw/announcements-standards/ — 11 份 标准发布公告原文
 - raw/articles/ — 50 份 新食品原料公告原文
-- raw/docs/ — 2 份 中国食物成分表第6版 Excel（第一册+第二册）
-- raw/interpretations/ — 39 份 官方解读
 - raw/articles-common-food/ — 12 份 普通食品复函
-- raw/articles-medfood/ — 9 份 药食同源相关
+- raw/articles-medfood/ — 10 份 药食同源相关
+- raw/docs/ — 9 份 工具文档
+- raw/interpretations/ — 41 份 官方解读
+- raw/regulations/ — 36 份 法规文件
+- raw/strains/ — 3 份 菌种相关
 
 ## 最新更新
 

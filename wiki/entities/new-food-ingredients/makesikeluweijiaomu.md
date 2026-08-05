@@ -39,8 +39,8 @@ summary: "马克斯克鲁维酵母（*Kluyveromyces marxianus*），我国于201
 
 ## 相关条目
 
-- [[乳酸片球菌]]
-- [[戊糖片球菌]]
-- [[清酒乳杆菌]]
-- [[产丙酸丙酸杆菌]]
+- [[rusuanpianqiujun|乳酸片球菌]]
+- [[wutangpianqiujun|戊糖片球菌]]
+- [[qingjiuruganjun|清酒乳杆菌]]
+- [[chanbingsuanbingsuanganjun|产丙酸丙酸杆菌]]
 - [[master-ingredient-list|新食品原料总清单]]

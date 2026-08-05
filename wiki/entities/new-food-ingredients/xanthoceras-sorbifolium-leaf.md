@@ -54,5 +54,5 @@ summary: "文冠果叶是以无患子科文冠果属文冠果（*Xanthoceras sor
 
 ## 相关条目
 
-- [[文冠果种仁]]
+- [[xanthoceras-sorbifolium-kernel|文冠果种仁]]
 - [[master-ingredient-list|新食品原料总清单]]

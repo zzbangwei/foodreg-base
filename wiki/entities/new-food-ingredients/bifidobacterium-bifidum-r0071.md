@@ -42,5 +42,5 @@ summary: "两歧双歧杆菌R0071（*Bifidobacterium bifidum* R0071）于2020年
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[瑞士乳杆菌R0052]]
-- [[婴儿双歧杆菌R0033]]
+- [[lactobacillus-helveticus-r0052|瑞士乳杆菌R0052]]
+- [[bifidobacterium-infantis-r0033|婴儿双歧杆菌R0033]]

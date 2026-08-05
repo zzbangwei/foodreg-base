@@ -52,6 +52,6 @@ summary: "酵母蛋白是以酿酒酵母（*Saccharomyces Cerevisiae*）为菌�
 
 ## 相关条目
 
-- [[威尼斯镰刀菌蛋白]]
-- [[紧密镰刀菌蛋白]]
+- [[fusarium-venenatum-protein|威尼斯镰刀菌蛋白]]
+- [[fusarium-compactum-protein|紧密镰刀菌蛋白]]
 - [[master-ingredient-list|新食品原料总清单]]

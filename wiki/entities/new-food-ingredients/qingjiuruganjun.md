@@ -45,7 +45,7 @@ summary: "清酒乳杆菌（原名），现名为清酒广布乳杆菌（*Latila
 
 ## 相关条目
 
-- [[产丙酸丙酸杆菌]]
-- [[乳酸片球菌]]
-- [[戊糖片球菌]]
+- [[chanbingsuanbingsuanganjun|产丙酸丙酸杆菌]]
+- [[rusuanpianqiujun|乳酸片球菌]]
+- [[wutangpianqiujun|戊糖片球菌]]
 - [[master-ingredient-list|新食品原料总清单]]

@@ -56,6 +56,6 @@ summary: "儿茶素是以茶叶为原料，经醇提取、浓缩、分离、萃�
 
 ## 相关条目
 
-- [[二氢槲皮素]]
-- [[前花青素]]
+- [[dihydroquercetin|二氢槲皮素]]
+- [[proanthocyanidin|前花青素]]
 - [[master-ingredient-list|新食品原料总清单]]

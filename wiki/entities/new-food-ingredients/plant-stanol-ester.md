@@ -91,6 +91,6 @@ summary: "植物甾烷醇酯（Plant stanol ester），2008年9月9日经卫生�
 
 ## 相关条目
 
-- [[植物甾醇]]
-- [[植物甾醇酯]]
+- [[plant-sterol|植物甾醇]]
+- [[plant-sterol-ester|植物甾醇酯]]
 - [[wiki/concepts/new-resource-food]]

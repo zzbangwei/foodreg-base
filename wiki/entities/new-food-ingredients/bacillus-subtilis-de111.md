@@ -58,5 +58,5 @@ summary: "枯草芽孢杆菌DE111（*Bacillus subtilis* DE111）属芽孢杆菌�
 
 ## 相关条目
 
-- [[克鲁维毕赤酵母]]
+- [[pichia-kluyveri|克鲁维毕赤酵母]]
 - [[master-ingredient-list|新食品原料总清单]]

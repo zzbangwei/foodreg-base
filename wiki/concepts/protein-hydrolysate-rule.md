@@ -5,7 +5,7 @@ updated: 2026-06-24
 type: concept
 tags: [蛋白质酶解, 肽, 普通食品, 新食品原料, 法规]
 sources: [raw/articles-common-food/05-沙棘叶天贝普通食品公告.md]
----
+module: concepts---
 
 # 蛋白质酶解产物按普通食品管理规则
 
@@ -38,8 +38,8 @@ sources: [raw/articles-common-food/05-沙棘叶天贝普通食品公告.md]
 
 ## 关联实例（wiki 已有）
 
-- [[玉米低聚肽粉]] — 2010年批为新资源食品，2013年按本公告转普通食品
-- [[小麦低聚肽]] — 同上
+- [[corn-oligopeptides-powder|玉米低聚肽粉]] — 2010年批为新资源食品，2013年按本公告转普通食品
+- [[wheat-oligopeptide|小麦低聚肽]] — 同上
 - [[wiki/entities/terminated-reviews/弹性蛋白|弹性蛋白（鲣鱼弹性蛋白肽）]] — 终止审查，"可作为普通食品"
 - [[wiki/entities/terminated-reviews/酶解骨粉|酶解骨粉]] — 牛骨酶解，终止审查按普通食品
 - 大豆肽、胶原蛋白肽等 — 自动归入普通食品

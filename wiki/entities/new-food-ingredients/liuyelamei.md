@@ -46,7 +46,7 @@ summary: "柳叶蜡梅（*Chimonanthus salicifolius* S.Y.H），属蜡梅科蜡�
 
 ## 相关条目
 
-- [[杜仲雄花]]
-- [[线叶金雀花]]
-- [[青钱柳叶]]
+- [[duzhongxionghua|杜仲雄花]]
+- [[xianyiejinquehua|线叶金雀花]]
+- [[qingqianliuye|青钱柳叶]]
 - [[master-ingredient-list|新食品原料总清单]]

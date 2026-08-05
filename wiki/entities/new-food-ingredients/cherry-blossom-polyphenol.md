@@ -49,6 +49,6 @@ summary: "樱花多酚是以蔷薇科李属植物日本晚樱（*Prunus serrulat
 
 ## 相关条目
 
-- [[关山樱花]]
-- [[甜叶菊多酚]]
+- [[cerasus-serrulata-sekiyama|关山樱花]]
+- [[stevia-polyphenol|甜叶菊多酚]]
 - [[master-ingredient-list|新食品原料总清单]]

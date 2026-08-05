@@ -54,7 +54,7 @@ summary: "植物乳杆菌（*Lactobacillus Plantarum*），菌株号299v，来�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[lactobacillus-plantarum-cgmcc1258|植物乳杆菌（CGMCC1258）]]

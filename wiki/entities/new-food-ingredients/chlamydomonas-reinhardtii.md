@@ -46,6 +46,6 @@ summary: "莱茵衣藻（*Chlamydomonas reinhardtii*）属于衣藻科、衣藻�
 
 ## 相关条目
 
-- [[拟微球藻]]
-- [[蛋白核小球藻]]
+- [[nannochloropsis-gaditana|拟微球藻]]
+- [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]

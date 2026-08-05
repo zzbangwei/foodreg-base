@@ -54,7 +54,7 @@ summary: "嗜酸乳杆菌（*Lactobacillus acidophilus*），菌株号R0052，�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[lactobacillus-acidophilus-dsm13241|嗜酸乳杆菌（DSM13241）]]

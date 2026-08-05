@@ -1,3 +1,9 @@
+---
+title: additive list
+module: root
+status: 现行有效
+---
+
 # 食品添加剂表
 
 来源: https://gb2760.cfsa.net.cn/addtives.html

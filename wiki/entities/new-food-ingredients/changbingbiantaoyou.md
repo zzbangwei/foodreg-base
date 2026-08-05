@@ -40,7 +40,7 @@ summary: "长柄扁桃油，来源于蔷薇科桃属扁桃亚属长柄扁桃（*
 
 ## 相关条目
 
-- [[光皮梾木果油]]
-- [[美藤果油]]
+- [[guangpilaimuguoyou|光皮梾木果油]]
+- [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

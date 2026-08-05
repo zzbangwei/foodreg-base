@@ -74,7 +74,7 @@ summary: "玉米低聚肽粉（Corn oligopeptides powder）是以玉米蛋白粉
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]

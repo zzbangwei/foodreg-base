@@ -57,9 +57,9 @@ summary: "西兰花种子水提物（Aqueous Extract of Seed of Broccoli），�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[(3R,3'R)-二羟基-β-胡萝卜素]]
-- [[竹叶黄酮]]
+- [[zeaxanthin|(3R,3'R)-二羟基-β-胡萝卜素]]
+- [[zhuyehuangtong|竹叶黄酮]]
 - [[master-ingredient-list|新食品原料总清单]]

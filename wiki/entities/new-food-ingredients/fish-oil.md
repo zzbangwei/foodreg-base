@@ -59,7 +59,7 @@ summary: "鱼油及提取物（Fish Oil）是以可食用海洋鱼为原料制�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[dha-algal-oil|DHA藻油]]

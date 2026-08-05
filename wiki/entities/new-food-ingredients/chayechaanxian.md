@@ -59,9 +59,9 @@ summary: "茶叶茶氨酸（Theanine），是以茶叶为原料经提取、过�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[茶树花]]
-- [[线叶金雀花]]
+- [[chashuhua|茶树花]]
+- [[xianyiejinquehua|线叶金雀花]]
 - [[master-ingredient-list|新食品原料总清单]]

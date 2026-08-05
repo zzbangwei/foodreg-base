@@ -71,9 +71,9 @@ summary: "竹叶黄酮（Bamboo leaf flavone），以禾本科刚竹属毛环竹
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[阿拉伯半乳聚糖]]
-- [[燕麦β-葡聚糖]]
+- [[alabobanrujutang|阿拉伯半乳聚糖]]
+- [[yanmai-beta-pujutang|燕麦β-葡聚糖]]
 - [[master-ingredient-list|新食品原料总清单]]

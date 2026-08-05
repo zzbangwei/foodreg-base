@@ -60,9 +60,9 @@ summary: "塔格糖（Tagatose），以半乳糖为原料经异构化等工艺�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[1,6-二磷酸果糖三钠盐]]
-- [[壳寡糖]]
+- [[erlinsuan-guotang-sanna|1,6-二磷酸果糖三钠盐]]
+- [[kejuatang|壳寡糖]]
 - [[master-ingredient-list|新食品原料总清单]]

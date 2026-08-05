@@ -53,7 +53,7 @@ N-乙酰氨基葡萄糖是以葡萄糖、玉米浆干粉、硫酸铵、磷酸二
 
 ## 相关条目
 
-- [[L-α-甘磷酸胆碱]]
+- [[l-alpha-gpc|L-α-甘磷酸胆碱]]
 - [[master-ingredient-list|新食品原料总清单]]
 
 > 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/N-乙酰氨基葡萄糖|N-乙酰氨基葡萄糖（终止审查）]]

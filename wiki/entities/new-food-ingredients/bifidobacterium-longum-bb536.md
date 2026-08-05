@@ -48,5 +48,5 @@ summary: "长双歧杆菌长亚种BB536（*Bifidobacterium longum* subsp. *longu
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[长双歧杆菌婴儿亚种M-63]]
-- [[长双歧杆菌婴儿亚种LMG 11588]]
+- [[bifidobacterium-longum-infantis-m63|长双歧杆菌婴儿亚种M-63]]
+- [[bifidobacterium-longum-infantis-lmg11588|长双歧杆菌婴儿亚种LMG 11588]]

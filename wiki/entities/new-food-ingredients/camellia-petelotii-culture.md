@@ -51,4 +51,4 @@ summary: "金花茶培养物是以山茶科山茶属植物金花茶（*Camellia 
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[金花茶]]
+- [[camellia-chrysantha|金花茶]]
