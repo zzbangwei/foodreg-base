@@ -1,7 +1,7 @@
 # FoodReg Base 目录
 
 > 食规智库 Wiki 索引。来宝维护。
-> 最后更新：2026-07-27
+> 最后更新：2026-08-05 07:37
 
 ## 三层架构
 
@@ -15,37 +15,37 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 | 模块 | 数量 |
 |------|------|
-| 食品添加剂 | 359 |
-| 食品产品标准（GB/GB/T） | 283 |
-| 地方特色食品 | 189 |
+| 食品添加剂 | 358 |
+| 食品产品标准（GB/GB/T） | 285 |
+| 地方特色食品 | 187 |
 | 新食品原料 | 173 |
-| 食品接触材料 | 148 |
-| 药食同源 | 107 |
-| 终止审查 | 82 |
-| 营养强化剂 | 76 |
-| 可食用菌种 | 47 |
-| 食品过敏原 | 11 |
-| 征求意见 | 8 |
-| 申报受理 | 5 |
+| 食品接触材料 | 147 |
+| 药食同源 | 106 |
+| 终止审查 | 81 |
+| 营养强化剂 | 75 |
+| 可食用菌种 | 46 |
+| 食品过敏原 | 9 |
+| 征求意见 | 7 |
+| 申报受理 | 4 |
 | 概念页 | 3 |
-| 关联表 | 20 张 |
-| raw/ 原始资料 | 151 份 |
-| **实体页合计** | **1,488** |
+| 关联表 | 22 张 |
+| raw/ 原始资料 | 444 份 |
+| **实体页合计** | **1,478** |
 
 ## wiki/entities/ — 实体模块
 
-- [[wiki/entities/additives/master-list|食品添加剂总清单]] — 359 种
-- [[wiki/entities/food-product-standards/|食品产品标准]] — 283 页（GB 强制性 + GB/T 推荐性 + 生产经营规范，99% 有标准正文）
-- [[wiki/entities/local-specialty-food/master-list|地方特色食品]] — 189 页
+- [[wiki/entities/additives/master-list|食品添加剂总清单]] — 358 种
+- [[wiki/entities/food-product-standards/|食品产品标准]] — 285 页（GB 强制性 + GB/T 推荐性 + 生产经营规范，99% 有标准正文）
+- [[wiki/entities/local-specialty-food/master-list|地方特色食品]] — 187 页
 - [[wiki/entities/new-food-ingredients/master-ingredient-list|新食品原料总清单]] — 173 种
-- [[wiki/entities/contact-materials/master-list|食品接触材料]] — 148 页
-- [[wiki/entities/medicine-food-homology/master-list|药食同源]] — 107 页
-- [[wiki/entities/terminated-reviews/master-list|终止审查]] — 82 页（全部含 CFSA 审查意见原文）
-- [[wiki/entities/nutrition-fortifiers/master-list|营养强化剂]] — 76 页
-- [[wiki/entities/edible-strains/master-list|可食用菌种]] — 47 页
-- [[wiki/entities/food-allergens/master-list|食品过敏原]] — 11 页
-- [[wiki/entities/consultation-list/_index|征求意见]] — 8 页
-- [[wiki/entities/acceptance-list/_index|申报受理]] — 5 页
+- [[wiki/entities/contact-materials/master-list|食品接触材料]] — 147 页
+- [[wiki/entities/medicine-food-homology/master-list|药食同源]] — 106 页
+- [[wiki/entities/terminated-reviews/master-list|终止审查]] — 81 页（全部含 CFSA 审查意见原文）
+- [[wiki/entities/nutrition-fortifiers/master-list|营养强化剂]] — 75 页
+- [[wiki/entities/edible-strains/master-list|可食用菌种]] — 46 页
+- [[wiki/entities/food-allergens/master-list|食品过敏原]] — 9 页
+- [[wiki/entities/consultation-list/_index|征求意见]] — 7 页
+- [[wiki/entities/acceptance-list/_index|申报受理]] — 4 页
 
 ## wiki/tables/ — 关联表
 
@@ -77,15 +77,17 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 ## raw/ — 原始资料（只读）
 
-- raw/new-food-ingredients/ — 50 份 新食品原料公告原文
-- raw/standard-interpretations/ — 43 份 标准解读与问答
-- raw/common-food-ingredients/ — 11 份 普通食品复函
-- raw/medicine-food-homology/ — 8 份 药食同源公告
-- raw/regulatory-documents/ — 36 份 法规原文与提案答复
-- raw/edible-strains/ — 3 份 菌种公告
+- raw/interpretations-standards/ — 21 份 标准官方解读
+- raw/announcements-standards/ — 18 份 标准发布公告
+- raw/articles/ — 50 份 新食品原料公告原文
+- raw/docs/ — 2 份 中国食物成分表第6版 Excel（第一册+第二册）
+- raw/interpretations/ — 39 份 官方解读
+- raw/articles-common-food/ — 12 份 普通食品复函
+- raw/articles-medfood/ — 9 份 药食同源相关
 
 ## 最新更新
 
+- 2026-07-29 — 新增 GB/T 29602-2026《固体饮料质量要求》（2026.07.02发布，2027.08.01实施，全部代替GB/T 29602-2013）+ GB/T 29602-2013 旧版实体页
 - 2026-07-04 — 营养成分全库归拢：药食同源 110种（A43+B54+C13）、新食品原料 68种、普通食品 513种。中国食物成分表第6版入库。Knowledge层6项全部达标。
 - 2026-07-03 — 食品产品标准全库补完：812页实体页 frontmatter 全部补齐 standard/section/en_name/e_number/functions/summary。新建 E编号交叉映射表。
 - 2026-07-03 — 食品产品标准全库补完：285 PDF 入库 → pymupdf + vision OCR 提取正文 → 280/283 实体页覆盖（99%）。终止审查 81 个全部录入 CFSA 审查意见原文。

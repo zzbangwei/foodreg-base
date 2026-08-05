@@ -1,7 +1,21 @@
+# Binary & non-markdown files — not tracked
 *.pdf
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.txt
 *.html
 *.htm
-*.txt
-*.xlsx
-*.py
-.gitkeep
+
+# Directories
+raw/standards-pdf/
+raw/screenshots/
+raw/pdfs/

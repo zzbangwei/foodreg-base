@@ -1,36 +1,33 @@
 # FoodReg Base 操作日志
 
-## 2026-07-27 — raw/ 目录重组 + 仓库开源
+## 2026-07-29 — 杜仲雄花食用量补正
+
+- 用户指出杜仲雄花食用量应为 ≤6克/天，raw 文件和实体页均遗漏
+- 已修复 `duzhongxionghua.md`：frontmatter 加 `dosage: ≤6克/天`，正文加食用量列，禁忌人群加"和食用限量"
+- 已修复 `weish-2014-6-kejuatang.md`：杜仲雄花 section 补食用量行
+- 外部交叉验证：inewfood.com 等来源确认 2014年第6号公告含 ≤6克/天
+
+## 2026-07-29 — GB/T 29602-2026《固体饮料质量要求》入库
 
 ### 执行
 
-**raw/ 目录重组**
-- 8 个旧子目录重组为 6 个，按内容类型对齐 wiki/ 分类命名
-- `articles/` → `new-food-ingredients/`（50 份）
-- `articles-common-food/` → `common-food-ingredients/`（11 份）
-- `articles-medfood/` → `medicine-food-homology/`（8 份）
-- `interpretations/` + `pdfs/` → `standard-interpretations/`（43 份）
-- `regulations/` → `regulatory-documents/`（36 份，扁平化子目录）
-- `strains/` → `edible-strains/`（3 份）
-- 删除空目录 `docs/` `announcements-standards/` `interpretations-standards/` `standards-pdf/`
-- 所有文件名规范化：全英文小写 + 连字符
+- 新建实体页 `GB_T_29602-2026.md`（即将实施，2027.08.01生效）
+- 新建旧版实体页 `GB_T_29602-2013.md`（现行有效，将被2026版全部代替）
+- 数据源：全国标准信息公共服务平台 + foodmate 标准变化速览
+- 更新 index.md：食品产品标准 283→285，实体页合计 1,476→1,478
 
-**文档同步**
-- README.md、index.md、SCHEMA.md 目录树和数字全部同步更新
-- 实体页合计 1,476 → 1,488，raw/ 由 444 份重算为 151 份（纯 md）
+### 标准关键信息
 
-**开源**
-- 仓库公开至 GitHub: [github.com/zzbangwei/foodreg-base](https://github.com/zzbangwei/foodreg-base)
-- 协议: CC BY-SA 4.0
-
----
+- 发布: 2026-07-02，实施: 2027-08-01，过渡期约13个月
+- 全部代替 GB/T 29602-2013
+- 主要变化: 删除"其他类固体饮料"和"特殊用途固体饮料"分类，禁止皮革/毛发水解蛋白，标签新增警示信息≥20%版面+禁用"代餐""营养粉"字样，出厂检验删除菌落总数和大肠菌群
 
 ## 2026-07-04 — 营养成分数据全库归拢
 
 ### 执行
 
 **新食品原料质量规格（12→68）**
-- 扫描 wiki/entities/new-food-ingredients/ 172页 + raw/new-food-ingredients/ 50份公告
+- 扫描 wiki/entities/new-food-ingredients/ 172页 + raw/articles/ 50份公告
 - 提取蛋白质/脂肪/膳食纤维/多糖/EPA/DHA/水分/灰分质量规格（≥/≤ 限量）
 - 从 12 种扩展到 68 种，覆盖 40% 新食品原料
 
@@ -178,7 +175,6 @@ Knowledge 层 6 项检查中 ③ 显式关系 和 ④ 元数据过滤 已达标�
 
 **Phase 1: gov.cn 批量下载（来宝）**
 - 从 fzmq.gov.cn、jckspj.customs.gov.cn 等政府站点批量搜索+下载
-- 63 个 PDF 入库 raw/standards-pdf/
 
 **Phase 2: 用户手动下载（三言）**
 - 用户 Windows 端编写 CFSA 平台 + foodmate 爬虫脚本
@@ -220,3 +216,9 @@ Knowledge 层 6 项检查中 ③ 显式关系 和 ④ 元数据过滤 已达标�
 
 ---
 *来宝 · 食规智库*
+
+## 2026-08-05 07:37
+- 食品产品标准正文全覆盖：285/285（100%）
+- 来源：117 Qwen OCR + 168 PyPDF2
+- 52个系列标准已加互链
+- 全部加 source 标签
