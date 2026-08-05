@@ -325,3 +325,42 @@ status: 现行有效
 ---
 
 *本清单数据主要来自国家卫健委官方公告解读文件，2019-2026年各年度公告信息已基本补齐。2020年第6号（16种微纤化纤维素纸浆等）的完整品种名单仍需从公告附件PDF进一步提取。*
+
+
+## 完整实体链接索引
+共 33 个实体（未在主表格中列出）
+| 序号 | 实体名称 |
+|------|----------|
+| 1 | [[sorbic-acid-hydroquinone-epichlorohydrin-dimethylaminoethanol-polymer|(2E,4E)-2,4-己二烯酸与对苯二酚、氯甲基环氧乙烷的聚合物与二甲胺基乙醇的反应产物]] |
+| 2 | [[trimethylpropanamide-benzene-paper|1,3,5-三(2,2-二甲基丙酰胺)苯]] |
+| 3 | [[trimethylpropanamide-benzene-pp-2021|1,3,5-三(2,2-二甲基丙酰胺)苯]] |
+| 4 | [[trimethylpropanamide-benzene-pp|1,3,5-三(2,2-二甲基丙酰胺)苯]] |
+| 5 | [[trimellitic-anhydride-ethylene-glycol-polymer|1,3-二氢-1,3-二氧代-5-异苯并呋喃羧酸与1,2-乙二醇的聚合物]] |
+| 6 | [[isophthalic-azacyclotridecanone-terephthalic-polymer|1,3-苯二甲酸与氮杂环十三烷-2-酮、1,4-苯二甲酸的聚合物]] |
+| 7 | [[terephthalic-acid-multi-monomer-polymer-adhesive-coating-ink|1,4-苯二甲酸与多种单体的聚合物]] |
+| 8 | [[neopentyl-glycol-ethylene-glycol-isophthalic-sebacic-terephthalic-trimellitic-polymer-rubber|2,2-二甲基-1,3-丙二醇与乙二醇、1,3-苯二甲酸、癸二酸、1,4-苯二甲酸和偏苯三甲酸酐的聚合物]] |
+| 9 | [[neopentyl-glycol-ethylene-glycol-isophthalic-sebacic-terephthalic-trimellitic-polymer-pvc|2,2-二甲基-1,3-丙二醇与乙二醇、1,3-苯二甲酸、癸二酸、1,4-苯二甲酸和偏苯三甲酸酐的聚合物]] |
+| 10 | [[dimethyl-naphthalate-chdm-polymer-expanded|2,6-萘二甲酸2,6-二甲酯与1,4-环己烷二甲醇的聚合物]] |
+| 11 | [[ethylhexyl-acrylate-vinyl-acetate-copolymer|2-丙烯酸-2-乙基己基酯与乙酸乙烯酯的聚合物]] |
+| 12 | [[methacrylic-acid-ethyl-acrylate-acrylic-acid-copolymer-adhesive|2-甲基-2-丙烯酸与2-丙烯酸乙酯和2-丙烯酸的聚合物]] |
+| 13 | [[methacrylic-acid-ethyl-acrylate-acrylic-acid-copolymer-paper|2-甲基-2-丙烯酸与2-丙烯酸乙酯和2-丙烯酸的聚合物]] |
+| 14 | [[methyl-methacrylate-multi-monomer-polymer-adhesive-2022|2-甲基-2-丙烯酸甲酯与多种单体的聚合物]] |
+| 15 | [[methyl-methacrylate-multi-monomer-polymer-adhesive-coating-ink|2-甲基-2-丙烯酸甲酯与多种单体的聚合物]] |
+| 16 | [[dmpa-tdi-polymer-adhesive|3-羟基-2-(羟甲基)-2-甲基丙酸与1,3-二异氰酸根合甲苯的聚合物]] |
+| 17 | [[ci-solvent-violet-36-as|C.I.溶剂紫36]] |
+| 18 | [[ci-pigment-blue-15|C.I.颜料蓝15]] |
+| 19 | [[ci-pigment-black-28|C.I.颜料黑28（铜铬黑）]] |
+| 20 | [[ci-pigment-black-7|C.I.颜料黑7（炭黑）]] |
+| 21 | [[c11-15-isoalkanes-rubber|C11-15异烷烃]] |
+| 22 | [[tetramethyl-piperidinyl-isophthalamide-expanded-dose|N,N'-双(2,2,6,6-四甲基-4-哌啶基)-1,3-苯二甲酰胺]] |
+| 23 | [[octadecyl-di-tert-butyl-hydroxyphenyl-propionate-pb1|β-(3,5-二叔丁基-4-羟基苯基)丙酸十八醇酯]] |
+| 24 | [[mono-alkenyl-dihydro-furandione-derivative-pe-pp|单C15~C20烯基-二氢-2,5-呋喃二酮衍生物]] |
+| 25 | [[pentaerythritol-tetrakis-antioxidant-pu|四[3-(3,5-二叔丁基-4-羟基苯基)丙酸]季戊四醇酯]] |
+| 26 | [[pentaerythritol-tetrakis-antioxidant-pvdf-2025|四[3-(3,5-二叔丁基-4-羟基苯基)丙酸]季戊四醇酯]] |
+| 27 | [[adipic-acid-aminoethyl-propanediamine-polymer-paper|己二酸与N-(2-氨基乙基)-1,3-丙二胺的聚合物]] |
+| 28 | [[talc-pha|滑石粉]] |
+| 29 | [[talc-adhesive-ink-2023|滑石粉]] |
+| 30 | [[glass-fiber-ptfe|玻璃纤维]] |
+| 31 | [[glass-fiber-peek|玻璃纤维（玻璃棉）]] |
+| 32 | [[calcium-stearate-peek|硬脂酸钙]] |
+| 33 | [[polyethylene-pom|聚乙烯（扩大使用范围至POM塑料）]] |

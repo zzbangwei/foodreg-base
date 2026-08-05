@@ -168,3 +168,18 @@ status: 现行有效
 - 2003年第3号公告: 罗伊氏乳杆菌增补
 - 2024年第3号公告: 长双歧杆菌婴儿亚种M-63
 - 2025年第4号公告: 酿酒酵母CNCM I-3799、动物双歧杆菌乳亚种BLa80、长双歧杆菌婴儿亚种LMG 11588
+
+
+## 完整实体链接索引
+共 9 个实体（未在主表格中列出）
+| 序号 | 实体名称 |
+|------|----------|
+| 1 | [[乳酸乳球菌乳亚种|乳酸乳球菌乳亚种 (Lactococcus lactis subsp. lactis)]] |
+| 2 | [[乳酸片球菌|乳酸片球菌 (Pediococcus acidilactici)]] |
+| 3 | [[嗜酸乳杆菌-NCFM|嗜酸乳杆菌 NCFM (Lactobacillus acidophilus NCFM)]] |
+| 4 | [[弯曲广布乳杆菌|弯曲广布乳杆菌 (Latilactobacillus curvatus)]] |
+| 5 | [[戊糖片球菌|戊糖片球菌 (Pediococcus pentosaceus)]] |
+| 6 | [[清酒广布乳杆菌|清酒广布乳杆菌 (Latilactobacillus sakei)]] |
+| 7 | [[马乳酒样乳杆菌马乳酒样亚种|马乳酒样乳杆菌马乳酒样亚种 (Lactobacillus kefiranofaciens subsp. kefiranofaciens)]] |
+| 8 | [[马克斯克鲁维酵母|马克斯克鲁维酵母 (Kluyveromyces marxianus)]] |
+| 9 | [[鼠李糖乳酪杆菌|鼠李糖乳酪杆菌 (Lacticaseibacillus rhamnosus)]] |

@@ -144,3 +144,22 @@ status: 现行有效
 - **首次批准**：2023-05-06（2023年第3号）
 - **最新变更**：2025-04-25（2025年第3号）
 - **所有公告**：2023年第3号; 2025年第3号
+
+
+## 完整实体链接索引
+共 13 个实体（未在主表格中列出）
+| 序号 | 实体名称 |
+|------|----------|
+| 1 | [[cahmb|β-羟基-β-甲基丁酸钙 (CaHMB)]] |
+| 2 | [[lactobacillus-paracasei|副干酪乳杆菌]] |
+| 3 | [[pqq-disodium|吡咯并喹啉醌二钠盐 (PQQ)]] |
+| 4 | [[lactobacillus-acidophilus-r0052|嗜酸乳杆菌（R0052）]] |
+| 5 | [[nannochloropsis-gaditana|拟微球藻]] |
+| 6 | [[inula-nervosa|显脉旋覆花]] |
+| 7 | [[raffinose-oligosaccharide|棉籽低聚糖]] |
+| 8 | [[lactobacillus-plantarum-cgmcc1258|植物乳杆菌（CGMCC1258）]] |
+| 9 | [[lactobacillus-plantarum-st-iii|植物乳杆菌（ST-Ⅲ）]] |
+| 10 | [[hubeihaitangye|湖北海棠叶]] |
+| 11 | [[sodium-hyaluronate|透明质酸钠（食品原料）]] |
+| 12 | [[bifidobacterium-longum-bb536|长双歧杆菌长亚种BB536]] |
+| 13 | [[lactobacillus-rhamnosus-r0011|鼠李糖乳杆菌（R0011）]] |
