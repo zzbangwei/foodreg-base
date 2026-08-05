@@ -36,7 +36,7 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 ## wiki/entities/ — 实体模块
 
 - [[wiki/entities/additives/master-list|食品添加剂总清单]] — 359 种
-- [[wiki/entities/food-product-standards/|食品产品标准]] — 285 页（正文覆盖率 100%）
+- [[wiki/entities/food-product-standards/master-list|食品产品标准]] — 285 页（正文覆盖率 100%）
 - [[wiki/entities/local-specialty-food/master-list|地方特色食品]] — 189 页
 - [[wiki/entities/new-food-ingredients/master-ingredient-list|新食品原料总清单]] — 173 种
 - [[wiki/entities/contact-materials/master-list|食品接触材料]] — 148 页
@@ -76,8 +76,9 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 - [[wiki/concepts/protein-hydrolysate-rule|蛋白质酶解产物按普通食品管理规则]]
 - [[wiki/concepts/bone-collagen-naming|骨胶原蛋白粉命名规范]] — 配料表/产品名/企标三场景分析
 
-## raw/ — 原始资料（161 份，2026-08-05 审计修正）
+## raw/ — 原始资料（172 份，2026-08-05 复审修正）
 
+- raw/announcements-standards/ — 11 份 标准发布公告原文
 - raw/articles/ — 50 份 新食品原料公告原文
 - raw/articles-common-food/ — 12 份 普通食品复函
 - raw/articles-medfood/ — 10 份 药食同源相关
