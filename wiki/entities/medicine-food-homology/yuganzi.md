@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 余甘子
 chinese_name: 余甘子
 latin_name: Phyllanthus emblica
 batch: 卫法监发〔2002〕51号

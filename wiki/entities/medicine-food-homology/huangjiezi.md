@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 黄芥子
 chinese_name: 黄芥子
 latin_name: Brassica juncea
 batch: 卫法监发〔2002〕51号

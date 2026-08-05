@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 桑椹
 chinese_name: 桑椹
 latin_name: Morus alba
 batch: 卫法监发〔2002〕51号

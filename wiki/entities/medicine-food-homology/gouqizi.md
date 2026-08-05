@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 枸杞子
 chinese_name: 枸杞子
 latin_name: Lycium barbarum
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 紫苏
 chinese_name: 紫苏
 latin_name: Perilla frutescens
 batch: 卫法监发〔2002〕51号

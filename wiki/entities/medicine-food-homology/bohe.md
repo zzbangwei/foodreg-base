@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 薄荷
 chinese_name: 薄荷
 latin_name: Mentha haplocalyx
 batch: 卫法监发〔2002〕51号

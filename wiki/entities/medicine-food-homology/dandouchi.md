@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 淡豆豉
 chinese_name: 淡豆豉
 latin_name: Glycine max
 batch: 卫法监发〔2002〕51号

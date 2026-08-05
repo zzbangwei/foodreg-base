@@ -11,7 +11,7 @@ sources:
   - https://www.zmuni.com/zh-hans/news/2024-nian-du-fu-pan-gun-duo-wei-jie-du-zhong-guo-xin-shi
   - https://fsc.foodmate.net/show.php?itemid=720643
   - https://fsc.foodmate.net/show.php?itemid=706839
----
+module: consultation-list---
 
 # 新食品原料征求意见物质清单（汇总表）
 

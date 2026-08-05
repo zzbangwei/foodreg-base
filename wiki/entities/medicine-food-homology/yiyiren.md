@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 薏苡仁
 chinese_name: 薏苡仁
 latin_name: Coix lacryma-jobi
 batch: 卫法监发〔2002〕51号

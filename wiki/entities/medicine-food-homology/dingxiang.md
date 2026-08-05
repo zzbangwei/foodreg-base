@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 丁香
 chinese_name: 丁香
 latin_name: Syzygium aromaticum
 batch: 卫法监发〔2002〕51号

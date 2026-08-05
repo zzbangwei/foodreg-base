@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 高良姜
 chinese_name: 高良姜
 latin_name: Alpinia officinarum
 batch: 卫法监发〔2002〕51号

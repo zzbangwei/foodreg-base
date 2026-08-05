@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 龙眼肉
 chinese_name: 龙眼肉
 latin_name: Dimocarpus longan
 batch: 卫法监发〔2002〕51号

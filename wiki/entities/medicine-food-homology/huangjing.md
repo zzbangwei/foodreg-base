@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 黄精
 chinese_name: 黄精
 latin_name: Polygonatum sibiricum
 batch: 卫法监发〔2002〕51号

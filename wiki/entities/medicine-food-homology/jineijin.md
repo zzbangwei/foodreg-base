@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 鸡内金
 chinese_name: 鸡内金
 latin_name: Gallus gallus domesticus
 batch: 卫法监发〔2002〕51号

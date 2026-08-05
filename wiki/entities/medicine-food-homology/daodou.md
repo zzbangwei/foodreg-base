@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 刀豆
 chinese_name: 刀豆
 latin_name: Canavalia gladiata
 batch: 卫法监发〔2002〕51号

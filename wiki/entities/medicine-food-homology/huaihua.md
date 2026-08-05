@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 槐花
 chinese_name: 槐花
 latin_name: Sophora japonica
 batch: 卫法监发〔2002〕51号

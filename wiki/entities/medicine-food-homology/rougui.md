@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 肉桂
 chinese_name: 肉桂
 latin_name: Cinnamomum cassia
 batch: 卫法监发〔2002〕51号

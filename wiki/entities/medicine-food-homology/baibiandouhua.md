@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 白扁豆花
 chinese_name: 白扁豆花
 latin_name: Lablab purpureus
 batch: 卫法监发〔2002〕51号

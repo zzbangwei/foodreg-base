@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 白芷
 chinese_name: 白芷
 latin_name: Angelica dahurica
 batch: 卫法监发〔2002〕51号

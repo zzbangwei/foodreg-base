@@ -132,7 +132,7 @@ sources: [raw/articles/weish-2010-15-zhetangjuzhi-3-zhong.md]
 
 | 层级 | 位置 | 作用 | 响应 |
 |------|------|------|------|
-| L0 | `_index.json` | 全库字段秒查（已废弃） | — |
+| L0 | — | 全库字段秒查（已废弃，由 L2 master-list wikilink 替代） | — |
 | L1 | `index.md` | 模块入口 + 统计 | 1 次 read_file |
 | L2 | 各模块 master-list.md | 模块内清单 | 1 次 read_file |
 | L3 | 实体页正文 | 详情/公告原文/批准历程 | 1-2 次 read_file |
@@ -141,9 +141,9 @@ sources: [raw/articles/weish-2010-15-zhetangjuzhi-3-zhong.md]
 
 | 问题类型 | 路径 |
 |---------|------|
-| "XX 能不能用作食品原料" | L0 → 搜 title/keywords → 读实体页 → 多源合规排查 |
-| "XX 的食用量上限" | L0 → 搜 dosage → 读实体页 |
-| "XX 标准的最新版本" | L0 → module=食品产品标准 → 读 standard_id |
+| "XX 能不能用作食品原料" | L2 master-list → 搜 title/keywords → 读实体页 → 多源合规排查 |
+| "XX 的食用量上限" | L2 master-list → 搜 dosage → 读实体页 |
+| "XX 标准的最新版本" | L2 master-list → module=食品产品标准 → 读 standard_id |
 | "乳制品相关所有标准" | L2 → 食品产品标准 master-list → 筛选 |
 | "XX 添加剂能用在哪类食品" | tables/additive-category-cross.md |
 | "XX 和 YY 有什么区别" | comparisons/ 目录 → 无则当场生成并归档 |
@@ -346,20 +346,18 @@ sources: []
 6. 更新 index.md 和 log.md
 
 ### Query（查询）
-1. L0 `_index.json` 秒查（已废弃）
-2. L1 `index.md` 定位模块
-3. L2 `master-list.md` 定位实体页
-4. L3 读实体页提取详情
-5. 综合回答
-6. 高价值问答归档 → `comparisons/` 或更新实体页
+1. L1 `index.md` 定位模块
+2. L2 `master-list.md` 定位实体页（含 wikilink 直达）
+3. L3 读实体页提取详情
+4. 综合回答
+5. 高价值问答归档 → `comparisons/` 或更新实体页
 
 ### Periodic Ingest（全系整理）
 1. 更新 index.md 统计数据
 2. 更新 log.md 终态表
 3. 修复断裂 wikilink（三类：.md 后缀 / 尾反斜杠 / ../ 相对路径）
 4. 运行 Lint 巡检 → 修正
-5. 重建 `/_index.json`（已废弃，跳过）
-6. 打包交付（仅用户要求时）
+5. 打包交付（仅用户要求时）
 
 ---
 

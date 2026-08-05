@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 覆盆子
 chinese_name: 覆盆子
 latin_name: Rubus chingii
 batch: 卫法监发〔2002〕51号

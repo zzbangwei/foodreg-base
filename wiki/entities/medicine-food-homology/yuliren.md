@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 郁李仁
 chinese_name: 郁李仁
 latin_name: Prunus japonica
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 甘草
 chinese_name: 甘草
 latin_name: Glycyrrhiza uralensis
 batch: 卫法监发〔2002〕51号

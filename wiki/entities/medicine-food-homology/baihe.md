@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 百合
 chinese_name: 百合
 latin_name: Lilium brownii
 batch: 卫法监发〔2002〕51号

@@ -5,7 +5,7 @@ updated: 2026-06-22
 type: concept
 tags: [新食品原料, 法规, 中国]
 sources: [raw/articles/weish-2008-12-7-new-resource-foods.md, raw/docs/new-resource-food-master-index.md]
----
+module: concepts---
 
 # 新资源食品（新食品原料）
 

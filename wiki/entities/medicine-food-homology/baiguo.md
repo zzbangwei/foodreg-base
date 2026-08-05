@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 白果
 chinese_name: 白果
 latin_name: Ginkgo biloba
 batch: 卫法监发〔2002〕51号

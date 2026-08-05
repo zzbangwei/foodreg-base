@@ -11,7 +11,7 @@ sources:
   - https://www.zmuni.com/zh-hans/news/2025niandupandianwoguoxinshipinyuanliaoshenpide531523y
   - https://fsc.foodmate.net/show.php?itemid=706839
   - https://yanfa.foodmate.net/news/show-2090.html
----
+module: acceptance-list---
 
 # 新食品原料申报受理清单（汇总表）
 

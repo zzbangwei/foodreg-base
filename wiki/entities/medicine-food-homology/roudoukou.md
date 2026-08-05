@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 肉豆蔻
 chinese_name: 肉豆蔻
 latin_name: Myristica fragrans
 batch: 卫法监发〔2002〕51号

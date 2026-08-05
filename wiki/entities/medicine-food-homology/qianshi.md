@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 芡实
 chinese_name: 芡实
 latin_name: Euryale ferox
 batch: 卫法监发〔2002〕51号

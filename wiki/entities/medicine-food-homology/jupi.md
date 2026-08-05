@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 橘皮
 chinese_name: 橘皮
 latin_name: Citrus reticulata
 batch: 卫法监发〔2002〕51号

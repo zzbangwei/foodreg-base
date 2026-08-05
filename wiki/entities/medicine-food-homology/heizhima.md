@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 黑芝麻
 chinese_name: 黑芝麻
 latin_name: Sesamum indicum
 batch: 卫法监发〔2002〕51号

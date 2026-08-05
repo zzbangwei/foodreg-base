@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 山药
 chinese_name: 山药
 latin_name: Dioscorea opposita
 batch: 卫法监发〔2002〕51号

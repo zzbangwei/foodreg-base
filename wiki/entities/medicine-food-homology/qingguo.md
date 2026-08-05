@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 青果
 chinese_name: 青果
 latin_name: Canarium album
 batch: 卫法监发〔2002〕51号

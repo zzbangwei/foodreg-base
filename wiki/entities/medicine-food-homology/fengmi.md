@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 蜂蜜
 chinese_name: 蜂蜜
 latin_name: Apis mellifera
 batch: 卫法监发〔2002〕51号

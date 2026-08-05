@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 鲜芦根
 chinese_name: 鲜芦根
 latin_name: Phragmites australis
 batch: 卫法监发〔2002〕51号

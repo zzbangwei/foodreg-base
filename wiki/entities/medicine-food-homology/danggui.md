@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 当归
 chinese_name: 当归
 latin_name: Angelica sinensis
 batch: 2019年第8号

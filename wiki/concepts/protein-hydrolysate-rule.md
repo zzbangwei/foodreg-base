@@ -5,7 +5,7 @@ updated: 2026-06-24
 type: concept
 tags: [蛋白质酶解, 肽, 普通食品, 新食品原料, 法规]
 sources: [raw/articles-common-food/05-沙棘叶天贝普通食品公告.md]
----
+module: concepts---
 
 # 蛋白质酶解产物按普通食品管理规则
 

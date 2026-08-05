@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 榧子
 chinese_name: 榧子
 latin_name: Torreya grandis
 batch: 卫法监发〔2002〕51号

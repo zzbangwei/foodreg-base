@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 山楂
 chinese_name: 山楂
 latin_name: Crataegus pinnatifida
 batch: 卫法监发〔2002〕51号

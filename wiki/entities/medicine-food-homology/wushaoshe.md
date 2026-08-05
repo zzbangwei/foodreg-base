@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 乌梢蛇
 chinese_name: 乌梢蛇
 latin_name: Zaocys dhumnades
 batch: 卫法监发〔2002〕51号

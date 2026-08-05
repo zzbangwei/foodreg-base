@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 西红花
 chinese_name: 西红花
 latin_name: Crocus sativus
 batch: 2019年第8号

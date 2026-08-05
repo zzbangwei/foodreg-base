@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 菊花
 chinese_name: 菊花
 latin_name: Chrysanthemum morifolium
 batch: 卫法监发〔2002〕51号

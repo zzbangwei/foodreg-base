@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 淡竹叶
 chinese_name: 淡竹叶
 latin_name: Lophatherum gracile
 batch: 卫法监发〔2002〕51号

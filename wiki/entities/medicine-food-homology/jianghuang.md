@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 姜黄
 chinese_name: 姜黄
 latin_name: Curcuma longa
 batch: 2019年第8号

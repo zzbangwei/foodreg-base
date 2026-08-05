@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 桔红
 chinese_name: 桔红
 latin_name: Citrus reticulata
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 黑胡椒
 chinese_name: 黑胡椒
 latin_name: Piper nigrum
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 胖大海
 chinese_name: 胖大海
 latin_name: Sterculia lychnophora
 batch: 卫法监发〔2002〕51号

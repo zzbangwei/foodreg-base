@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 鱼腥草
 chinese_name: 鱼腥草
 latin_name: Houttuynia cordata
 batch: 卫法监发〔2002〕51号

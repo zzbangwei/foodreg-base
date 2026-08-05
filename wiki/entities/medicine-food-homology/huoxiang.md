@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 藿香
 chinese_name: 藿香
 latin_name: Pogostemon cablin
 batch: 卫法监发〔2002〕51号

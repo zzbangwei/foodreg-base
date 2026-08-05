@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 荷叶
 chinese_name: 荷叶
 latin_name: Nelumbo nucifera
 batch: 卫法监发〔2002〕51号

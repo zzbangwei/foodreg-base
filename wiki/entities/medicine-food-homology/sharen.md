@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 砂仁
 chinese_name: 砂仁
 latin_name: Amomum villosum
 batch: 卫法监发〔2002〕51号

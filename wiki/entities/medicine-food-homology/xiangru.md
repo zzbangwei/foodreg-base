@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 香薷
 chinese_name: 香薷
 latin_name: Mosla chinensis
 batch: 卫法监发〔2002〕51号

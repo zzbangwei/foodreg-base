@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 荜茇
 chinese_name: 荜茇
 latin_name: Piper longum
 batch: 2019年第8号

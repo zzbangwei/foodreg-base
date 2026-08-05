@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 花椒
 chinese_name: 花椒
 latin_name: Zanthoxylum bungeanum
 batch: 卫法监发〔2002〕51号

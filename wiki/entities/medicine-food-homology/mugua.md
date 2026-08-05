@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 木瓜
 chinese_name: 木瓜
 latin_name: Chaenomeles speciosa
 batch: 卫法监发〔2002〕51号

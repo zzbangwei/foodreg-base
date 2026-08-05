@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 麦芽
 chinese_name: 麦芽
 latin_name: Hordeum vulgare
 batch: 卫法监发〔2002〕51号

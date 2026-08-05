@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 小蓟
 chinese_name: 小蓟
 latin_name: Cirsium setosum
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 佛手
 chinese_name: 佛手
 latin_name: Citrus medica
 batch: 卫法监发〔2002〕51号

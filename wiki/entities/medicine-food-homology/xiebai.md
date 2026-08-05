@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 薤白
 chinese_name: 薤白
 latin_name: Allium macrostemon
 batch: 卫法监发〔2002〕51号

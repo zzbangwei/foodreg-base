@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 小茴香
 chinese_name: 小茴香
 latin_name: Foeniculum vulgare
 batch: 卫法监发〔2002〕51号

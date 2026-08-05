@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 益智仁
 chinese_name: 益智仁
 latin_name: Alpinia oxyphylla
 batch: 卫法监发〔2002〕51号

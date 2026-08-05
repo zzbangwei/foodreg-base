@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 罗汉果
 chinese_name: 罗汉果
 latin_name: Siraitia grosvenorii
 batch: 卫法监发〔2002〕51号

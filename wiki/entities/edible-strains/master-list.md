@@ -20,8 +20,7 @@ status: 现行有效
 | 序号 | 中文名 | 拉丁名 | 公告/更新日期 | 已有实体 | 备注 |
 |------|--------|--------|-------------|----------|------|
 | 1 | 动物双歧杆菌动物亚种 | *Bifidobacterium animalis* subsp. *animalis* | 2023-07-14 | [实体页](动物双歧杆菌动物亚种.md) | 2022年新增亚种 |
-| 2 | 马乳酒样乳杆菌马乳酒样亚种 | *Lactobacillus kefiranofaciens* subsp. *kefiranofaciens* | 2021-01-08 | [实体页](马乳酒样乳杆菌马乳酒样亚种.md) | 旧名: 马乳酒样乳杆菌 |
-| 3 | 弯曲广布乳杆菌 | *Latilactobacillus curvatus* | 2019-05-31 | [实体页](弯曲广布乳杆菌.md) | 旧名: 弯曲乳杆菌; 2022年更名 |
+| 2 | [[lactobacillus-kefiranofaciens|马乳酒样乳杆菌马乳酒样亚种]] | *Lactobacillus kefiranofaciens* subsp. *kefiranofaciens* | 2021-01-08 | [实体页](马乳酒样乳杆菌马乳酒样亚种.md) | 旧名: 马乳酒样乳杆菌 || 3 | 弯曲广布乳杆菌 | *Latilactobacillus curvatus* | 2019-05-31 | [实体页](弯曲广布乳杆菌.md) | 旧名: 弯曲乳杆菌; 2022年更名 |
 | 4 | 青春双歧杆菌 | *Bifidobacterium adolescentis* | 2017-12-08 | [实体页](青春双歧杆菌.md) | |
 | 5 | 动物双歧杆菌乳亚种 | *Bifidobacterium animalis* subsp. *lactis* | 2017-12-08 | [实体页](动物双歧杆菌乳亚种.md) | 旧名: 乳双歧杆菌; 2022年更名 |
 | 6 | 两歧双歧杆菌 | *Bifidobacterium bifidum* | 2017-12-08 | [实体页](两歧双歧杆菌.md) | |
@@ -39,8 +38,7 @@ status: 现行有效
 | 18 | 约氏乳杆菌 | *Lactobacillus johnsonii* | 2017-12-08 | [实体页](约氏乳杆菌.md) | |
 | 19 | 副干酪乳酪杆菌 | *Lacticaseibacillus paracasei* | 2017-12-08 | [实体页](副干酪乳酪杆菌.md) | 旧名: 副干酪乳杆菌; 2022年更名 |
 | 20 | 植物乳植杆菌 | *Lactiplantibacillus plantarum* | 2017-12-08 | [实体页](植物乳植杆菌.md) | 旧名: 植物乳杆菌; 2022年更名 |
-| 21 | 罗伊氏粘液乳杆菌 | *Limosilactobacillus reuteri* | 2017-12-08 | [实体页](罗伊氏粘液乳杆菌.md) | 旧名: 罗伊氏乳杆菌; 2022年更名 |
-| 22 | 鼠李糖乳酪杆菌 | *Lacticaseibacillus rhamnosus* | 2017-12-08 | [实体页](鼠李糖乳酪杆菌.md) | 旧名: 鼠李糖乳杆菌; 2022年更名 |
+| 21 | [[limosilactobacillus-reuteri|罗伊氏粘液乳杆菌]] | *Limosilactobacillus reuteri* | 2017-12-08 | [实体页](罗伊氏粘液乳杆菌.md) | 旧名: 罗伊氏乳杆菌; 2022年更名 || 22 | 鼠李糖乳酪杆菌 | *Lacticaseibacillus rhamnosus* | 2017-12-08 | [实体页](鼠李糖乳酪杆菌.md) | 旧名: 鼠李糖乳杆菌; 2022年更名 |
 | 23 | 唾液联合乳杆菌 | *Ligilactobacillus salivarius* | 2017-12-08 | [实体页](唾液联合乳杆菌.md) | 旧名: 唾液乳杆菌; 2022年更名 |
 | 24 | 唾液链球菌嗜热亚种 | *Streptococcus salivarius* subsp. *thermophilus* | 2017-12-08 | [实体页](唾液链球菌嗜热亚种.md) | 旧名: 嗜热链球菌; 2022年更名 |
 | 25 | 乳酸乳球菌乳亚种 | *Lactococcus lactis* subsp. *lactis* | 2017-12-08 | [实体页](乳酸乳球菌乳亚种.md) | 旧名: 乳酸乳球菌乳酸亚种 |
@@ -48,10 +46,7 @@ status: 现行有效
 | 27 | 乳酸乳球菌乳亚种（双乙酰型） | *Lactococcus lactis* subsp. *lactis* biovar *diacetylactis* | 2017-12-08 | [实体页](乳酸乳球菌乳亚种（双乙酰型）.md) | 旧名: 乳酸乳球菌双乙酰亚种 |
 | 28 | 费氏丙酸杆菌谢氏亚种 | *Propionibacterium freudenreichii* subsp. *shermanii* | 2017-12-08 | [实体页](费氏丙酸杆菌谢氏亚种.md) | |
 | 29 | 肠膜明串珠菌肠膜亚种 | *Leuconostoc mesenteroides* subsp. *mesenteroides* | 2017-12-08 | [实体页](肠膜明串珠菌肠膜亚种.md) | |
-| 30 | 马克斯克鲁维酵母 | *Kluyveromyces marxianus* | 2017-12-08 | [实体页](马克斯克鲁维酵母.md) | |
-| 31 | 乳酸片球菌 | *Pediococcus acidilactici* | 2017-12-08 | [实体页](乳酸片球菌.md) | |
-| 32 | 戊糖片球菌 | *Pediococcus pentosaceus* | 2017-12-08 | [实体页](戊糖片球菌.md) | |
-| 33 | 清酒广布乳杆菌 | *Latilactobacillus sakei* | 2017-12-08 | [实体页](清酒广布乳杆菌.md) | 旧名: 清酒乳杆菌; 2022年更名 |
+| 30 | [[makesikeluweijiaomu|马克斯克鲁维酵母]] | *Kluyveromyces marxianus* | 2017-12-08 | [实体页](马克斯克鲁维酵母.md) | || 31 | [[rusuanpianqiujun|乳酸片球菌]] | *Pediococcus acidilactici* | 2017-12-08 | [实体页](乳酸片球菌.md) | || 32 | [[wutangpianqiujun|戊糖片球菌]] | *Pediococcus pentosaceus* | 2017-12-08 | [实体页](戊糖片球菌.md) | || 33 | 清酒广布乳杆菌 | *Latilactobacillus sakei* | 2017-12-08 | [实体页](清酒广布乳杆菌.md) | 旧名: 清酒乳杆菌; 2022年更名 |
 | 34 | 产丙酸丙酸菌 | *Acidipropionibacterium acidipropionici* | 2017-12-08 | [实体页](产丙酸丙酸菌.md) | 旧名: 产丙酸丙酸杆菌; 2022年更名 |
 | 35 | 凝结魏茨曼氏菌 | *Weizmannia coagulans* | 2017-12-08 | [实体页](凝结魏茨曼氏菌.md) | 旧名: 凝结芽孢杆菌; 2022年更名 |
 | 36 | 肉葡萄球菌 | *Staphylococcus carnosus* | 2017-12-08 | [实体页](肉葡萄球菌.md) | |
@@ -119,8 +114,7 @@ status: 现行有效
 | 4 | 卡氏酵母 | *Saccharomyces carlsbergensis* | 2001 | [实体页](卡氏酵母.md) | |
 | 5 | 蝙蝠蛾拟青霉 | *Paecilomyces hepiali* Chen et Dai, sp. Nov | 2001 | [实体页](蝙蝠蛾拟青霉.md) | |
 | 6 | 蝙蝠蛾被毛孢 | *Hirsutella hepiali* Chen et Shen | 2001 | [实体页](蝙蝠蛾被毛孢.md) | |
-| 7 | 灵芝 | *Ganoderma lucidum* | 2001 | [实体页](灵芝.md) | |
-| 8 | 紫芝 | *Ganoderma sinensis* | 2001 | [实体页](紫芝.md) | |
+| 7 | [[灵芝|灵芝]] | *Ganoderma lucidum* | 2001 | [实体页](灵芝.md) | || 8 | 紫芝 | *Ganoderma sinensis* | 2001 | [实体页](紫芝.md) | |
 | 9 | 松杉灵芝 | *Ganoderma tsugae* | 2001 | [实体页](松杉灵芝.md) | |
 | 10 | 红曲霉 | *Monacus anka* | 2001 | [实体页](红曲霉.md) | |
 | 11 | 紫红曲霉 | *Monacus purpureus* | 2001 | [实体页](紫红曲霉.md) | |

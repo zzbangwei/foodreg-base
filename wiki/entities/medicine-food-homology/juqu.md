@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 菊苣
 chinese_name: 菊苣
 latin_name: Cichorium intybus
 batch: 卫法监发〔2002〕51号

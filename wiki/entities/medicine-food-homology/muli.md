@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 牡蛎
 chinese_name: 牡蛎
 latin_name: Ostrea gigas
 batch: 卫法监发〔2002〕51号

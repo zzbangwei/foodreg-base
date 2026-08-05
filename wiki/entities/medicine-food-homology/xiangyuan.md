@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 香橼
 chinese_name: 香橼
 latin_name: Citrus medica
 batch: 卫法监发〔2002〕51号

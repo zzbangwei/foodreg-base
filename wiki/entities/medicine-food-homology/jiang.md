@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 姜
 chinese_name: 姜
 latin_name: Zingiber officinale
 batch: 卫法监发〔2002〕51号

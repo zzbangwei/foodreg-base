@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 桃仁
 chinese_name: 桃仁
 latin_name: Prunus persica
 batch: 卫法监发〔2002〕51号

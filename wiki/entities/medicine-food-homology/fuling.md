@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 茯苓
 chinese_name: 茯苓
 latin_name: Poria cocos
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 蝮蛇
 chinese_name: 蝮蛇
 latin_name: Agkistrodon halys
 batch: 卫法监发〔2002〕51号

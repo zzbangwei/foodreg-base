@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 代代花
 chinese_name: 代代花
 latin_name: Citrus aurantium
 batch: 卫法监发〔2002〕51号

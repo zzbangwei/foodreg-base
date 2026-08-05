@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 阿胶
 chinese_name: 阿胶
 latin_name: Equus asinus
 batch: 卫法监发〔2002〕51号

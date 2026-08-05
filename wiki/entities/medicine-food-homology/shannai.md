@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 山柰
 chinese_name: 山柰
 latin_name: Kaempferia galanga
 batch: 2019年第8号

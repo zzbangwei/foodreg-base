@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 八角茴香
 chinese_name: 八角茴香
 latin_name: Illicium verum
 batch: 卫法监发〔2002〕51号

@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 沙棘
 chinese_name: 沙棘
 latin_name: Hippophae rhamnoides
 batch: 卫法监发〔2002〕51号

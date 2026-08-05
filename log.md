@@ -236,3 +236,10 @@ Knowledge 层 6 项检查中 ③ 显式关系 和 ④ 元数据过滤 已达标�
 - Kimi审计发现：三大文档数字不一致、388条问题链接(14.4%)、1336个孤立实体页(90%)、26个无frontmatter页面
 - P0数字对齐已于cf759ad提交修复
 - P2/P3：来宝正在处理 master-list wikilink、frontmatter补全、GB命名统一
+
+## [2026-08-05] fix | P2/P3 审计修复
+- **master-list wikilink**：8个模块的 master-list 表格实体名已全部改为 `[[文件名|显示名]]` wikilink，新增 738 条双向链接，打通 L2→L3 查询路径
+- **frontmatter 补全**：93个药食同源实体页补全 `title`/`type` 字段，concepts/2页、comparisons/1页、_index/2页补全 `module` 字段
+- **GB 命名统一**：119个 `GB-T_`/`GB_T_` 文件重命名为 SCHEMA 约定的 `GB_xxxx` 格式，同步更新 357 处内部引用（1个冲突文件 GB-T_25190-2010 因编号冲突保留原名）
+- **_index.json**：确认已废弃不重建，从 SCHEMA.md 查询路径和工作流中移除所有 L0 引用，统一指向 L2 master-list
+- 修复范围：仅 `wiki/` 目录，`raw/` 未修改

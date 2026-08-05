@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 枳椇子
 chinese_name: 枳椇子
 latin_name: Hovenia dulcis
 batch: 卫法监发〔2002〕51号

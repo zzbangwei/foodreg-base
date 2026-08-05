@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 鲜白茅根
 chinese_name: 鲜白茅根
 latin_name: Imperata cylindrica
 batch: 卫法监发〔2002〕51号

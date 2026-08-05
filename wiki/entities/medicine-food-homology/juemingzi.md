@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 决明子
 chinese_name: 决明子
 latin_name: Cassia obtusifolia
 batch: 卫法监发〔2002〕51号

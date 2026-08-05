@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 蒲公英
 chinese_name: 蒲公英
 latin_name: Taraxacum mongolicum
 batch: 卫法监发〔2002〕51号

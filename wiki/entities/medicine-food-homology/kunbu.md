@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 昆布
 chinese_name: 昆布
 latin_name: Laminaria japonica
 batch: 卫法监发〔2002〕51号

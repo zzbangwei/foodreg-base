@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 草果
 chinese_name: 草果
 latin_name: Amomum tsao-ko
 batch: 2019年第8号

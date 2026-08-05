@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 桔梗
 chinese_name: 桔梗
 latin_name: Platycodon grandiflorus
 batch: 卫法监发〔2002〕51号

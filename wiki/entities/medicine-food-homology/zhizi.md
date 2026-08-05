@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 栀子
 chinese_name: 栀子
 latin_name: Gardenia jasminoides
 batch: 卫法监发〔2002〕51号

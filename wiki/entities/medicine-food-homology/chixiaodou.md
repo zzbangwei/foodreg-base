@@ -1,5 +1,7 @@
 ---
+
 entity_type: medicine-food-homology
+title: 赤小豆
 chinese_name: 赤小豆
 latin_name: Vigna umbellata
 batch: 卫法监发〔2002〕51号
