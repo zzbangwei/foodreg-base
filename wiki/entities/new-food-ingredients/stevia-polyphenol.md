@@ -55,6 +55,6 @@ summary: "甜叶菊多酚是以菊科甜菊属植物甜叶菊（*Stevia rebaudia
 
 ## 相关条目
 
-- [[甘蔗多酚]]
-- [[樱花多酚]]
+- [[sugarcane-polyphenol|甘蔗多酚]]
+- [[cherry-blossom-polyphenol|樱花多酚]]
 - [[master-ingredient-list|新食品原料总清单]]

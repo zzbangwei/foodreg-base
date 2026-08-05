@@ -55,7 +55,7 @@ summary: "线叶金雀花（*Aspalathus Linearis*），又称南非博士茶（R
 
 ## 相关条目
 
-- [[柳叶蜡梅]]
-- [[湖北海棠叶]]
-- [[茶叶茶氨酸]]
+- [[liuyelamei|柳叶蜡梅]]
+- [[hubeihaitangye|湖北海棠叶]]
+- [[chayechaanxian|茶叶茶氨酸]]
 - [[master-ingredient-list|新食品原料总清单]]

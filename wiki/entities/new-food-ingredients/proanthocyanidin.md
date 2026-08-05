@@ -53,6 +53,6 @@ summary: "前花青素是以松科松属植物海岸松（*Pinus pinaster* Aiton
 
 ## 相关条目
 
-- [[儿茶素]]
-- [[二氢槲皮素]]
+- [[catechin|儿茶素]]
+- [[dihydroquercetin|二氢槲皮素]]
 - [[master-ingredient-list|新食品原料总清单]]

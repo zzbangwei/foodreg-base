@@ -77,10 +77,10 @@ summary: "透明质酸钠（Sodium Hyaluronate）是一种高分子粘多糖，�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[低聚木糖]]
+- [[xylo-oligosaccharide|低聚木糖]]
 - [[吡咯并喹啉醌二钠盐]]
 - [[wiki/concepts/new-resource-food]]
 - [[master-ingredient-list|新食品原料总清单]]

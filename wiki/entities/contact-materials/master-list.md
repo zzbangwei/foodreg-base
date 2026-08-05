@@ -1,3 +1,9 @@
+---
+title: master list
+module: contact-materials
+status: 现行有效
+---
+
 # 食品相关产品新品种总清单 (2019-2026)
 
 > 数据来源：国家卫生健康委员会 2019-2026 年三新食品公告及解读文件

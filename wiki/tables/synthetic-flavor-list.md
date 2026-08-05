@@ -1,3 +1,9 @@
+---
+title: synthetic flavor list
+module: root
+status: 现行有效
+---
+
 # 食品用合成香料表 (B.3)
 
 来源: https://gb2760.cfsa.net.cn/spices/type/b3.html

@@ -46,5 +46,5 @@ summary: "弯曲乳杆菌（*Lactobacillus curvatus*）于2019年被批准列入
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[肠膜明串珠菌乳脂亚种]]
-- [[假肠膜明串珠菌]]
+- [[leuconostoc-mesenteroides-cremoris|肠膜明串珠菌乳脂亚种]]
+- [[leuconostoc-pseudomesenteroides|假肠膜明串珠菌]]

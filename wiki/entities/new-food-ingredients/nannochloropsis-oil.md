@@ -50,6 +50,6 @@ summary: "拟微球藻油是以拟微球藻（*Nannochloropsis gaditana*）为�
 
 ## 相关条目
 
-- [[拟微球藻]]
-- [[DHA藻油]]
+- [[nannochloropsis-gaditana|拟微球藻]]
+- [[dha-algal-oil|DHA藻油]]
 - [[master-ingredient-list|新食品原料总清单]]

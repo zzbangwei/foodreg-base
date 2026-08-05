@@ -39,8 +39,8 @@ summary: "乳酸片球菌（*Pediococcus acidilactici*），我国于2014年批�
 
 ## 相关条目
 
-- [[戊糖片球菌]]
-- [[清酒乳杆菌]]
-- [[产丙酸丙酸杆菌]]
-- [[马克斯克鲁维酵母]]
+- [[wutangpianqiujun|戊糖片球菌]]
+- [[qingjiuruganjun|清酒乳杆菌]]
+- [[chanbingsuanbingsuanganjun|产丙酸丙酸杆菌]]
+- [[makesikeluweijiaomu|马克斯克鲁维酵母]]
 - [[master-ingredient-list|新食品原料总清单]]

@@ -1,3 +1,9 @@
+---
+title: master ingredient list
+module: new-food-ingredients
+status: 现行有效
+---
+
 # 中国新食品原料（新资源食品）唯一清单
 
 **数据来源**：扫描 49 个公告文件（2008-2026）

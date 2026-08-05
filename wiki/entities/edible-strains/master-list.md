@@ -1,3 +1,9 @@
+---
+title: master list
+module: edible-strains
+status: 现行有效
+---
+
 # 可食用菌种汇总表
 
 数据来源：食品伙伴网"食品原料一站式查询平台" (https://ingredients.foodmate.net)，国家卫健委公告

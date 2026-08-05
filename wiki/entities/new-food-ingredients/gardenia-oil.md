@@ -49,6 +49,6 @@ summary: "栀子油是以茜草科栀子属植物栀子（*Gardenia jasminoides*
 
 ## 相关条目
 
-- [[亚麻荠籽油]]
-- [[牡丹籽油]]
+- [[camelina-oil|亚麻荠籽油]]
+- [[peony-seed-oil|牡丹籽油]]
 - [[master-ingredient-list|新食品原料总清单]]

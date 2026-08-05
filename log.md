@@ -222,3 +222,12 @@ Knowledge 层 6 项检查中 ③ 显式关系 和 ④ 元数据过滤 已达标�
 - 来源：117 Qwen OCR + 168 PyPDF2
 - 52个系列标准已加互链
 - 全部加 source 标签
+
+## 2026-08-05 — 仓库审计修复 P0
+
+- index.md 数据规模表全部对齐实测数字（实体页 1490、raw 161 份等）
+- SCHEMA.md 目录树数字修正，移除 pdfs/data/scripts/_index.json 等不存在目录
+- raw 描述修正：articles-medfood 9→10，interpretations 39→41，新增 regulations/strains
+- 产品标准正文覆盖率 99%→100%
+
+审计来源：Kimi 全库脚本扫描（2692 wikilink、1514 md、161 raw）

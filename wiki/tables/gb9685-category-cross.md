@@ -1,3 +1,9 @@
+---
+title: gb9685 category cross
+module: root
+status: 现行有效
+---
+
 # GB 9685-2016 添加剂-材料类别关联表
 
 来源: http://9685.foodmate.net/

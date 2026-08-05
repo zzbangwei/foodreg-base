@@ -59,7 +59,7 @@ summary: "圆苞车前子壳，经公告[[weish-2014-10-塔格糖等6种新食�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]

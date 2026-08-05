@@ -47,7 +47,7 @@ summary: "乌药叶（*Linderae aggregate* leaf），来源于樟科植物乌药
 
 ## 相关条目
 
-- [[辣木叶]]
-- [[蛋白核小球藻]]
+- [[lamuye|辣木叶]]
+- [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

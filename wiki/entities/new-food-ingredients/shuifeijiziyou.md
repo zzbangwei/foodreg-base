@@ -41,6 +41,6 @@ summary: "水飞蓟籽油（*Silybum marianum* Seed oil），来源于菊科水�
 
 ## 相关条目
 
-- [[番茄籽油]]
-- [[美藤果油]]
+- [[fanqieziyou|番茄籽油]]
+- [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]

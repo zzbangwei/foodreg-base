@@ -1,3 +1,9 @@
+---
+title: prohibited ingredient list
+module: root
+status: 现行有效
+---
+
 # 普通食品负面清单 — 明确不可作为普通食品的原料
 
 > 数据来源：Excel「负面清单」sheet

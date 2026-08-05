@@ -63,8 +63,8 @@ summary: "蝉花子实体（人工培植），拉丁名 *Cordyceps cicadae*，�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[蛹虫草]]
+- [[cordyceps-militaris|蛹虫草]]
 - [[master-ingredient-list|新食品原料总清单]]

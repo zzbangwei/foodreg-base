@@ -1,3 +1,9 @@
+---
+title: processing aid list
+module: root
+status: 现行有效
+---
+
 # 加工助剂表
 
 来源: https://gb2760.cfsa.net.cn/processing.html

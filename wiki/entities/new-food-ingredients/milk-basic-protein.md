@@ -56,7 +56,7 @@ summary: "牛奶碱性蛋白（Milk Basic Protein，MBP）是以鲜牛乳为原�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[colostrum-basic-protein|初乳碱性蛋白]]

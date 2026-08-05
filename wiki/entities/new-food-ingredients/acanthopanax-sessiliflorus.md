@@ -69,8 +69,8 @@ summary: "短梗五加（*Acanthopanax sessiliflorus*），2008年5月26日经�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[库拉索芦荟凝胶]]
+- [[aloe-vera-gel|库拉索芦荟凝胶]]
 - [[wiki/concepts/new-resource-food]]

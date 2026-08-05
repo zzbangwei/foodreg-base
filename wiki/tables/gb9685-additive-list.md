@@ -1,3 +1,9 @@
+---
+title: gb9685 additive list
+module: root
+status: 现行有效
+---
+
 # GB 9685-2016 食品接触材料及制品用添加剂汇总表
 
 来源: http://9685.foodmate.net/

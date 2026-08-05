@@ -93,9 +93,9 @@ summary: "接骨木莓花色苷是以荚蒾科接骨木属植物西洋接骨木�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[蓝莓花色苷]]
-- [[马基莓花色苷]]
+- [[blueberry-anthocyanin|蓝莓花色苷]]
+- [[maqui-anthocyanin|马基莓花色苷]]
 - [[master-ingredient-list|新食品原料总清单]]

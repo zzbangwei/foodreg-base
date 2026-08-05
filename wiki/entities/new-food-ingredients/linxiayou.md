@@ -58,10 +58,10 @@ summary: "磷虾油（Krill Oil），来源于磷虾科磷虾属南极大磷虾�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[马克斯克鲁维酵母]]
+- [[makesikeluweijiaomu|马克斯克鲁维酵母]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]
 

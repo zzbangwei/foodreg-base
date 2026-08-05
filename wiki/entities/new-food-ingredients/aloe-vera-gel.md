@@ -64,5 +64,5 @@ summary: "库拉索芦荟凝胶（Aloe Vera Gel），2008年5月26日经卫生�
 
 ## 相关条目
 
-- [[短梗五加]]
+- [[acanthopanax-sessiliflorus|短梗五加]]
 - [[wiki/concepts/new-resource-food]]

@@ -42,4 +42,4 @@ summary: "鼠李糖乳杆菌MP108（*Lactobacillus rhamnosus* MP108）于2021年
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[瑞士乳杆菌R0052]]
+- [[lactobacillus-helveticus-r0052|瑞士乳杆菌R0052]]

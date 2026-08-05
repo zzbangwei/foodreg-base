@@ -68,7 +68,7 @@ summary: "β-羟基-β-甲基丁酸钙（Calcium β-hydroxy-β-methyl butyrate�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[wiki/concepts/new-resource-food]]

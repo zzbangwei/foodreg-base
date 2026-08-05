@@ -42,5 +42,5 @@ summary: "婴儿双歧杆菌R0033（*Bifidobacterium infantis* R0033）于2020�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[瑞士乳杆菌R0052]]
-- [[两歧双歧杆菌R0071]]
+- [[lactobacillus-helveticus-r0052|瑞士乳杆菌R0052]]
+- [[bifidobacterium-bifidum-r0071|两歧双歧杆菌R0071]]

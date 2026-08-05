@@ -59,5 +59,5 @@ summary: "(3R,3'R)-二羟基-β-胡萝卜素（Zeaxanthin），即玉米黄质�
 
 ## 相关条目
 
-- [[西兰花种子水提物]]
+- [[xilanhuazhongzishuitiwu|西兰花种子水提物]]
 - [[master-ingredient-list|新食品原料总清单]]

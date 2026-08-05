@@ -62,6 +62,6 @@ summary: "克鲁维毕赤酵母（*Pichia kluyveri*）属毕赤酵母属克鲁�
 
 ## 相关条目
 
-- [[酿酒酵母CNCM I-3799]]
-- [[枯草芽孢杆菌DE111]]
+- [[saccharomyces-cerevisiae-cncm-i-3799|酿酒酵母CNCM I-3799]]
+- [[bacillus-subtilis-de111|枯草芽孢杆菌DE111]]
 - [[master-ingredient-list|新食品原料总清单]]

@@ -1,3 +1,9 @@
+---
+title: gb master catalog
+module: root
+status: 现行有效
+---
+
 # 食品安全国家标准目录
 
 > 来源：国家食品安全风险评估中心 | 截至2025年9月 | 总计1,725项

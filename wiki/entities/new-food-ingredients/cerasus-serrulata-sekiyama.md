@@ -55,4 +55,4 @@ summary: "关山樱花是蔷薇科李亚科樱属关山樱（*Cerasus serrulate*
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[樱花多酚]]
+- [[cherry-blossom-polyphenol|樱花多酚]]

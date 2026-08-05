@@ -62,6 +62,6 @@ summary: "叶黄素酯（Lutein Esters），2008年5月26日经卫生部公告�
 
 ## 相关条目
 
-- [[低聚木糖]]
-- [[L-阿拉伯糖]]
+- [[xylo-oligosaccharide|低聚木糖]]
+- [[l-arabinose|L-阿拉伯糖]]
 - [[wiki/concepts/new-resource-food]]

@@ -1,3 +1,9 @@
+---
+title: master list
+module: nutrition-fortifiers
+status: 现行有效
+---
+
 # GB 14880-2012 食品营养强化剂使用标准 — 营养强化剂总清单
 
 ## 数据来源

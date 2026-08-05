@@ -43,4 +43,4 @@ quality: 📌待验证
 
 ## 营养成分
 
-→ [[../tables/nutrition-data-mfh-complete|药食同源营养成分总表]]（每100g可食部）
+→ [[../../tables/nutrition-data-mfh-complete|药食同源营养成分总表]]（每100g可食部）

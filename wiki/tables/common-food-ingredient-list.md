@@ -1,3 +1,9 @@
+---
+title: common food ingredient list
+module: root
+status: 现行有效
+---
+
 # 普通食品原料合规清单
 
 > 共收录 **1095** 种普通食品原料（已去除药食同源、新食品原料、可食用菌种、终止审查中已有条目）

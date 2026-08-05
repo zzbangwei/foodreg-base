@@ -1,3 +1,9 @@
+---
+title: nutrition data nfi
+module: root
+status: 现行有效
+---
+
 # 新食品原料营养成分参考
 
 > 数据来源：NHC公告原文（实体页 + raw/articles）+ NHC公告质量规格。标注 ≥/≤ 的为公告质量规格中的最低/最高限量。

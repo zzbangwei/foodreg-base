@@ -49,7 +49,7 @@ summary: "辣木叶（*Moringa oleifera* leaf），来源于辣木（*Moringa ol
 
 ## 相关条目
 
-- [[乌药叶]]
-- [[蛋白核小球藻]]
+- [[wuyaoye|乌药叶]]
+- [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

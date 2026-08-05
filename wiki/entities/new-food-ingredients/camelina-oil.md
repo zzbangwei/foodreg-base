@@ -55,6 +55,6 @@ summary: "亚麻荠籽油是以十字花科亚麻荠属植物亚麻荠（*Cameli
 
 ## 相关条目
 
-- [[栀子油]]
-- [[牡丹籽油]]
+- [[gardenia-oil|栀子油]]
+- [[peony-seed-oil|牡丹籽油]]
 - [[master-ingredient-list|新食品原料总清单]]

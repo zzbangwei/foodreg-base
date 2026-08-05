@@ -112,6 +112,6 @@ summary: "植物甾醇（Plant sterol），2010年3月9日经卫生部公告（[
 
 ## 相关条目
 
-- [[植物甾烷醇酯]]
-- [[植物甾醇酯]]
+- [[plant-stanol-ester|植物甾烷醇酯]]
+- [[plant-sterol-ester|植物甾醇酯]]
 - [[wiki/concepts/new-resource-food]]

@@ -55,7 +55,7 @@ summary: "初乳碱性蛋白（Colostrum Basic Protein，CBP）是以牛初乳�
 
 ## 质量规格
 
-→ [[../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
+→ [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
 - [[milk-basic-protein|牛奶碱性蛋白]]

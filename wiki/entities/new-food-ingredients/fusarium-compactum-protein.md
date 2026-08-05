@@ -79,6 +79,6 @@ summary: "紧密镰刀菌蛋白是以紧密镰刀菌（*Fusarium compactum*）MM
 
 ## 相关条目
 
-- [[威尼斯镰刀菌蛋白]]
-- [[酵母蛋白]]
+- [[fusarium-venenatum-protein|威尼斯镰刀菌蛋白]]
+- [[yeast-protein|酵母蛋白]]
 - [[master-ingredient-list|新食品原料总清单]]

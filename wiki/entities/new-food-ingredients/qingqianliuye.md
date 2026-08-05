@@ -45,7 +45,7 @@ summary: "青钱柳叶，来源于胡桃科植物青钱柳（*Cyclocarya paliuru
 
 ## 相关条目
 
-- [[乌药叶]]
-- [[柳叶蜡梅]]
+- [[wuyaoye|乌药叶]]
+- [[liuyelamei|柳叶蜡梅]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

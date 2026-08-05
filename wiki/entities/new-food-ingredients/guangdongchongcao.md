@@ -47,7 +47,7 @@ summary: "广东虫草子实体（*Cordyceps guangdongensis*），属子囊菌�
 
 ## 相关条目
 
-- [[蛹虫草]]
-- [[茶藨子叶状层菌发酵菌丝体]]
+- [[cordyceps-militaris|蛹虫草]]
+- [[chabiaoziyecengjun|茶藨子叶状层菌发酵菌丝体]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

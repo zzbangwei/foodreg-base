@@ -58,7 +58,7 @@ summary: "美藤果油（Sacha Inchi Oil），来源于大戟科美藤果（*Plu
 
 ## 相关条目
 
-- [[盐地碱蓬籽油]]
-- [[盐肤木果油]]
+- [[yandijianpengziyou|盐地碱蓬籽油]]
+- [[yanfumuguoyou|盐肤木果油]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

@@ -50,5 +50,5 @@ summary: "香玉牡丹花是芍药科芍药属植物香玉牡丹（*Paeonia suff
 
 ## 相关条目
 
-- [[丹凤牡丹花]]
+- [[danfengmudanhua|丹凤牡丹花]]
 - [[master-ingredient-list|新食品原料总清单]]

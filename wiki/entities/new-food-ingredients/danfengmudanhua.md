@@ -40,7 +40,7 @@ summary: "丹凤牡丹花，来源于丹凤牡丹（*Paeonia ostii* T.Hong et J.
 
 ## 相关条目
 
-- [[茶树花]]
-- [[杜仲雄花]]
+- [[chashuhua|茶树花]]
+- [[duzhongxionghua|杜仲雄花]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

@@ -1,3 +1,9 @@
+---
+title: enzyme list
+module: root
+status: 现行有效
+---
+
 # 酶制剂表
 
 来源: https://gb2760.cfsa.net.cn/enzyme.html

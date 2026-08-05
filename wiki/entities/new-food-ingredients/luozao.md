@@ -44,6 +44,6 @@ summary: "裸藻（*Euglena gracilis*），属裸藻门、裸藻目、裸藻属�
 
 ## 相关条目
 
-- [[蛋白核小球藻]]
+- [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

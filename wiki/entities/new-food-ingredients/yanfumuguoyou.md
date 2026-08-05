@@ -54,7 +54,7 @@ summary: "盐肤木果油（Sumac Fruit Oil），来源于漆树科盐肤木属�
 
 ## 相关条目
 
-- [[盐地碱蓬籽油]]
-- [[美藤果油]]
+- [[yandijianpengziyou|盐地碱蓬籽油]]
+- [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

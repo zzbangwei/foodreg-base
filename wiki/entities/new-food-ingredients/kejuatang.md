@@ -55,6 +55,6 @@ summary: "壳寡糖（Chitosan Oligosaccharide），以壳聚糖为原料经酶�
 
 ## 相关条目
 
-- [[低聚木糖]]
-- [[塔格糖]]
+- [[xylo-oligosaccharide|低聚木糖]]
+- [[tagetang|塔格糖]]
 - [[master-ingredient-list|新食品原料总清单]]

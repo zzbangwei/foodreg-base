@@ -40,7 +40,7 @@ summary: "光皮梾木果油，来源于山茱萸科梾木属光皮梾木（*Swi
 
 ## 相关条目
 
-- [[长柄扁桃油]]
-- [[美藤果油]]
+- [[changbingbiantaoyou|长柄扁桃油]]
+- [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]

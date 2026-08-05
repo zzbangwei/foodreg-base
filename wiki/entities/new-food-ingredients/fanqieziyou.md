@@ -53,6 +53,6 @@ summary: "番茄籽油（Tomato Seed Oil），以番茄籽为原料经萃取、�
 
 ## 相关条目
 
-- [[水飞蓟籽油]]
-- [[美藤果油]]
+- [[shuifeijiziyou|水飞蓟籽油]]
+- [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]

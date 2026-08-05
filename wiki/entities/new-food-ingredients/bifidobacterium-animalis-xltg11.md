@@ -47,6 +47,6 @@ summary: "动物双歧杆菌乳亚种XLTG11（*Bifidobacterium animalis* subsp. 
 
 ## 相关条目
 
-- [[动物双歧杆菌乳亚种BLa80]]
-- [[长双歧杆菌婴儿亚种M-63]]
+- [[bifidobacterium-animalis-bla80|动物双歧杆菌乳亚种BLa80]]
+- [[bifidobacterium-longum-infantis-m63|长双歧杆菌婴儿亚种M-63]]
 - [[master-ingredient-list|新食品原料总清单]]

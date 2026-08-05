@@ -60,6 +60,6 @@ summary: "肠膜明串珠菌乳脂亚种主要存在于天然发酵的乳制品�
 
 ## 相关条目
 
-- [[假肠膜明串珠菌]]
-- [[弯曲乳杆菌]]
+- [[leuconostoc-pseudomesenteroides|假肠膜明串珠菌]]
+- [[lactobacillus-curvatus|弯曲乳杆菌]]
 - [[master-ingredient-list|新食品原料总清单]]

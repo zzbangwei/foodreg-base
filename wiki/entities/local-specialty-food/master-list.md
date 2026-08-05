@@ -1,3 +1,9 @@
+---
+title: master list
+module: local-specialty-food
+status: 现行有效
+---
+
 # 全国地方特色食品原料目录 — 汇总表
 
 > 共 218 条有效记录 | 34个省级行政区 | 数据截至2026年5月11日

@@ -52,6 +52,6 @@ summary: "拟微球藻（*Nannochloropsis gaditana*），属单胞藻科、拟�
 
 ## 相关条目
 
-- [[拟微球藻油]]
-- [[蛋白核小球藻]]
+- [[nannochloropsis-oil|拟微球藻油]]
+- [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]

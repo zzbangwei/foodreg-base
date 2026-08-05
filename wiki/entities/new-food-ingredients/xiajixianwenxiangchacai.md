@@ -45,7 +45,7 @@ summary: "狭基线纹香茶菜（*Isodon lophanthoides* var.），属唇形科�
 
 ## 相关条目
 
-- [[线叶金雀花]]
-- [[柳叶蜡梅]]
+- [[xianyiejinquehua|线叶金雀花]]
+- [[liuyelamei|柳叶蜡梅]]
 - [[master-ingredient-list|新食品原料总清单]]
 - [[wiki/concepts/new-resource-food]]
