@@ -1,7 +1,7 @@
 # FoodReg Base 目录
 
 > 食规智库 Wiki 索引。来宝维护。
-> 最后更新：2026-08-05 07:37
+> 最后更新：2026-08-06 14:54
 
 ## 三层架构
 
@@ -15,15 +15,15 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 | 模块 | 数量 |
 |------|------|
-| 食品添加剂 | 359 |
-| 食品产品标准（GB/GB/T） | 285 |
+| 食品添加剂 | 368 |
+| 食品产品标准（GB/GB-T） | 367 |
 | 地方特色食品 | 189 |
 | 新食品原料 | 173 |
-| 食品接触材料 | 148 |
+| 食品接触材料 | 152 |
 | 药食同源 | 107 |
 | 终止审查 | 82 |
-| 营养强化剂 | 76 |
-| 可食用菌种 | 47 |
+| 营养强化剂 | 86 |
+| 可食用菌种 | 48 |
 | 食品过敏原 | 11 |
 | 征求意见 | 8 |
 | 申报受理 | 5 |
@@ -35,15 +35,15 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 ## wiki/entities/ — 实体模块
 
-- [[wiki/entities/additives/master-list|食品添加剂总清单]] — 359 种
-- [[wiki/entities/food-product-standards/master-list|食品产品标准]] — 285 页（正文覆盖率 100%）
+- [[wiki/entities/additives/master-list|食品添加剂 | 368 种
+- [[wiki/entities/food-product-standards/master-list|食品产品标准（GB/GB-T） | 367%）
 - [[wiki/entities/local-specialty-food/master-list|地方特色食品]] — 189 页
 - [[wiki/entities/new-food-ingredients/master-ingredient-list|新食品原料总清单]] — 173 种
-- [[wiki/entities/contact-materials/master-list|食品接触材料]] — 148 页
+- [[wiki/entities/contact-materials/master-list|食品接触材料 | 152 页
 - [[wiki/entities/medicine-food-homology/master-list|药食同源]] — 107 页
 - [[wiki/entities/terminated-reviews/master-list|终止审查]] — 82 页
-- [[wiki/entities/nutrition-fortifiers/master-list|营养强化剂]] — 76 页
-- [[wiki/entities/edible-strains/master-list|可食用菌种]] — 47 页
+- [[wiki/entities/nutrition-fortifiers/master-list|营养强化剂 | 86 页
+- [[wiki/entities/edible-strains/master-list|可食用菌种 | 48 页
 - [[wiki/entities/food-allergens/master-list|食品过敏原]] — 11 页
 - [[wiki/entities/consultation-list/_index|征求意见]] — 8 页
 - [[wiki/entities/acceptance-list/_index|申报受理]] — 5 页
@@ -91,8 +91,8 @@ wiki/ → 编译知识（实体页 + 关联表 + 概念页）
 
 - 2026-07-29 — 新增 GB/T 29602-2026《固体饮料质量要求》（2026.07.02发布，2027.08.01实施，全部代替GB/T 29602-2013）+ GB/T 29602-2013 旧版实体页
 - 2026-07-04 — 营养成分全库归拢：药食同源 110种（A43+B54+C13）、新食品原料 68种、普通食品 513种。中国食物成分表第6版入库。Knowledge层6项全部达标。
-- 2026-07-03 — 食品产品标准全库补完：812页实体页 frontmatter 全部补齐 standard/section/en_name/e_number/functions/summary。新建 E编号交叉映射表。
-- 2026-07-03 — 食品产品标准全库补完：285 PDF 入库 → pymupdf + vision OCR 提取正文 → 280/283 实体页覆盖（99%）。终止审查 81 个全部录入 CFSA 审查意见原文。
+- 2026-07-03 — 食品产品标准（GB/GB-T） | 367页实体页 frontmatter 全部补齐 standard/section/en_name/e_number/functions/summary。新建 E编号交叉映射表。
+- 2026-07-03 — 食品产品标准（GB/GB-T） | 367 个全部录入 CFSA 审查意见原文。
 - 2026-06-29 — 新食品原料移入独立子目录
 - 2026-06-24 — 新增营养成分数据表两张（药食同源106种+新食品原料框架）
 - 2026-06-24 — 新增概念页「蛋白质酶解产物按普通食品管理规则」
