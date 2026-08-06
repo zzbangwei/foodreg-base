@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: DHA藻油
 title: DHA藻油
 created: 2026-06-22
 updated: 2026-06-22
@@ -56,4 +58,4 @@ DHA藻油（DHA Algal Oil）是以裂壶藻、吾肯氏壶藻或寇氏隐甲藻�
 - [[fish-oil|鱼油及提取物]]
 - [[arachidonic-acid-oil|花生四烯酸油脂]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

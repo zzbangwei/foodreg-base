@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 地龙蛋白
 title: 地龙蛋白
 created: 2026-06-22
 updated: 2026-06-22
@@ -63,4 +65,4 @@ summary: "地龙蛋白（Earthworm Protein）是以赤子爱胜蚓（*Eisenia fo
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

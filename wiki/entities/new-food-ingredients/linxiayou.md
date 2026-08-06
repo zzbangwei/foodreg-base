@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 磷虾油
 title: 磷虾油
 created: 2026-06-22
 updated: 2026-06-22
@@ -63,6 +65,6 @@ summary: "磷虾油（Krill Oil），来源于磷虾科磷虾属南极大磷虾�
 
 - [[makesikeluweijiaomu|马克斯克鲁维酵母]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/磷虾油|磷虾油（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[磷虾油|磷虾油（终止审查）]]

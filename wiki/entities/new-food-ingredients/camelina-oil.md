@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 亚麻荠籽油
 title: 亚麻荠籽油
 created: 2026-06-22
 updated: 2026-06-22

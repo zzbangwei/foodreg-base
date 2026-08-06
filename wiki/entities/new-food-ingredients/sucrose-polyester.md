@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 蔗糖聚酯
 title: 蔗糖聚酯
 created: 2026-06-22
 updated: 2026-06-22
@@ -80,4 +82,4 @@ summary: "蔗糖聚酯（Sucrose Ployesters），2010年10月21日经卫生部�
 
 - [[phosphatidylserine|磷脂酰丝氨酸]]
 - [[corn-oligopeptides-powder|玉米低聚肽粉]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

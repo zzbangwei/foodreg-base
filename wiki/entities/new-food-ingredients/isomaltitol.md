@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 异麦芽酮糖醇
 title: 异麦芽酮糖醇
 created: 2026-06-22
 updated: 2026-06-22
@@ -54,4 +56,4 @@ summary: "异麦芽酮糖醇（Isomaltitol）是以白砂糖为原料，经蔗�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

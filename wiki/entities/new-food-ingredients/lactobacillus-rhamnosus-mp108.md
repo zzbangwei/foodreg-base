@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 鼠李糖乳杆菌MP108
 title: 鼠李糖乳杆菌MP108
 created: 2026-06-22
 updated: 2026-06-22

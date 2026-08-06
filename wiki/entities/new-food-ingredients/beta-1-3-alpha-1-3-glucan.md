@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: β-1,3/α-1,3-葡聚糖
 title: β-1,3/α-1,3-葡聚糖
 created: 2026-06-22
 updated: 2026-06-22

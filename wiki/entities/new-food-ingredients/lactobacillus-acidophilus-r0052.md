@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 嗜酸乳杆菌（R0052）
 title: 嗜酸乳杆菌（R0052）
 created: 2026-06-22
 updated: 2026-06-22
@@ -59,4 +61,4 @@ summary: "嗜酸乳杆菌（*Lactobacillus acidophilus*），菌株号R0052，�
 
 - [[lactobacillus-acidophilus-dsm13241|嗜酸乳杆菌（DSM13241）]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: γ-氨基丁酸
 title: γ-氨基丁酸
 created: 2026-06-22
 updated: 2026-06-22
@@ -58,6 +60,6 @@ summary: "γ-氨基丁酸（Gamma aminobutyric acid，GABA）是以L-谷氨酸�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/γ-氨基丁酸|γ-氨基丁酸（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[γ-氨基丁酸|γ-氨基丁酸（终止审查）]]

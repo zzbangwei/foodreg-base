@@ -27,5 +27,5 @@ quality: 📌待验证
 
 ## 关联
 
-- [[wiki/entities/terminated-reviews/N-乙酰神经氨酸|N-乙酰神经氨酸（终止审查）]]
+- [[N-乙酰神经氨酸|N-乙酰神经氨酸（终止审查）]]
 - [[wiki/entities/acceptance-list/_index|申报受理清单]]

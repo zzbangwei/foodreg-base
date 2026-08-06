@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 乌药叶
 title: 乌药叶
 created: 2026-06-22
 updated: 2026-06-22
@@ -50,4 +52,4 @@ summary: "乌药叶（*Linderae aggregate* leaf），来源于樟科植物乌药
 - [[lamuye|辣木叶]]
 - [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

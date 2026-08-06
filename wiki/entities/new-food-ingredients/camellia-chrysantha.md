@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 金花茶
 title: 金花茶
 created: 2026-06-22
 updated: 2026-06-22
@@ -51,4 +53,4 @@ summary: "金花茶（*Camellia chrysantha*）为山茶科山茶属植物，食�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

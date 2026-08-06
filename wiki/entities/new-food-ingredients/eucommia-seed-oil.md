@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 杜仲籽油
 title: 杜仲籽油
 created: 2026-06-22
 updated: 2026-06-22
@@ -55,4 +57,4 @@ summary: "杜仲籽油（*Eucommia ulmoides* Oliv. Seed Oil）是以杜仲籽为
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

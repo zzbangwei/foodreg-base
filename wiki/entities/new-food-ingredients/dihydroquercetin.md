@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 二氢槲皮素
 title: 二氢槲皮素
 created: 2026-06-22
 updated: 2026-06-22

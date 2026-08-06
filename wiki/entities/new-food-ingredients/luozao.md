@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 裸藻
 title: 裸藻
 created: 2026-06-22
 updated: 2026-06-22
@@ -46,4 +48,4 @@ summary: "裸藻（*Euglena gracilis*），属裸藻门、裸藻目、裸藻属�
 
 - [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

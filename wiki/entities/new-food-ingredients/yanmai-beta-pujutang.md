@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 燕麦β-葡聚糖
 title: 燕麦β-葡聚糖
 created: 2026-06-22
 updated: 2026-06-22

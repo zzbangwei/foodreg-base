@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: master ingredient list
 title: master ingredient list
 module: new-food-ingredients
 status: 现行有效

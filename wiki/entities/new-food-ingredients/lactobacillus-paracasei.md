@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 副干酪乳杆菌
 title: 副干酪乳杆菌
 created: 2026-06-22
 updated: 2026-06-22
@@ -57,4 +59,4 @@ summary: "副干酪乳杆菌（*Lactobacillus paracasei*），来源为健康人
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

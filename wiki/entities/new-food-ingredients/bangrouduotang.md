@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 蚌肉多糖
 title: 蚌肉多糖
 created: 2026-06-22
 updated: 2026-06-22
@@ -65,4 +67,4 @@ summary: "蚌肉多糖（Hyriopsis cumingii polysaccharide），来源于三角�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

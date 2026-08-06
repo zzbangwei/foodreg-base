@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 表没食子儿茶素没食子酸酯
 title: 表没食子儿茶素没食子酸酯
 created: 2026-06-22
 updated: 2026-06-22
@@ -44,4 +46,4 @@ summary: "表没食子儿茶素没食子酸酯（Epigallocatechin Gallate，EGCG
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

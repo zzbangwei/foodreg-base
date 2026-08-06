@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 低聚木糖
 title: 低聚木糖
 created: 2026-06-22
 updated: 2026-06-22
@@ -73,5 +75,5 @@ summary: "低聚木糖（Xylo-oligosaccharide）是由2-7个木糖分子以β-1,
 - [[sodium-hyaluronate|透明质酸钠]]
 - [[l-arabinose|L-阿拉伯糖]]
 - [[lutein-esters|叶黄素酯]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 - [[master-ingredient-list|新食品原料总清单]]

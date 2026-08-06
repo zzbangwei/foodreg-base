@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 初乳碱性蛋白
 title: 初乳碱性蛋白
 created: 2026-06-22
 updated: 2026-06-22
@@ -60,4 +62,4 @@ summary: "初乳碱性蛋白（Colostrum Basic Protein，CBP）是以牛初乳�
 
 - [[milk-basic-protein|牛奶碱性蛋白]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

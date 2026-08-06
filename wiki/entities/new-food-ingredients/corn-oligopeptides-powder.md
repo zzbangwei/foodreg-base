@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 玉米低聚肽粉
 title: 玉米低聚肽粉
 created: 2026-06-22
 updated: 2026-06-22
@@ -78,8 +80,8 @@ summary: "玉米低聚肽粉（Corn oligopeptides powder）是以玉米蛋白粉
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
 > 依据2013年第3号公告第二条：以可食用的动物或植物蛋白质为原料，经GB2760规定允许使用的食品用酶制剂酶解制成的物质作为普通食品管理。
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/玉米低聚肽粉|玉米低聚肽粉（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[玉米低聚肽粉|玉米低聚肽粉（终止审查）]]

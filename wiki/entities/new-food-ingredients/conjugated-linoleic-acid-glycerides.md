@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 共轭亚油酸甘油酯
 title: 共轭亚油酸甘油酯
 created: 2026-06-22
 updated: 2026-06-22
@@ -59,4 +61,4 @@ summary: "共轭亚油酸甘油酯（Conjugated Linoleic Acid Glycerides）是�
 
 - [[conjugated-linoleic-acid|共轭亚油酸]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

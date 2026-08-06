@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 马乳酒样乳杆菌马乳酒样亚种
 title: 马乳酒样乳杆菌马乳酒样亚种
 created: 2026-06-22
 updated: 2026-06-22

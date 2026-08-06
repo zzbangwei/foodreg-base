@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 显脉旋覆花
 title: 显脉旋覆花
 created: 2026-06-22
 updated: 2026-06-22
@@ -63,4 +65,4 @@ summary: "显脉旋覆花（*Inula nervosa*），又名小黑药，为菊科旋�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 阿拉伯半乳聚糖
 title: 阿拉伯半乳聚糖
 created: 2026-06-22
 updated: 2026-06-22

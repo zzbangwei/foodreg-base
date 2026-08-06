@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 瑞士乳杆菌R0052
 title: 瑞士乳杆菌R0052
 created: 2026-06-22
 updated: 2026-06-22

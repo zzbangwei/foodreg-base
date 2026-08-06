@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 壳寡糖
 title: 壳寡糖
 created: 2026-06-22
 updated: 2026-06-22

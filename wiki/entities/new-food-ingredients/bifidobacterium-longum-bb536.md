@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 长双歧杆菌长亚种BB536
 title: 长双歧杆菌长亚种BB536
 created: 2026-06-22
 updated: 2026-06-22

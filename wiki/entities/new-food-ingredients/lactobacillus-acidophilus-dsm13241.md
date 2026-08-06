@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 嗜酸乳杆菌（DSM13241）
 title: 嗜酸乳杆菌（DSM13241）
 created: 2026-06-22
 updated: 2026-06-22
@@ -65,4 +67,4 @@ summary: "嗜酸乳杆菌（*Lactobacillus acidophilus*），菌株号 DSM13241�
 - [[l-arabinose|L-阿拉伯糖]]
 - [[acanthopanax-sessiliflorus|短梗五加]]
 - [[aloe-vera-gel|库拉索芦荟凝胶]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

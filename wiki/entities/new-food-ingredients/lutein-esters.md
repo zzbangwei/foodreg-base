@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 叶黄素酯
 title: 叶黄素酯
 created: 2026-06-22
 updated: 2026-06-22
@@ -64,4 +66,4 @@ summary: "叶黄素酯（Lutein Esters），2008年5月26日经卫生部公告�
 
 - [[xylo-oligosaccharide|低聚木糖]]
 - [[l-arabinose|L-阿拉伯糖]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

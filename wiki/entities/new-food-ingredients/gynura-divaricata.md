@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 白子菜
 title: 白子菜
 created: 2026-06-22
 updated: 2026-06-22
@@ -45,4 +47,4 @@ summary: "白子菜（*Gynura divaricata*）为菊科土三七属植物，食用
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

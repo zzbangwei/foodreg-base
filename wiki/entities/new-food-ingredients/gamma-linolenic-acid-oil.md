@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: γ-亚麻酸油脂（来源于刺孢小克银汉霉）
 title: γ-亚麻酸油脂（来源于刺孢小克银汉霉）
 created: 2026-06-22
 updated: 2026-06-22
@@ -48,4 +50,4 @@ summary: "γ-亚麻酸油脂（来源于刺孢小克银汉霉），经公告[[we
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

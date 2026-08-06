@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 牡丹籽油
 title: 牡丹籽油
 created: 2026-06-22
 updated: 2026-06-22
@@ -87,4 +89,4 @@ summary: "牡丹籽油（Peony Seed Oil），2011年3月22日经卫生部公告�
 
 - [[acer-truncatum-seed-oil|元宝枫籽油]]
 - [[plant-sterol|植物甾醇]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

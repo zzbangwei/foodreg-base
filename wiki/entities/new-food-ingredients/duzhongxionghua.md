@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 杜仲雄花
 title: 杜仲雄花
 created: 2026-06-22
 updated: 2026-06-22

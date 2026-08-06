@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 狭基线纹香茶菜
 title: 狭基线纹香茶菜
 created: 2026-06-22
 updated: 2026-06-22
@@ -48,4 +50,4 @@ summary: "狭基线纹香茶菜（*Isodon lophanthoides* var.），属唇形科�
 - [[xianyiejinquehua|线叶金雀花]]
 - [[liuyelamei|柳叶蜡梅]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

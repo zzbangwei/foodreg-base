@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 光皮梾木果油
 title: 光皮梾木果油
 created: 2026-06-22
 updated: 2026-06-22
@@ -43,4 +45,4 @@ summary: "光皮梾木果油，来源于山茱萸科梾木属光皮梾木（*Swi
 - [[changbingbiantaoyou|长柄扁桃油]]
 - [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

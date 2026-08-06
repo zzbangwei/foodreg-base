@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 柳叶蜡梅
 title: 柳叶蜡梅
 created: 2026-06-22
 updated: 2026-06-22

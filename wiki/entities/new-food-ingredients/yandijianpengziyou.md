@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 盐地碱蓬籽油
 title: 盐地碱蓬籽油
 created: 2026-06-22
 updated: 2026-06-22
@@ -57,4 +59,4 @@ summary: "盐地碱蓬籽油（*Suaeda salsa* seed oil），来源于藜科碱�
 - [[meitengguoyou|美藤果油]]
 - [[yanfumuguoyou|盐肤木果油]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

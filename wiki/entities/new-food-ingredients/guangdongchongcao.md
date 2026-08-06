@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 广东虫草子实体
 title: 广东虫草子实体
 created: 2026-06-22
 updated: 2026-06-22
@@ -50,4 +52,4 @@ summary: "广东虫草子实体（*Cordyceps guangdongensis*），属子囊菌�
 - [[cordyceps-militaris|蛹虫草]]
 - [[chabiaoziyecengjun|茶藨子叶状层菌发酵菌丝体]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

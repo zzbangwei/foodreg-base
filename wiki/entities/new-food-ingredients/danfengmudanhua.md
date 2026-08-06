@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 丹凤牡丹花
 title: 丹凤牡丹花
 created: 2026-06-22
 updated: 2026-06-22
@@ -43,4 +45,4 @@ summary: "丹凤牡丹花，来源于丹凤牡丹（*Paeonia ostii* T.Hong et J.
 - [[chashuhua|茶树花]]
 - [[duzhongxionghua|杜仲雄花]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

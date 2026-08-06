@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 黑麦花粉
 title: 黑麦花粉
 created: 2026-06-22
 updated: 2026-06-22
@@ -63,4 +65,4 @@ summary: "黑麦花粉，基源植物为禾本科黑麦属植物黑麦（*Secale
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

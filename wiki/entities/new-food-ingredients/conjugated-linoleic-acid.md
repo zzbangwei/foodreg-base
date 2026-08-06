@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 共轭亚油酸
 title: 共轭亚油酸
 created: 2026-06-22
 updated: 2026-06-22
@@ -61,4 +63,4 @@ summary: "共轭亚油酸（Conjugated Linoleic Acid，CLA）是以食品级红�
 
 - [[conjugated-linoleic-acid-glycerides|共轭亚油酸甘油酯]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

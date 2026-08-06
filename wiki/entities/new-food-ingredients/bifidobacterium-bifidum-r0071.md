@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 两歧双歧杆菌R0071
 title: 两歧双歧杆菌R0071
 created: 2026-06-22
 updated: 2026-06-22

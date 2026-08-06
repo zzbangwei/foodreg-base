@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: L-阿拉伯糖
 title: L-阿拉伯糖
 created: 2026-06-22
 updated: 2026-06-22
@@ -64,6 +66,6 @@ L-阿拉伯糖（L-Arabinose），2008年5月26日经卫生部公告（[[weish-2
 
 - [[xylo-oligosaccharide|低聚木糖]]
 - [[lutein-esters|叶黄素酯]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/L-阿拉伯糖|L-阿拉伯糖（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[L-阿拉伯糖|L-阿拉伯糖（终止审查）]]

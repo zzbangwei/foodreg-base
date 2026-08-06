@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 库拉索芦荟凝胶
 title: 库拉索芦荟凝胶
 created: 2026-06-22
 updated: 2026-06-22
@@ -65,4 +67,4 @@ summary: "库拉索芦荟凝胶（Aloe Vera Gel），2008年5月26日经卫生�
 ## 相关条目
 
 - [[acanthopanax-sessiliflorus|短梗五加]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

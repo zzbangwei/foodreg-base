@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 马基莓花色苷
 title: 马基莓花色苷
 created: 2026-06-22
 updated: 2026-06-22

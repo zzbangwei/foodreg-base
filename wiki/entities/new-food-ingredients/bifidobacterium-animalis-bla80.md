@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 动物双歧杆菌乳亚种BLa80
 title: 动物双歧杆菌乳亚种BLa80
 created: 2026-06-22
 updated: 2026-06-22

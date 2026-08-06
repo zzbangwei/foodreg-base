@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 鼠李糖乳杆菌（R0011）
 title: 鼠李糖乳杆菌（R0011）
 created: 2026-06-22
 updated: 2026-06-22
@@ -57,4 +59,4 @@ summary: "鼠李糖乳杆菌（*Lactobacillus rhamnosus*），菌株号R0011，�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

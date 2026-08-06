@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 茶叶籽油
 title: 茶叶籽油
 created: 2026-06-22
 updated: 2026-06-22
@@ -54,4 +56,4 @@ summary: "茶叶籽油（Tea Camellia Seed Oil）是以山茶科植物茶（*Cam
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

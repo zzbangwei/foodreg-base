@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 菊粉
 title: 菊粉
 created: 2026-06-22
 updated: 2026-06-22
@@ -54,4 +56,4 @@ summary: "菊粉（Inulin）是以菊苣根为原料提取的果糖聚合体混�
 
 - [[polyfructose|多聚果糖]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

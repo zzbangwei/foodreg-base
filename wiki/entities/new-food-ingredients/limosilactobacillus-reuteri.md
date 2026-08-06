@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 罗伊氏粘液乳杆菌
 title: 罗伊氏粘液乳杆菌
 created: 2026-06-22
 updated: 2026-06-22
@@ -45,4 +47,4 @@ summary: "罗伊氏粘液乳杆菌，经公告[[weish-2014-10-塔格糖等6种�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

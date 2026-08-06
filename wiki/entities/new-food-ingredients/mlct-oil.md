@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 中长链脂肪酸食用油
 title: 中长链脂肪酸食用油
 created: 2026-06-22
 updated: 2026-06-22
@@ -47,4 +49,4 @@ summary: "中长链脂肪酸食用油，经公告[[weish-2012-16-zhongchanglian-
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

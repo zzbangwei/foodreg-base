@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 乳矿物盐
 title: 乳矿物盐
 created: 2026-06-22
 updated: 2026-06-22
@@ -63,4 +65,4 @@ summary: "乳矿物盐（Milk Minerals）是以乳清为原料，经去除蛋白
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

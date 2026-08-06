@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 棉籽低聚糖
 title: 棉籽低聚糖
 created: 2026-06-22
 updated: 2026-06-22
@@ -62,4 +64,4 @@ summary: "棉籽低聚糖（Raffino-oligosaccharide）是以棉籽为原料提�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 长柄扁桃油
 title: 长柄扁桃油
 created: 2026-06-22
 updated: 2026-06-22
@@ -43,4 +45,4 @@ summary: "长柄扁桃油，来源于蔷薇科桃属扁桃亚属长柄扁桃（*
 - [[guangpilaimuguoyou|光皮梾木果油]]
 - [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

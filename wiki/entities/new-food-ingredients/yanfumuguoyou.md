@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 盐肤木果油
 title: 盐肤木果油
 created: 2026-06-22
 updated: 2026-06-22
@@ -57,4 +59,4 @@ summary: "盐肤木果油（Sumac Fruit Oil），来源于漆树科盐肤木属�
 - [[yandijianpengziyou|盐地碱蓬籽油]]
 - [[meitengguoyou|美藤果油]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

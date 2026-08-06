@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 香玉牡丹花
 title: 香玉牡丹花
 created: 2026-06-22
 updated: 2026-06-22

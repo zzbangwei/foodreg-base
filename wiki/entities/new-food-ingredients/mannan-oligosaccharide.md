@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 低聚甘露糖
 title: 低聚甘露糖
 created: 2026-06-22
 updated: 2026-06-22
@@ -51,4 +53,4 @@ summary: "低聚甘露糖，经公告[[weish-2013-10-luozao|2013年第10号]]批
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

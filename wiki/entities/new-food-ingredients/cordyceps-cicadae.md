@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 蝉花子实体（人工培植）
 title: 蝉花子实体（人工培植）
 created: 2026-06-22
 updated: 2026-06-22

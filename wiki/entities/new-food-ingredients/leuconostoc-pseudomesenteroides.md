@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 假肠膜明串珠菌
 title: 假肠膜明串珠菌
 created: 2026-06-22
 updated: 2026-06-22
@@ -61,5 +63,5 @@ summary: "假肠膜明串珠菌（*Leuconostoc pseudomesenteroides*）属于明�
 
 ## 相关条目
 
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 - [[master-ingredient-list|新食品原料总清单]]

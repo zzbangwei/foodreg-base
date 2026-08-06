@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 小麦低聚肽
 title: 小麦低聚肽
 created: 2026-06-22
 updated: 2026-06-22
@@ -49,6 +51,6 @@ summary: "小麦低聚肽，经公告[[weish-2012-16-zhongchanglian-xiaomaiditai
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
 > 依据2013年第3号公告第二条：以可食用的动物或植物蛋白质为原料，经GB2760规定允许使用的食品用酶制剂酶解制成的物质作为普通食品管理。

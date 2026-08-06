@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 金花茶培养物
 title: 金花茶培养物
 created: 2026-06-22
 updated: 2026-06-22

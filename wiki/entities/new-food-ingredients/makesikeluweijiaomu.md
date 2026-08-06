@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 马克斯克鲁维酵母
 title: 马克斯克鲁维酵母
 created: 2026-06-22
 updated: 2026-06-22

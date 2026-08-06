@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 植物甾烷醇酯
 title: 植物甾烷醇酯
 created: 2026-06-22
 updated: 2026-06-22
@@ -93,4 +95,4 @@ summary: "植物甾烷醇酯（Plant stanol ester），2008年9月9日经卫生�
 
 - [[plant-sterol|植物甾醇]]
 - [[plant-sterol-ester|植物甾醇酯]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

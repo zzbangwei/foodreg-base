@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 短梗五加
 title: 短梗五加
 created: 2026-06-22
 updated: 2026-06-22
@@ -73,4 +75,4 @@ summary: "短梗五加（*Acanthopanax sessiliflorus*），2008年5月26日经�
 ## 相关条目
 
 - [[aloe-vera-gel|库拉索芦荟凝胶]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

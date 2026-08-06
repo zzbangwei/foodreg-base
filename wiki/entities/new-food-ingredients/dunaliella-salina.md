@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 盐藻及提取物
 title: 盐藻及提取物
 created: 2026-06-22
 updated: 2026-06-22
@@ -53,4 +55,4 @@ summary: "盐藻（*Dunaliella Salina*）是一种富含β-胡萝卜素的绿藻
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

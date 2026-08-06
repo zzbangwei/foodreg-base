@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 米糠脂肪烷醇
 title: 米糠脂肪烷醇
 created: 2026-06-22
 updated: 2026-06-22

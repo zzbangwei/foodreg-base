@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 蛹虫草
 title: 蛹虫草
 created: 2026-06-22
 updated: 2026-07-29
@@ -56,4 +58,4 @@ summary: "蛹虫草（*Cordyceps militaris*），又名北虫草、北冬虫夏�
 
 - [[master-ingredient-list|新食品原料总清单]]
 - [[duzhongxionghua|杜仲雄花]]（2014年同期公告修正品类）
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

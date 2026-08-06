@@ -30,8 +30,8 @@ tags:
 
 📖 参考：
 - [[wiki/tables/common-food-ingredient-list]]（胶原蛋白肽/酶解胶原蛋白条目）
-- [[wiki/concepts/protein-hydrolysate-rule]]（蛋白质酶解规则）
-- [[wiki/entities/terminated-reviews/含Ⅱ型胶原蛋白软骨粉]]
+- [[protein-hydrolysate-rule]]（蛋白质酶解规则）
+- [[含Ⅱ型胶原蛋白软骨粉]]
 
 ---
 

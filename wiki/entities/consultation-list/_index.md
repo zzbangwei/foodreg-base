@@ -111,7 +111,7 @@ module: consultation-list---
 ## 关联页面
 
 - [[wiki/entities/acceptance-list/_index|新食品原料申报受理清单]]
-- [[wiki/entities/terminated-reviews/master-list|终止审查目录汇总]]
+- [[terminated-reviews-master-list|终止审查目录汇总]]
 - 数据源：https://www.cfsa.net.cn/spaqbz/xzxkzqyj/
 
 ## 说明

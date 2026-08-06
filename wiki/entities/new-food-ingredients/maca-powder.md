@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 玛咖粉
 title: 玛咖粉
 created: 2026-06-22
 updated: 2026-06-22
@@ -62,4 +64,4 @@ summary: "玛咖粉是以人工种植的玛咖（*Lepidium meyenii* Walp）根�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

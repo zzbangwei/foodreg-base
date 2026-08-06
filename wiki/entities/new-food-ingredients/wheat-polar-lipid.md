@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 小麦极性脂质
 title: 小麦极性脂质
 created: 2026-06-22
 updated: 2026-06-22

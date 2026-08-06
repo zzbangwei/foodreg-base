@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 人参（人工种植）
 title: 人参（人工种植）
 created: 2026-06-22
 updated: 2026-06-22
@@ -58,6 +60,6 @@ summary: "人参（人工种植），2012年8月29日经卫生部公告（[[weis
 ## 相关条目
 
 - [[new-resource-food-master-index|新资源食品公告汇总表]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/人参|人参（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[人参|人参（终止审查）]]

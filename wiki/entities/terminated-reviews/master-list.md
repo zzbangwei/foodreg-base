@@ -139,7 +139,7 @@ source: http://www.zjtxhealth.com/yewu/xspyl/a5/1090.html
 
 ## 相关条目
 - [[new-food-ingredients/master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 - [[普通食品原料]]
 
 

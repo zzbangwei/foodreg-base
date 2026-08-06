@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 水飞蓟籽油
 title: 水飞蓟籽油
 created: 2026-06-22
 updated: 2026-06-22

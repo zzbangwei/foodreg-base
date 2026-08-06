@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 透明质酸钠（食品原料）
 title: 透明质酸钠（食品原料）
 created: 2026-06-22
 updated: 2026-06-22
@@ -82,7 +84,7 @@ summary: "透明质酸钠（Sodium Hyaluronate）是一种高分子粘多糖，�
 
 - [[xylo-oligosaccharide|低聚木糖]]
 - [[吡咯并喹啉醌二钠盐]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 - [[master-ingredient-list|新食品原料总清单]]
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/透明质酸钠|透明质酸钠（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[透明质酸钠|透明质酸钠（终止审查）]]

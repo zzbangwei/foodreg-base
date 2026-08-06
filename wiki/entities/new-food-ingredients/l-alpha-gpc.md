@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: L-α-甘磷酸胆碱
 title: L-α-甘磷酸胆碱
 created: 2026-06-22
 updated: 2026-06-22

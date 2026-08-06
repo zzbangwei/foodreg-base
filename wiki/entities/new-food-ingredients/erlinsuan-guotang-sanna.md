@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 1,6-二磷酸果糖三钠盐
 title: 1,6-二磷酸果糖三钠盐
 created: 2026-06-22
 updated: 2026-06-22
@@ -51,4 +53,4 @@ summary: "1,6-二磷酸果糖三钠盐（D-Fructose 1,6-diphosphate trisodium sa
 
 - [[tagetang|塔格糖]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

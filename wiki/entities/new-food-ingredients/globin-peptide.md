@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 珠肽粉
 title: 珠肽粉
 created: 2026-06-22
 updated: 2026-06-22
@@ -64,4 +66,4 @@ summary: "珠肽粉（Globin Peptide）是以检疫合格猪的血红细胞为�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

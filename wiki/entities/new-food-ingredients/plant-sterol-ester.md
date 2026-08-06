@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 植物甾醇酯
 title: 植物甾醇酯
 created: 2026-06-22
 updated: 2026-06-22
@@ -58,4 +60,4 @@ summary: "植物甾醇酯（Plant sterol ester）是以大豆油等植物油馏�
 - [[plant-sterol|植物甾醇]]
 - [[plant-stanol-ester|植物甾烷醇酯]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

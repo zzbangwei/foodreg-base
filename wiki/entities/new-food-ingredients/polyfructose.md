@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 多聚果糖
 title: 多聚果糖
 created: 2026-06-22
 updated: 2026-06-22
@@ -54,4 +56,4 @@ summary: "多聚果糖（Polyfructose）是以菊苣根为原料提取的高聚�
 
 - [[inulin|菊粉]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

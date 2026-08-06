@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 奇亚籽
 title: 奇亚籽
 created: 2026-06-22
 updated: 2026-06-22
@@ -46,4 +48,4 @@ summary: "奇亚籽，经公告[[weish-2014-10-塔格糖等6种新食品原料|2
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

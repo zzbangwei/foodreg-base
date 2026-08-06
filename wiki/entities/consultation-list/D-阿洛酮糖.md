@@ -31,6 +31,6 @@ quality: 📌待验证
 ## 关联
 
 - [[d-allulose|D-阿洛酮糖（新食品原料实体页）]]
-- [[wiki/entities/terminated-reviews/D-阿洛酮糖|D-阿洛酮糖（终止审查实体页）]]
+- [[D-阿洛酮糖|D-阿洛酮糖（终止审查实体页）]]
 - [[wiki/entities/consultation-list/_index|征求意见清单汇总]]
 - [[wiki/entities/acceptance-list/_index|申报受理清单]]

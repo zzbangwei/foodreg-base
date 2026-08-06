@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 辣木叶
 title: 辣木叶
 created: 2026-06-22
 updated: 2026-06-22
@@ -52,4 +54,4 @@ summary: "辣木叶（*Moringa oleifera* leaf），来源于辣木（*Moringa ol
 - [[wuyaoye|乌药叶]]
 - [[chlorella-pyrenoidosa|蛋白核小球藻]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 产丙酸丙酸杆菌
 title: 产丙酸丙酸杆菌
 created: 2026-06-22
 updated: 2026-06-22

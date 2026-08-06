@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: β-羟基-β-甲基丁酸钙 (CaHMB)
 title: β-羟基-β-甲基丁酸钙 (CaHMB)
 created: 2026-06-22
 updated: 2026-06-22
@@ -71,5 +73,5 @@ summary: "β-羟基-β-甲基丁酸钙（Calcium β-hydroxy-β-methyl butyrate�
 → [[../../tables/nutrition-data-nfi|新食品原料营养成分参考]]（NHC公告质量规格）
 ## 相关条目
 
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 - [[master-ingredient-list|新食品原料总清单]]

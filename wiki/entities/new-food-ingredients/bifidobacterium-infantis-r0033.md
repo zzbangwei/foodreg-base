@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 婴儿双歧杆菌R0033
 title: 婴儿双歧杆菌R0033
 created: 2026-06-22
 updated: 2026-06-22

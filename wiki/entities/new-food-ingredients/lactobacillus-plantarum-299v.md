@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 植物乳杆菌（299v）
 title: 植物乳杆菌（299v）
 created: 2026-06-22
 updated: 2026-06-22
@@ -59,4 +61,4 @@ summary: "植物乳杆菌（*Lactobacillus Plantarum*），菌株号299v，来�
 
 - [[lactobacillus-plantarum-cgmcc1258|植物乳杆菌（CGMCC1258）]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

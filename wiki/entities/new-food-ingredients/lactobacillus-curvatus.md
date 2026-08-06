@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 弯曲乳杆菌
 title: 弯曲乳杆菌
 created: 2026-06-22
 updated: 2026-06-22

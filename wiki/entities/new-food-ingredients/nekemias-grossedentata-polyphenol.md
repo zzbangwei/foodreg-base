@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 显齿蛇葡萄叶多酚
 title: 显齿蛇葡萄叶多酚
 created: 2026-06-22
 updated: 2026-06-24

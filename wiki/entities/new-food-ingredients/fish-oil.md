@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 鱼油及提取物
 title: 鱼油及提取物
 created: 2026-06-22
 updated: 2026-06-22
@@ -64,6 +66,6 @@ summary: "鱼油及提取物（Fish Oil）是以可食用海洋鱼为原料制�
 
 - [[dha-algal-oil|DHA藻油]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]
 
-> 终止审查：该产品有终止审查记录，见[[wiki/entities/terminated-reviews/鱼油|鱼油（终止审查）]]
+> 终止审查：该产品有终止审查记录，见[[鱼油|鱼油（终止审查）]]

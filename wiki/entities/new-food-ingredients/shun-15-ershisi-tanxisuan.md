@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 顺-15-二十四碳烯酸
 title: 顺-15-二十四碳烯酸
 created: 2026-06-22
 updated: 2026-06-22

@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 茶藨子叶状层菌发酵菌丝体
 title: 茶藨子叶状层菌发酵菌丝体
 created: 2026-06-22
 updated: 2026-06-22
@@ -49,4 +51,4 @@ summary: "茶藨子叶状层菌发酵菌丝体（Fermented mycelia of *Phyllopor
 - [[guangdongchongcao|广东虫草子实体]]
 - [[cordyceps-militaris|蛹虫草]]
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

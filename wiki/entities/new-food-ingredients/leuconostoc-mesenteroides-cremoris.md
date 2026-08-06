@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 肠膜明串珠菌乳脂亚种
 title: 肠膜明串珠菌乳脂亚种
 created: 2026-06-22
 updated: 2026-06-22

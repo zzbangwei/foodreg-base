@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 甘油二酯油
 title: 甘油二酯油
 created: 2026-06-22
 updated: 2026-06-22
@@ -54,4 +56,4 @@ summary: "甘油二酯油（Diacylglycerol Oil）是以大豆油、菜籽油等�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

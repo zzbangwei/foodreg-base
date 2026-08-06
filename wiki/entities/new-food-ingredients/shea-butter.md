@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 乳木果油
 title: 乳木果油
 created: 2026-06-22
 updated: 2026-06-22
@@ -49,4 +51,4 @@ summary: "乳木果油，经公告[[weish-2017-7-乳木果油等10种新食品�
 ## 相关条目
 
 - [[master-ingredient-list|新食品原料总清单]]
-- [[wiki/concepts/new-resource-food]]
+- [[new-resource-food]]

@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: (3R,3'R)-二羟基-β-胡萝卜素
 title: (3R,3'R)-二羟基-β-胡萝卜素
 created: 2026-06-22
 updated: 2026-06-22

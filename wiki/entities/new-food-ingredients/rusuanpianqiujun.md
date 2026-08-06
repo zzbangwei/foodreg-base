@@ -1,4 +1,6 @@
 ---
+standard: 卫生部公告
+section: 乳酸片球菌
 title: 乳酸片球菌
 created: 2026-06-22
 updated: 2026-06-22
