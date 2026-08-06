@@ -32,19 +32,17 @@ foodreg-base/
 │       ├── food-allergens/           # 食品过敏原（11 页）
 │       ├── consultation-list/        # 征求意见（8 页）
 │       └── acceptance-list/          # 申报受理（5 页）
-└── raw/                              # 原始公告、解读、答复原文
-    ├── announcements-standards/      # 标准发布公告
-    ├── articles/                     # 法规解读文章
-    ├── articles-common-food/         # 普通食品原料相关文章
-    ├── articles-medfood/             # 药食同源相关文章
-    ├── docs/                         # 源文档
-    ├── interpretations/              # 法规解读
-    ├── interpretations-standards/    # 标准解读
-    ├── pdfs/                         # PDF 参考文档
-    ├── regulations/                  # 法规原文
-    ├── screenshots/                  # 截图
-    ├── standards-pdf/                # 标准 PDF 原文
-    └── strains/                      # 菌种相关文档
+└── raw/                              # 原始公告、解读、答复原文（199 份）
+    ├── announcements-standards/      # 标准发布公告（12 份）
+    ├── articles/                     # 法规解读文章（50 份）
+    ├── articles-common-food/         # 普通食品原料相关（12 份）
+    ├── articles-medfood/             # 药食同源相关（10 份）
+    ├── docs/                         # 源文档（9 份）
+    ├── interpretations/              # 法规解读（67 份）
+    ├── regulations/                  # 法规原文（36 份）
+    │   ├── proposal-replies/         # 建议/提案答复
+    │   └── labeling-replies/         # 标签标识答复
+    └── strains/                      # 菌种相关（3 份）
 ```
 
 ## 数据来源
